@@ -1,0 +1,345 @@
+{
+  "course": "KS3 Science",
+  "reviewed": "2026-10-23",
+  "years": [
+    {
+      "year": 7,
+      "units": [
+        {
+          "title": "Working scientifically",
+          "lessons": [
+            "Laboratory safety, equipment and hazards",
+            "Testable questions, predictions and variables",
+            "Plan fair tests, measurements and repeats",
+            "Bunsen burners and complete combustion",
+            "Tables, graphs and conclusions",
+            "Random errors, systematic errors and evaluation"
+          ]
+        },
+        {
+          "title": "Cells",
+          "lessons": [
+            "Observing cells and magnification",
+            "Plant and animal cells",
+            "Specialised and unicellular organisms",
+            "Diffusion and exchange at cells"
+          ]
+        },
+        {
+          "title": "Movement",
+          "lessons": [
+            "Multicellular organisation and skeletons",
+            "Antagonistic muscles and movement investigations",
+            "Plan fair tests, measurements and repeats"
+          ]
+        },
+        {
+          "title": "Particle model",
+          "lessons": [
+            "Solids, liquids and gases",
+            "Changes of state and heating curves",
+            "Diffusion and exchange at cells",
+            "Gas pressure and particle motion",
+            "Atoms, elements, compounds and mixtures"
+          ]
+        },
+        {
+          "title": "Separating mixtures",
+          "lessons": [
+            "Atoms, elements, compounds and mixtures",
+            "Solutions and solubility",
+            "Filtration and crystallisation",
+            "Distillation and chromatography"
+          ]
+        },
+        {
+          "title": "Energy costs",
+          "lessons": [
+            "Energy stores, transfers and dissipation",
+            "Food energy and evaluating heating experiments",
+            "Renewable and non-renewable energy resources",
+            "Power, electrical energy and cost"
+          ]
+        },
+        {
+          "title": "Energy transfers",
+          "lessons": [
+            "Energy stores, transfers and dissipation",
+            "Efficiency and Sankey diagrams"
+          ]
+        },
+        {
+          "title": "Variation and adaptation",
+          "lessons": [
+            "Species, inherited and environmental variation",
+            "Adaptations and changing environments",
+            "Tables, graphs and conclusions"
+          ]
+        },
+        {
+          "title": "Human reproduction",
+          "lessons": [
+            "Adolescence and reproductive systems",
+            "The menstrual cycle",
+            "Fertilisation, implantation and fetal development"
+          ]
+        },
+        {
+          "title": "Plant reproduction",
+          "lessons": [
+            "Flower structures and pollination",
+            "Plant fertilisation, seeds and dispersal",
+            "Germination and experimental controls"
+          ]
+        },
+        {
+          "title": "Acids and alkalis",
+          "lessons": [
+            "Chemical reactions, observations and equations",
+            "Acids, alkalis, pH and concentration",
+            "Neutralisation and naming salts"
+          ]
+        },
+        {
+          "title": "Metals and non-metals",
+          "lessons": [
+            "Metal properties, oxidation and reactivity",
+            "Metals with acids and water"
+          ]
+        },
+        {
+          "title": "Current and charge",
+          "lessons": [
+            "Charge, static electricity and uses",
+            "Circuit diagrams, current and charge conservation"
+          ]
+        },
+        {
+          "title": "Potential difference and resistance",
+          "lessons": [
+            "Potential difference, resistance and circuit models",
+            "Circuit diagrams, current and charge conservation"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 8,
+      "units": [
+        {
+          "title": "Interdependence",
+          "lessons": [
+            "Food chains, webs and interdependence",
+            "Ecosystems, competition and sampling"
+          ]
+        },
+        {
+          "title": "Speed",
+          "lessons": [
+            "Speed calculations and practical measurements",
+            "Distance–time graphs",
+            "Tables, graphs and conclusions"
+          ]
+        },
+        {
+          "title": "Gravity and forces",
+          "lessons": [
+            "Forces, resultants and motion",
+            "Gravity, mass, weight and skydiving",
+            "Crater investigations and evaluating results"
+          ]
+        },
+        {
+          "title": "Elements and materials",
+          "lessons": [
+            "Atoms, elements, compounds and mixtures",
+            "Chemical symbols, compound names and formulae",
+            "Metal properties, oxidation and reactivity",
+            "Polymers and materials"
+          ]
+        },
+        {
+          "title": "Periodic table",
+          "lessons": [
+            "The periodic table and element patterns",
+            "Groups 1, 7 and 0",
+            "Transition metals and useful properties"
+          ]
+        },
+        {
+          "title": "Breathing and health",
+          "lessons": [
+            "Gas exchange and ventilation",
+            "Drugs, alcohol, smoking and vaping"
+          ]
+        },
+        {
+          "title": "Digestion and nutrition",
+          "lessons": [
+            "Nutrients, balanced diets and deficiency",
+            "Food tests and interpreting evidence",
+            "Digestion, absorption and enzymes"
+          ]
+        },
+        {
+          "title": "Sound",
+          "lessons": [
+            "Wave properties and sound transmission",
+            "Hearing, echoes and sound speed"
+          ]
+        },
+        {
+          "title": "Light",
+          "lessons": [
+            "Light, reflection and refraction",
+            "Colour, lenses and the electromagnetic spectrum"
+          ]
+        },
+        {
+          "title": "Reaction types",
+          "lessons": [
+            "Chemical reactions, observations and equations",
+            "Combustion, decomposition and physical changes",
+            "Conservation of mass and gas exchange"
+          ]
+        },
+        {
+          "title": "Chemical energy",
+          "lessons": [
+            "Bonds, exothermic and endothermic reactions",
+            "Catalysts and enzyme activity"
+          ]
+        },
+        {
+          "title": "Respiration",
+          "lessons": [
+            "Aerobic respiration and exercise",
+            "Anaerobic respiration, fermentation and biotechnology",
+            "Plan fair tests, measurements and repeats"
+          ]
+        },
+        {
+          "title": "Photosynthesis",
+          "lessons": [
+            "Photosynthesis and uses of glucose",
+            "Leaf structure, minerals and limiting factors",
+            "Pondweed, starch tests and evaluating photosynthesis evidence"
+          ]
+        },
+        {
+          "title": "Working scientifically investigations",
+          "lessons": [
+            "Investigation: candle burning and air volume",
+            "Investigation: bouncing balls",
+            "Investigation: bungee extension and safe clearance",
+            "Investigation: conduction through metals",
+            "Investigation: paper cases and falling motion",
+            "Investigation: salt amount and dissolving time",
+            "Investigation: temperature and diffusion"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 9,
+      "units": [
+        {
+          "title": "Electromagnets",
+          "lessons": [
+            "Permanent magnets, fields and the Earth",
+            "Electromagnets, relays and fair comparisons",
+            "Plan fair tests, measurements and repeats"
+          ]
+        },
+        {
+          "title": "Work and machines",
+          "lessons": [
+            "Work done and simple machines",
+            "Food energy and evaluating heating experiments",
+            "Levers, turning effects and moments"
+          ]
+        },
+        {
+          "title": "Heating and cooling",
+          "lessons": [
+            "Temperature, energy and conduction",
+            "Convection, radiation and insulation"
+          ]
+        },
+        {
+          "title": "Climate",
+          "lessons": [
+            "The atmosphere and carbon cycle",
+            "Greenhouse effect, climate evidence and human activity"
+          ]
+        },
+        {
+          "title": "Earth’s resources",
+          "lessons": [
+            "Metal extraction, displacement and resources",
+            "Metal properties, oxidation and reactivity",
+            "Recycling and life-cycle evaluation"
+          ]
+        },
+        {
+          "title": "Evolution and biodiversity",
+          "lessons": [
+            "Evolution by natural selection",
+            "Darwin, competing ideas and evidence",
+            "Extinction, endangered species and biodiversity"
+          ]
+        },
+        {
+          "title": "Inheritance",
+          "lessons": [
+            "DNA, genes, chromosomes and inherited variation",
+            "DNA evidence, structure and extraction",
+            "Genetic crosses and probability",
+            "Genetic modification: benefits and limitations"
+          ]
+        },
+        {
+          "title": "Waves and the EM spectrum",
+          "lessons": [
+            "Transverse and longitudinal waves",
+            "Ultrasound and echo applications",
+            "Electromagnetic waves, uses and ionising radiation"
+          ]
+        },
+        {
+          "title": "Earth structure and rocks",
+          "lessons": [
+            "Earth’s layers and rock types",
+            "Sedimentary rocks, fossils and weathering",
+            "The rock cycle and timescales"
+          ]
+        },
+        {
+          "title": "The Universe",
+          "lessons": [
+            "Night sky, Solar System and scale",
+            "Orbits, seasons and eclipses",
+            "Moon phases and space exploration"
+          ]
+        },
+        {
+          "title": "Contact forces",
+          "lessons": [
+            "Friction, drag and deformation",
+            "Stretching springs and Hooke’s law",
+            "Levers, turning effects and moments"
+          ]
+        },
+        {
+          "title": "Pressure",
+          "lessons": [
+            "Pressure, force and area",
+            "Gas pressure and particle motion",
+            "Liquid pressure, hydraulics and gas investigations"
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Revision lessons consolidate related teaching periods from the supplied sequence. Advanced mathematics from the Year 9 plan is included as preparation for KS4."
+}

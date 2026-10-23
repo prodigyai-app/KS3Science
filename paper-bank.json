@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "y7-paper-a",
+    "year": 7,
+    "paper": "A",
+    "title": "Year 7 · Practice paper A",
+    "minutes": 35,
+    "marks": 30,
+    "coverage": [
+      "Working scientifically",
+      "Cells",
+      "Movement",
+      "Particle model",
+      "Separating mixtures",
+      "Energy costs",
+      "Energy transfers",
+      "Variation and adaptation",
+      "Human reproduction",
+      "Plant reproduction",
+      "Acids and alkalis",
+      "Metals and non-metals",
+      "Current and charge",
+      "Potential difference and resistance"
+    ],
+    "questions": [
+      {
+        "title": "Question 1",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 1",
+            "q": "A pupil tests the effect of water temperature on sugar dissolving time. Identify the independent and dependent variables and one control.",
+            "m": 3,
+            "ms": [
+              "Independent temperature",
+              "Dependent time to dissolve",
+              "Control sugar mass, water volume, stirring or particle size"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 2",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 2",
+            "q": "A balance reads 3 g with nothing on it. Explain the type of error and how to improve the measurement.",
+            "m": 3,
+            "ms": [
+              "Systematic/zero error",
+              "Readings have a consistent offset",
+              "Tare/calibrate before use; averaging alone does not remove the offset"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 3",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 3",
+            "q": "A microscope has a ×12 eyepiece and ×10 objective. Find total magnification and state one rule for a clear biological drawing.",
+            "m": 3,
+            "ms": [
+              "12×10",
+              "×120",
+              "Clear single lines/ruled labels/proportional structures"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 4",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 4",
+            "q": "Explain how a plant leaf cell differs from an animal cell, giving three relevant structures.",
+            "m": 3,
+            "ms": [
+              "Cellulose cell wall",
+              "Chloroplasts in photosynthetic cells",
+              "Large permanent vacuole; contrast with typical animal cell"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 5",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 5",
+            "q": "Explain why a pair of antagonistic muscles is needed to bend and straighten a joint.",
+            "m": 3,
+            "ms": [
+              "Muscles pull by contracting",
+              "One contracts for one direction",
+              "The opposing muscle contracts for the reverse"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 6",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 6",
+            "q": "Use the particle model to explain why a gas fills its container but a solid keeps its shape.",
+            "m": 3,
+            "ms": [
+              "Gas particles move randomly with large gaps",
+              "They spread throughout available space",
+              "Solid particles vibrate around fixed positions"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 7",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 7",
+            "q": "Describe how to obtain salt crystals from a mixture of dry salt and sand.",
+            "m": 3,
+            "ms": [
+              "Add water to dissolve salt",
+              "Filter out insoluble sand",
+              "Concentrate filtrate and crystallise"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 8",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 8",
+            "q": "A lamp takes in 240 J and transfers 36 J as useful visible light. Find its efficiency and unwanted transfer.",
+            "m": 3,
+            "ms": [
+              "Efficiency 36/240=0.15",
+              "15%",
+              "Unwanted energy 204 J"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 9",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 9",
+            "q": "A 1.5 kW heater runs for 2 hours at an assumed 24 p/kWh. Calculate energy and cost.",
+            "m": 3,
+            "ms": [
+              "Energy 3 kWh",
+              "3×24",
+              "72 p"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 10",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 10",
+            "q": "Compare inherited and environmental variation, using one suitable example of each.",
+            "m": 3,
+            "ms": [
+              "Inherited differences arise from genetic information",
+              "Environmental differences arise from conditions/experiences",
+              "Examples such as ABO blood group and a scar, accepting appropriate interaction explanations"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "y7-paper-b",
+    "year": 7,
+    "paper": "B",
+    "title": "Year 7 · Practice paper B",
+    "minutes": 35,
+    "marks": 30,
+    "coverage": [
+      "Working scientifically",
+      "Cells",
+      "Movement",
+      "Particle model",
+      "Separating mixtures",
+      "Energy costs",
+      "Energy transfers",
+      "Variation and adaptation",
+      "Human reproduction",
+      "Plant reproduction",
+      "Acids and alkalis",
+      "Metals and non-metals",
+      "Current and charge",
+      "Potential difference and resistance"
+    ],
+    "questions": [
+      {
+        "title": "Question 1",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 1",
+            "q": "Describe fertilisation and implantation in humans, including their usual locations.",
+            "m": 3,
+            "ms": [
+              "Gamete nuclei fuse at fertilisation",
+              "Fertilisation usually in an oviduct",
+              "Embryo implants in uterine lining later"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 2",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 2",
+            "q": "Explain two adaptations of an insect-pollinated flower.",
+            "m": 3,
+            "ms": [
+              "Feature such as coloured petals/scent",
+              "Attracts insects",
+              "Nectar/sticky pollen with a correct link to pollen transfer"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 3",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 3",
+            "q": "Explain how pollination differs from fertilisation in flowering plants.",
+            "m": 3,
+            "ms": [
+              "Pollination transfers pollen from anther to stigma",
+              "Pollen tube then grows towards an ovule",
+              "Fertilisation fuses male and egg nuclei"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 4",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 4",
+            "q": "State three conditions commonly needed for seed germination, explaining one.",
+            "m": 3,
+            "ms": [
+              "Water",
+              "Oxygen",
+              "Suitable temperature, with explanation such as oxygen for aerobic respiration"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 5",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 5",
+            "q": "A pupil says a strong acid must be concentrated. Explain why this is incorrect.",
+            "m": 3,
+            "ms": [
+              "Strength concerns extent of ionisation",
+              "Concentration is amount per solution volume",
+              "A strong acid can be dilute"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 6",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 6",
+            "q": "Name the products when zinc reacts with dilute hydrochloric acid and describe a test for the gas.",
+            "m": 3,
+            "ms": [
+              "Zinc chloride",
+              "Hydrogen",
+              "A small gas sample gives a squeaky pop with a lighted splint under supervision"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 7",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 7",
+            "q": "Given magnesium is more reactive than copper, predict what happens when magnesium is put in copper sulfate solution.",
+            "m": 3,
+            "ms": [
+              "Magnesium displaces copper",
+              "Magnesium sulfate forms",
+              "Copper is produced because magnesium is more reactive"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 8",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 8",
+            "q": "Two parallel branches carry 0.35 A and 0.45 A. Find supply current and explain the principle.",
+            "m": 3,
+            "ms": [
+              "0.35+0.45",
+              "0.80 A",
+              "Charge is conserved at the junction"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 9",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 9",
+            "q": "A resistor has 9 V across it and carries 0.3 A. Find its resistance and describe the voltmeter connection.",
+            "m": 3,
+            "ms": [
+              "R=V/I",
+              "9/0.3=30 Ω",
+              "Voltmeter connected in parallel"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 10",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 10",
+            "q": "Explain why the total energy of a bouncing ball and its surroundings is conserved even though each rebound is lower.",
+            "m": 3,
+            "ms": [
+              "Mechanical energy decreases",
+              "Energy transfers to thermal stores and sound in surroundings",
+              "Total energy remains conserved"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "y8-paper-a",
+    "year": 8,
+    "paper": "A",
+    "title": "Year 8 · Practice paper A",
+    "minutes": 35,
+    "marks": 30,
+    "coverage": [
+      "Interdependence",
+      "Speed",
+      "Gravity and forces",
+      "Elements and materials",
+      "Periodic table",
+      "Breathing and health",
+      "Digestion and nutrition",
+      "Sound",
+      "Light",
+      "Reaction types",
+      "Chemical energy",
+      "Respiration",
+      "Photosynthesis",
+      "Working scientifically investigations"
+    ],
+    "questions": [
+      {
+        "title": "Question 1",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 1",
+            "q": "In grass → grasshopper → bird, predict two possible effects of a fall in grasshopper numbers and give one limitation.",
+            "m": 3,
+            "ms": [
+              "Grass may be eaten less and increase",
+              "Birds may have less food and decline",
+              "Other food sources/interactions may alter the outcome"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 2",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 2",
+            "q": "Describe how random quadrats can estimate a plant population in a field.",
+            "m": 3,
+            "ms": [
+              "Random coordinates and consistent quadrat area/counting",
+              "Calculate mean per unit area from sufficient samples",
+              "Multiply by field area, acknowledging sampling uncertainty"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 3",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 3",
+            "q": "A trolley travels 3.6 m in 6 s. Find average speed and state one way to reduce timing error.",
+            "m": 3,
+            "ms": [
+              "Speed=3.6/6",
+              "0.6 m/s",
+              "Electronic timing or a longer measured interval with justification"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 4",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 4",
+            "q": "Explain the forces on a parachutist falling at terminal velocity.",
+            "m": 3,
+            "ms": [
+              "Weight acts down",
+              "Drag acts up with equal magnitude",
+              "Zero resultant means constant velocity"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 5",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 5",
+            "q": "Distinguish an element, a compound and a mixture using suitable examples.",
+            "m": 3,
+            "ms": [
+              "Element one atom type, e.g. iron",
+              "Compound chemically bonded elements in fixed ratio, e.g. water",
+              "Mixture substances together without chemical combination, e.g. air"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 6",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 6",
+            "q": "State the reactivity trends down Group 1 and Group 7, and predict whether chlorine can displace bromine from a bromide solution.",
+            "m": 3,
+            "ms": [
+              "Group 1 generally increases",
+              "Group 7 generally decreases",
+              "Chlorine displaces bromine because chlorine is more reactive"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 7",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 7",
+            "q": "Explain how alveoli are adapted for gas exchange.",
+            "m": 3,
+            "ms": [
+              "Large surface area",
+              "Thin walls shorten diffusion distance",
+              "Blood supply and ventilation maintain concentration differences"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 8",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 8",
+            "q": "Explain the roles of enzymes and villi in digestion and absorption.",
+            "m": 3,
+            "ms": [
+              "Enzymes break large molecules into small soluble products",
+              "Villi increase absorption area",
+              "Thin surface/blood supply supports transfer to circulation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 9",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 9",
+            "q": "Describe the positive iodine test and explain what a negative result does and does not show.",
+            "m": 3,
+            "ms": [
+              "Blue-black with starch",
+              "Negative means starch was not detected under the test conditions",
+              "Other carbohydrates can still be present"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 10",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 10",
+            "q": "Explain why nicotine vaping should not be described as harmless for young people.",
+            "m": 3,
+            "ms": [
+              "Nicotine can cause dependence",
+              "Developing lungs/brains can be sensitive to effects",
+              "Less harmful than smoking does not mean risk-free or appropriate for non-smokers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "y8-paper-b",
+    "year": 8,
+    "paper": "B",
+    "title": "Year 8 · Practice paper B",
+    "minutes": 35,
+    "marks": 30,
+    "coverage": [
+      "Interdependence",
+      "Speed",
+      "Gravity and forces",
+      "Elements and materials",
+      "Periodic table",
+      "Breathing and health",
+      "Digestion and nutrition",
+      "Sound",
+      "Light",
+      "Reaction types",
+      "Chemical energy",
+      "Respiration",
+      "Photosynthesis",
+      "Working scientifically investigations"
+    ],
+    "questions": [
+      {
+        "title": "Question 1",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 1",
+            "q": "A wave has frequency 8 Hz and wavelength 0.5 m. Calculate speed and explain frequency.",
+            "m": 3,
+            "ms": [
+              "Speed=fλ",
+              "4 m/s",
+              "Frequency is complete oscillations per second"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 2",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 2",
+            "q": "Explain how a higher-pitched sound differs from a louder sound.",
+            "m": 3,
+            "ms": [
+              "Higher pitch means higher frequency",
+              "Louder sound relates to greater amplitude/intensity",
+              "These can change independently"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 3",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 3",
+            "q": "A ray hits a plane mirror at 28° to the normal. Find reflection angle and angle to the mirror surface.",
+            "m": 3,
+            "ms": [
+              "Reflection 28° to normal",
+              "Normal is perpendicular to mirror",
+              "62° to surface"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 4",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 4",
+            "q": "A reaction in an open flask loses measured mass as gas escapes. Explain why this does not violate conservation of mass.",
+            "m": 3,
+            "ms": [
+              "Gas leaves the measured system",
+              "Atoms/mass still exist outside the flask",
+              "A complete closed-system total is conserved"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 5",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 5",
+            "q": "Explain exothermic reactions using energy needed to break bonds and energy released when bonds form.",
+            "m": 3,
+            "ms": [
+              "Bond breaking requires energy",
+              "Bond formation releases energy",
+              "More is released than required overall, warming surroundings"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 6",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 6",
+            "q": "Explain why a catalyst can produce more gas after 30 seconds but the same final gas total.",
+            "m": 3,
+            "ms": [
+              "Catalyst increases reaction rate",
+              "Same limiting reactant amount can produce the same total",
+              "Completion is reached sooner"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 7",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 7",
+            "q": "State the aerobic respiration word equation and distinguish respiration from breathing.",
+            "m": 3,
+            "ms": [
+              "Glucose+oxygen→carbon dioxide+water",
+              "Respiration is a cellular chemical process transferring energy",
+              "Breathing moves air in and out"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 8",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 8",
+            "q": "State yeast fermentation products and explain one use in bread making.",
+            "m": 3,
+            "ms": [
+              "Ethanol",
+              "Carbon dioxide",
+              "Gas makes dough rise"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 9",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 9",
+            "q": "Explain why brighter light stops increasing pondweed oxygen production beyond a certain point.",
+            "m": 3,
+            "ms": [
+              "Light initially limits photosynthesis",
+              "Another factor such as carbon dioxide becomes limiting",
+              "Increasing only light cannot remove the new limitation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 10",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 10",
+            "q": "A pupil claims warm dye spreads faster only because of diffusion. Suggest a control and explain an alternative process and a limitation.",
+            "m": 3,
+            "ms": [
+              "Same dye amount/vessel/volume and no stirring",
+              "Convection can move coloured water",
+              "Observed spreading alone cannot isolate molecular diffusion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "y9-paper-a",
+    "year": 9,
+    "paper": "A",
+    "title": "Year 9 · Practice paper A",
+    "minutes": 35,
+    "marks": 30,
+    "coverage": [
+      "Electromagnets",
+      "Work and machines",
+      "Heating and cooling",
+      "Climate",
+      "Earth’s resources",
+      "Evolution and biodiversity",
+      "Inheritance",
+      "Waves and the EM spectrum",
+      "Earth structure and rocks",
+      "The Universe",
+      "Contact forces",
+      "Pressure"
+    ],
+    "questions": [
+      {
+        "title": "Question 1",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 1",
+            "q": "Explain why a compass aligns near a bar magnet and state the field-line direction outside it.",
+            "m": 3,
+            "ms": [
+              "Compass is a magnet",
+              "It experiences a turning effect in the field",
+              "Outside field lines run north to south"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 2",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 2",
+            "q": "Describe an electromagnet relay and explain one benefit of a controllable magnet.",
+            "m": 3,
+            "ms": [
+              "Current in a coil produces a field",
+              "Field attracts an armature to operate a switch",
+              "Switching current can control/release the action"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 3",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 3",
+            "q": "A 30 N force moves a load 2.5 m in its direction. Calculate work and explain the unit.",
+            "m": 3,
+            "ms": [
+              "W=Fs",
+              "75 J",
+              "Joule measures transferred energy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 4",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 4",
+            "q": "A 15 N force at 0.4 m balances another force at 0.6 m. Find the other force.",
+            "m": 3,
+            "ms": [
+              "First moment 6 N m",
+              "F×0.6=6",
+              "F=10 N"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 5",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 5",
+            "q": "Explain how a vacuum flask reduces conduction, convection and radiation.",
+            "m": 3,
+            "ms": [
+              "Vacuum reduces particle-based conduction",
+              "Vacuum prevents convection across the gap",
+              "Low-emissivity reflective surfaces reduce radiation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 6",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 6",
+            "q": "Explain how burning fossil fuels changes the carbon cycle and can affect climate.",
+            "m": 3,
+            "ms": [
+              "Transfers stored carbon into atmospheric carbon dioxide",
+              "CO₂ absorbs/re-emits infrared",
+              "Changed energy balance contributes to warming"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 7",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 7",
+            "q": "Explain why aluminium is commonly extracted by electrolysis while some less reactive metal oxides can be reduced with carbon.",
+            "m": 3,
+            "ms": [
+              "Reactivity affects extraction method",
+              "Carbon can reduce oxides of metals below it",
+              "Aluminium is more reactive than carbon"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 8",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 8",
+            "q": "Give two environmental benefits and one limitation of recycling metals.",
+            "m": 3,
+            "ms": [
+              "Conserves finite ores",
+              "Often reduces extraction energy/impacts",
+              "Collection/sorting/processing still uses resources"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 9",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 9",
+            "q": "Describe evolution by natural selection in three linked stages.",
+            "m": 3,
+            "ms": [
+              "Inherited variation",
+              "Differential survival and reproduction under a selection pressure",
+              "Advantageous alleles become more common across generations"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 10",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 10",
+            "q": "Explain why a conservation breeding programme alone may not save a wild species.",
+            "m": 3,
+            "ms": [
+              "Needs sufficient genetic diversity and successful breeding",
+              "Suitable habitat/threat reduction is also needed",
+              "Without these, released animals may not establish a viable population"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "y9-paper-b",
+    "year": 9,
+    "paper": "B",
+    "title": "Year 9 · Practice paper B",
+    "minutes": 35,
+    "marks": 30,
+    "coverage": [
+      "Electromagnets",
+      "Work and machines",
+      "Heating and cooling",
+      "Climate",
+      "Earth’s resources",
+      "Evolution and biodiversity",
+      "Inheritance",
+      "Waves and the EM spectrum",
+      "Earth structure and rocks",
+      "The Universe",
+      "Contact forces",
+      "Pressure"
+    ],
+    "questions": [
+      {
+        "title": "Question 1",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 1",
+            "q": "Explain the relationship between DNA, chromosomes and genes.",
+            "m": 3,
+            "ms": [
+              "Chromosomes contain long DNA molecules",
+              "Genes are sections of DNA",
+              "Alleles are versions of a gene"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 2",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 2",
+            "q": "For a hypothetical single-gene trait, cross Aa with Aa. Give the genotype ratio and recessive phenotype probability.",
+            "m": 3,
+            "ms": [
+              "AA,Aa,Aa,aa",
+              "Genotype ratio 1:2:1",
+              "Recessive probability 1/4 under complete dominance"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 3",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 3",
+            "q": "An ultrasound pulse returns after 0.00008 s in a medium with speed 1500 m/s. Find the reflector depth.",
+            "m": 3,
+            "ms": [
+              "Total path 1500×0.00008=0.12 m",
+              "Divide by 2 for return journey",
+              "Depth 0.06 m"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 4",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 4",
+            "q": "Compare sound and electromagnetic waves in terms of medium and ionisation.",
+            "m": 3,
+            "ms": [
+              "Sound needs a medium, EM can cross vacuum",
+              "Sound is not ionising radiation",
+              "High-energy EM such as X-rays can ionise"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 5",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 5",
+            "q": "Describe how igneous, sedimentary and metamorphic rocks form.",
+            "m": 3,
+            "ms": [
+              "Igneous from cooling molten material",
+              "Sedimentary from deposited material compacted/cemented or other valid sedimentary process",
+              "Metamorphic from heat/pressure without melting"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 6",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 6",
+            "q": "Explain ordinary Moon phases and why they do not require an eclipse.",
+            "m": 3,
+            "ms": [
+              "Moon reflects sunlight with about half illuminated",
+              "We see different fractions of that half during orbit",
+              "Earth’s shadow causes lunar eclipses, not normal phases"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 7",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 7",
+            "q": "Explain Earth’s seasons using axial tilt rather than Earth–Sun distance.",
+            "m": 3,
+            "ms": [
+              "Axis tilted",
+              "Hemisphere towards Sun has longer days",
+              "Higher sunlight angle increases energy received per area"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 8",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 8",
+            "q": "A spring extends 0.025 m under 5 N. Find its spring constant and give one limitation of the model.",
+            "m": 3,
+            "ms": [
+              "k=F/x",
+              "200 N/m",
+              "Proportional relation only below limit of proportionality"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 9",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 9",
+            "q": "A 480 N force acts over 0.024 m². Find pressure and explain the effect of doubling area at fixed force.",
+            "m": 3,
+            "ms": [
+              "p=F/A=20,000 Pa",
+              "Pressure inversely related to area",
+              "New pressure 10,000 Pa"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Question 10",
+        "stem": "",
+        "parts": [
+          {
+            "title": "Question 10",
+            "q": "Explain how a hydraulic system can increase output force without creating energy.",
+            "m": 3,
+            "ms": [
+              "Pressure change transmitted through enclosed fluid",
+              "Larger output area gives larger force",
+              "Larger output piston moves a shorter distance in the ideal system"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
