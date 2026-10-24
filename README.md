@@ -11,3 +11,5 @@ All 123 lessons use swipeable slide decks with up to three bullet points per exp
 Twenty-three suitable investigations reuse the existing Prodigy GCSE apparatus, with short KS3 instructions and optional harder calculations. Labs load when opened and keep their readings in the KS3 course namespace. Source attribution is recorded in `lab-provenance.json`. Refresh these owned lab sources with `python scripts/import_labs.py` from a checkout alongside GCSECombinedScience and GCSEPhysics. Original GCSE sites are unchanged.
 
 After editing content, run `python scripts/build.py` and rebuild the assessment catalog using the shared ALevelPhysics platform tooling. The course has 193 activity pages and 902 assessed question parts, including the retained papers and model lab.
+
+The October 2026 language review uses BBC Bitesize KS3 as a reading-level and vocabulary guide. Every concept has short original explanations, science terms with meanings, worked steps and plain-language questions. Definitions, answer schemes, model guidance, lab goals and the practical notebook follow the same approach. The department topic order and assessment IDs remain stable.

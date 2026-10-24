@@ -27,7 +27,7 @@ window.LabNotebook = (() => {
   }
   for (const [id, card] of cards) {
    const panel = card.querySelector('.lab-notebook');
-   if (panel) panel.querySelector('[data-save-status]').textContent = saveFailed?'This browser could not save your latest changes. Download your results before leaving.':'Readings and review saved on this device. Sign in to use account sync.';
+   if (panel) panel.querySelector('[data-save-status]').textContent = saveFailed?'This browser could not save your latest changes. Download your results before leaving.':'Your readings and review are saved on this device. Sign in to sync them.';
   }
  }
  const hasEvidence = state => Object.entries(state || {}).some(([k,v]) => recordField(k) && (Array.isArray(v) ? v.some(x => x !== null) : v && typeof v === 'object' && Object.values(v).some(x => Array.isArray(x) ? x.length : x !== null && x !== false)));
@@ -38,20 +38,20 @@ window.LabNotebook = (() => {
   const panel = document.createElement('div'); panel.className = 'card lab-notebook';
   const qa = cfg.info?.qa?.[0];
   panel.innerHTML = `<div class="card-h"><h3>Practical notebook</h3><span data-save-status role="status"></span></div>
-   <p class="muted">Recorded readings return after a refresh; a running experiment restarts. Download your results before sharing them with your teacher.</p>
-   <button class="btn" type="button" data-export>Download results CSV</button>
-   <label style="display:block;margin:16px 0 6px" for="${cfg.id}-reflection">Conclusion and evaluation: use your readings, discuss uncertainty and suggest an improvement.</label>
+   <p class="muted">Your recorded results stay when you refresh, but the moving experiment starts again. Download the results to keep a copy.</p>
+   <button class="btn" type="button" data-export>Download results table (CSV)</button>
+   <label style="display:block;margin:16px 0 6px" for="${cfg.id}-reflection">What did you find? Use a result, say what might make it less certain, and suggest an improvement.</label>
    <textarea id="${cfg.id}-reflection" data-reflection rows="4" style="width:100%"></textarea>
    <fieldset style="margin:14px 0;padding:12px"><legend>Practical skills check</legend>
-   <label style="display:block">Why repeat measurements? <select data-skill="0"><option value="">Choose</option><option value="a">To remove every systematic error</option><option value="b">To estimate variation and calculate a representative mean</option></select></label>
-   <label style="display:block;margin-top:10px">What does a larger sample or more repeats fail to correct? <select data-skill="1"><option value="">Choose</option><option value="a">A consistent calibration error or biased method</option><option value="b">Random variation between readings</option></select></label></fieldset>
-   ${qa ? `<details><summary>Apply this practical: ${qa[0]}</summary><div class="prose">${qa[1]}</div></details><label style="display:block;margin:12px 0"><input type="checkbox" data-applied> I compared my explanation with the practical answer above.</label>` : '<label style="display:block;margin:12px 0"><input type="checkbox" data-applied> I evaluated my method using the guidance for this practical.</label>'}
+   <label style="display:block">Why repeat measurements? <select data-skill="0"><option value="">Choose</option><option value="a">To fix every equipment error</option><option value="b">To see how readings vary and calculate a mean</option></select></label>
+   <label style="display:block;margin-top:10px">Which problem is not fixed just by taking more readings? <select data-skill="1"><option value="">Choose</option><option value="a">Equipment that always reads too high, or an unfair method</option><option value="b">Small random changes between readings</option></select></label></fieldset>
+   ${qa ? `<details><summary>Extra help: check an example answer</summary><div class="prose">${qa[1]}</div></details><label style="display:block;margin:12px 0"><input type="checkbox" data-applied> I checked my explanation against the example answer.</label>` : '<label style="display:block;margin:12px 0"><input type="checkbox" data-applied> I used the guide to check how I could improve my method.</label>'}
    <button class="btn primary" type="button" data-review>Check skills and complete review</button><p data-review-status role="status"></p>`;
   section.append(panel);
   panel.querySelector('[data-reflection]').value = saved.reflection || '';
   panel.querySelectorAll('[data-skill]').forEach((el,i) => el.value = saved.skills?.[i] || '');
   panel.querySelector('[data-applied]').checked = !!saved.applied;
-  const paint = () => { panel.querySelector('[data-review-status]').textContent = saved.complete ? `Review complete · skills ${saved.score}/2 · explanation self-reviewed.` : saved.score == null ? 'Record evidence, write your evaluation, then check your skills.' : `Skills ${saved.score}/2. Review the questions and try again. Repeats reduce the effect of random variation; they do not remove calibration errors.`; };
+  const paint = () => { panel.querySelector('[data-review-status]').textContent = saved.complete ? `Review complete · skills ${saved.score}/2 · explanation self-reviewed.` : saved.score == null ? 'Record results, explain what you found, then check your skills.' : `Skills ${saved.score}/2. Review the questions and try again. Repeats help with random changes. They do not fix equipment that always reads incorrectly.`; };
   function save() {
    saved.reflection = panel.querySelector('[data-reflection]').value;
    saved.skills = [...panel.querySelectorAll('[data-skill]')].map(el => el.value);
@@ -67,7 +67,7 @@ window.LabNotebook = (() => {
    const evidence = [...states.entries()].some(([id,entry])=>(id===cfg.id || id.startsWith(cfg.id+'-')) && hasEvidence(entry.state));
    saved.complete = saved.score === 2 && saved.applied && (saved.reflection || '').trim().length >= 30 && evidence;
    write(key, saved); flush(); paint();
-   if (!saved.complete && saved.score === 2) panel.querySelector('[data-review-status]').textContent = 'Skills 2/2. To complete: record some experimental evidence, write a conclusion/evaluation (at least 30 characters) and review the practical explanation.';
+   if (!saved.complete && saved.score === 2) panel.querySelector('[data-review-status]').textContent = 'Skills 2/2. To finish: record a result, write what you found (at least 30 characters), and check the example answer.';
    window.dispatchEvent(new CustomEvent('labreviewchange', {detail:{id:cfg.id,complete:saved.complete}}));
   });
   panel.querySelector('[data-export]').addEventListener('click', () => {

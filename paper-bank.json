@@ -29,12 +29,12 @@
         "parts": [
           {
             "title": "Question 1",
-            "q": "A pupil tests the effect of water temperature on sugar dissolving time. Identify the independent and dependent variables and one control.",
+            "q": "Test how water temperature affects sugar dissolving time. Name what you change, what you measure and one thing you keep the same.",
             "m": 3,
             "ms": [
-              "Independent temperature",
-              "Dependent time to dissolve",
-              "Control sugar mass, water volume, stirring or particle size"
+              "Change water temperature.",
+              "Measure time taken for sugar to dissolve.",
+              "Keep sugar mass, water volume, stirring or sugar grain size the same."
             ]
           }
         ]
@@ -45,12 +45,12 @@
         "parts": [
           {
             "title": "Question 2",
-            "q": "A balance reads 3 g with nothing on it. Explain the type of error and how to improve the measurement.",
+            "q": "An empty balance reads 3 g. What type of error is this? How does it affect readings, and how would you fix it?",
             "m": 3,
             "ms": [
-              "Systematic/zero error",
-              "Readings have a consistent offset",
-              "Tare/calibrate before use; averaging alone does not remove the offset"
+              "It is a systematic or zero error.",
+              "Readings are all 3 g too high.",
+              "Set the balance to zero or calibrate it before measuring."
             ]
           }
         ]
@@ -61,12 +61,12 @@
         "parts": [
           {
             "title": "Question 3",
-            "q": "A microscope has a ×12 eyepiece and ×10 objective. Find total magnification and state one rule for a clear biological drawing.",
+            "q": "A microscope has a ×12 eyepiece and ×10 objective. Find total magnification. Give one rule for drawing a clear cell diagram.",
             "m": 3,
             "ms": [
-              "12×10",
-              "×120",
-              "Clear single lines/ruled labels/proportional structures"
+              "Multiply 12 × 10.",
+              "Total magnification = ×120.",
+              "Use clear single lines, straight label lines or suitable proportions."
             ]
           }
         ]
@@ -77,12 +77,12 @@
         "parts": [
           {
             "title": "Question 4",
-            "q": "Explain how a plant leaf cell differs from an animal cell, giving three relevant structures.",
+            "q": "Name three structures in a typical leaf cell that are not found in a typical animal cell.",
             "m": 3,
             "ms": [
-              "Cellulose cell wall",
-              "Chloroplasts in photosynthetic cells",
-              "Large permanent vacuole; contrast with typical animal cell"
+              "A cell wall.",
+              "Chloroplasts.",
+              "A large permanent vacuole."
             ]
           }
         ]
@@ -93,12 +93,12 @@
         "parts": [
           {
             "title": "Question 5",
-            "q": "Explain why a pair of antagonistic muscles is needed to bend and straighten a joint.",
+            "q": "Why do muscles work as an opposing pair to bend and straighten a joint?",
             "m": 3,
             "ms": [
-              "Muscles pull by contracting",
-              "One contracts for one direction",
-              "The opposing muscle contracts for the reverse"
+              "Muscles pull rather than actively push.",
+              "One muscle contracts to move the joint one way.",
+              "The other contracts to move it back."
             ]
           }
         ]
@@ -109,12 +109,12 @@
         "parts": [
           {
             "title": "Question 6",
-            "q": "Use the particle model to explain why a gas fills its container but a solid keeps its shape.",
+            "q": "Use particles to explain why a gas fills its container but a solid keeps its shape.",
             "m": 3,
             "ms": [
-              "Gas particles move randomly with large gaps",
-              "They spread throughout available space",
-              "Solid particles vibrate around fixed positions"
+              "Gas particles move freely with large gaps.",
+              "They spread throughout the available space.",
+              "Solid particles vibrate around fixed positions."
             ]
           }
         ]
@@ -125,12 +125,12 @@
         "parts": [
           {
             "title": "Question 7",
-            "q": "Describe how to obtain salt crystals from a mixture of dry salt and sand.",
+            "q": "How would you get salt crystals from a dry mixture of salt and sand?",
             "m": 3,
             "ms": [
-              "Add water to dissolve salt",
-              "Filter out insoluble sand",
-              "Concentrate filtrate and crystallise"
+              "Add water to dissolve the salt.",
+              "Filter out the sand.",
+              "Evaporate some water and leave the solution to form crystals."
             ]
           }
         ]
@@ -141,12 +141,12 @@
         "parts": [
           {
             "title": "Question 8",
-            "q": "A lamp takes in 240 J and transfers 36 J as useful visible light. Find its efficiency and unwanted transfer.",
+            "q": "A lamp takes in 240 J and gives 36 J as useful light. Find its efficiency and the unwanted energy transfer.",
             "m": 3,
             "ms": [
-              "Efficiency 36/240=0.15",
-              "15%",
-              "Unwanted energy 204 J"
+              "Efficiency = 36 ÷ 240 = 0.15.",
+              "Efficiency = 15%.",
+              "Unwanted energy = 240 − 36 = 204 J."
             ]
           }
         ]
@@ -157,12 +157,12 @@
         "parts": [
           {
             "title": "Question 9",
-            "q": "A 1.5 kW heater runs for 2 hours at an assumed 24 p/kWh. Calculate energy and cost.",
+            "q": "A 1.5 kW heater runs for 2 hours. Electricity costs 24 p per kWh. Find the energy used and the cost.",
             "m": 3,
             "ms": [
-              "Energy 3 kWh",
-              "3×24",
-              "72 p"
+              "Energy = 1.5 × 2 = 3 kWh.",
+              "Cost = 3 × 24.",
+              "Cost = 72 p."
             ]
           }
         ]
@@ -173,12 +173,12 @@
         "parts": [
           {
             "title": "Question 10",
-            "q": "Compare inherited and environmental variation, using one suitable example of each.",
+            "q": "How are inherited and environmental differences different? Give one example of each.",
             "m": 3,
             "ms": [
-              "Inherited differences arise from genetic information",
-              "Environmental differences arise from conditions/experiences",
-              "Examples such as ABO blood group and a scar, accepting appropriate interaction explanations"
+              "Inherited differences come from genes passed on by parents.",
+              "Environmental differences come from surroundings or experiences.",
+              "Examples include inherited ABO blood group and an environmental scar; accept other correct examples."
             ]
           }
         ]
@@ -215,12 +215,12 @@
         "parts": [
           {
             "title": "Question 1",
-            "q": "Describe fertilisation and implantation in humans, including their usual locations.",
+            "q": "What are fertilisation and implantation in humans? Say where each usually happens.",
             "m": 3,
             "ms": [
-              "Gamete nuclei fuse at fertilisation",
-              "Fertilisation usually in an oviduct",
-              "Embryo implants in uterine lining later"
+              "Sperm and egg nuclei join at fertilisation.",
+              "Fertilisation usually happens in an oviduct, also called a fallopian tube.",
+              "The embryo later attaches to the uterus lining at implantation."
             ]
           }
         ]
@@ -231,12 +231,12 @@
         "parts": [
           {
             "title": "Question 2",
-            "q": "Explain two adaptations of an insect-pollinated flower.",
+            "q": "Describe two features of an insect-pollinated flower. Explain how a feature helps pollination.",
             "m": 3,
             "ms": [
-              "Feature such as coloured petals/scent",
-              "Attracts insects",
-              "Nectar/sticky pollen with a correct link to pollen transfer"
+              "A feature such as bright petals or scent.",
+              "It attracts insects that can carry pollen.",
+              "Nectar attracts insects, or sticky pollen attaches to them; link a second feature to its job."
             ]
           }
         ]
@@ -247,12 +247,12 @@
         "parts": [
           {
             "title": "Question 3",
-            "q": "Explain how pollination differs from fertilisation in flowering plants.",
+            "q": "How is pollination different from fertilisation in a flowering plant? Include the step that links them.",
             "m": 3,
             "ms": [
-              "Pollination transfers pollen from anther to stigma",
-              "Pollen tube then grows towards an ovule",
-              "Fertilisation fuses male and egg nuclei"
+              "Pollination moves pollen from anther to stigma.",
+              "A pollen tube grows towards an ovule.",
+              "At fertilisation, male and egg nuclei join."
             ]
           }
         ]
@@ -263,12 +263,12 @@
         "parts": [
           {
             "title": "Question 4",
-            "q": "State three conditions commonly needed for seed germination, explaining one.",
+            "q": "Name three conditions most seeds need to germinate. Explain why one is needed.",
             "m": 3,
             "ms": [
-              "Water",
-              "Oxygen",
-              "Suitable temperature, with explanation such as oxygen for aerobic respiration"
+              "Water.",
+              "Oxygen.",
+              "A suitable temperature, plus an explanation such as oxygen being needed for aerobic respiration."
             ]
           }
         ]
@@ -279,12 +279,12 @@
         "parts": [
           {
             "title": "Question 5",
-            "q": "A pupil says a strong acid must be concentrated. Explain why this is incorrect.",
+            "q": "A pupil says every strong acid must be concentrated. Why are these words different?",
             "m": 3,
             "ms": [
-              "Strength concerns extent of ionisation",
-              "Concentration is amount per solution volume",
-              "A strong acid can be dilute"
+              "Strength describes how much the acid splits into charged particles in water.",
+              "Concentration describes how much acid is in a given volume of solution.",
+              "A strong acid can be dilute if mixed with plenty of water."
             ]
           }
         ]
@@ -295,12 +295,12 @@
         "parts": [
           {
             "title": "Question 6",
-            "q": "Name the products when zinc reacts with dilute hydrochloric acid and describe a test for the gas.",
+            "q": "Zinc reacts with dilute hydrochloric acid. Name the products and describe a test for the gas.",
             "m": 3,
             "ms": [
-              "Zinc chloride",
-              "Hydrogen",
-              "A small gas sample gives a squeaky pop with a lighted splint under supervision"
+              "Zinc chloride.",
+              "Hydrogen.",
+              "A small sample makes a squeaky pop with a lighted splint in a teacher-supervised test."
             ]
           }
         ]
@@ -311,12 +311,12 @@
         "parts": [
           {
             "title": "Question 7",
-            "q": "Given magnesium is more reactive than copper, predict what happens when magnesium is put in copper sulfate solution.",
+            "q": "Magnesium is more reactive than copper. What happens when magnesium is put into copper sulfate solution? Explain why.",
             "m": 3,
             "ms": [
-              "Magnesium displaces copper",
-              "Magnesium sulfate forms",
-              "Copper is produced because magnesium is more reactive"
+              "Magnesium displaces copper.",
+              "Magnesium sulfate and copper form.",
+              "Magnesium replaces copper because it is more reactive."
             ]
           }
         ]
@@ -327,12 +327,12 @@
         "parts": [
           {
             "title": "Question 8",
-            "q": "Two parallel branches carry 0.35 A and 0.45 A. Find supply current and explain the principle.",
+            "q": "Two parallel branches carry 0.35 A and 0.45 A. Find the supply current and explain your method.",
             "m": 3,
             "ms": [
-              "0.35+0.45",
-              "0.80 A",
-              "Charge is conserved at the junction"
+              "Add 0.35 + 0.45.",
+              "Supply current = 0.80 A.",
+              "Total current into a junction equals total current out."
             ]
           }
         ]
@@ -343,12 +343,12 @@
         "parts": [
           {
             "title": "Question 9",
-            "q": "A resistor has 9 V across it and carries 0.3 A. Find its resistance and describe the voltmeter connection.",
+            "q": "A resistor has 9 V across it and a current of 0.3 A. Find its resistance. How should the voltmeter be connected?",
             "m": 3,
             "ms": [
-              "R=V/I",
-              "9/0.3=30 Ω",
-              "Voltmeter connected in parallel"
+              "Resistance = voltage ÷ current.",
+              "9 ÷ 0.3 = 30 Ω.",
+              "Connect the voltmeter in parallel across the resistor."
             ]
           }
         ]
@@ -359,12 +359,12 @@
         "parts": [
           {
             "title": "Question 10",
-            "q": "Explain why the total energy of a bouncing ball and its surroundings is conserved even though each rebound is lower.",
+            "q": "A ball bounces lower each time. Why is the total energy of the ball and its surroundings still conserved?",
             "m": 3,
             "ms": [
-              "Mechanical energy decreases",
-              "Energy transfers to thermal stores and sound in surroundings",
-              "Total energy remains conserved"
+              "Less energy remains in the ball for movement and height.",
+              "Energy transfers to heating and sound in the surroundings.",
+              "The energy is not destroyed, so the total stays the same."
             ]
           }
         ]
@@ -401,12 +401,12 @@
         "parts": [
           {
             "title": "Question 1",
-            "q": "In grass → grasshopper → bird, predict two possible effects of a fall in grasshopper numbers and give one limitation.",
+            "q": "In grass → grasshopper → bird, grasshopper numbers fall. What might happen to the grass and birds? Give one reason your prediction may not be exact.",
             "m": 3,
             "ms": [
-              "Grass may be eaten less and increase",
-              "Birds may have less food and decline",
-              "Other food sources/interactions may alter the outcome"
+              "Grass may increase because less is eaten.",
+              "Birds may decline because they have less food.",
+              "Other food sources or other changes in the food web could affect the result."
             ]
           }
         ]
@@ -417,12 +417,12 @@
         "parts": [
           {
             "title": "Question 2",
-            "q": "Describe how random quadrats can estimate a plant population in a field.",
+            "q": "How could you use quadrats to estimate how many plants grow in a field?",
             "m": 3,
             "ms": [
-              "Random coordinates and consistent quadrat area/counting",
-              "Calculate mean per unit area from sufficient samples",
-              "Multiply by field area, acknowledging sampling uncertainty"
+              "Place equal-sized quadrats at random points and count consistently.",
+              "Calculate a mean number per square metre from several samples.",
+              "Multiply by field area and state that the answer is an estimate."
             ]
           }
         ]
@@ -433,12 +433,12 @@
         "parts": [
           {
             "title": "Question 3",
-            "q": "A trolley travels 3.6 m in 6 s. Find average speed and state one way to reduce timing error.",
+            "q": "A trolley travels 3.6 m in 6 seconds. Find its average speed. Give one way to reduce timing error.",
             "m": 3,
             "ms": [
-              "Speed=3.6/6",
-              "0.6 m/s",
-              "Electronic timing or a longer measured interval with justification"
+              "Speed = 3.6 ÷ 6.",
+              "Speed = 0.6 m/s.",
+              "Use electronic timing or a longer timed distance to reduce the effect of reaction time."
             ]
           }
         ]
@@ -449,12 +449,12 @@
         "parts": [
           {
             "title": "Question 4",
-            "q": "Explain the forces on a parachutist falling at terminal velocity.",
+            "q": "Describe the forces on a skydiver falling at terminal velocity. Why is the speed steady?",
             "m": 3,
             "ms": [
-              "Weight acts down",
-              "Drag acts up with equal magnitude",
-              "Zero resultant means constant velocity"
+              "Weight acts downwards.",
+              "Drag acts upwards with the same size as weight.",
+              "The forces balance, so speed does not change."
             ]
           }
         ]
@@ -465,12 +465,12 @@
         "parts": [
           {
             "title": "Question 5",
-            "q": "Distinguish an element, a compound and a mixture using suitable examples.",
+            "q": "What is an element, a compound and a mixture? Give an example of each.",
             "m": 3,
             "ms": [
-              "Element one atom type, e.g. iron",
-              "Compound chemically bonded elements in fixed ratio, e.g. water",
-              "Mixture substances together without chemical combination, e.g. air"
+              "An element contains one type of atom, such as iron.",
+              "A compound has different elements chemically joined, such as water.",
+              "A mixture contains substances not chemically joined to each other, such as air."
             ]
           }
         ]
@@ -481,12 +481,12 @@
         "parts": [
           {
             "title": "Question 6",
-            "q": "State the reactivity trends down Group 1 and Group 7, and predict whether chlorine can displace bromine from a bromide solution.",
+            "q": "How does reactivity change down Groups 1 and 7? Chlorine is more reactive than bromine. Can it displace bromine from a bromide solution?",
             "m": 3,
             "ms": [
-              "Group 1 generally increases",
-              "Group 7 generally decreases",
-              "Chlorine displaces bromine because chlorine is more reactive"
+              "Group 1 generally gets more reactive down the group.",
+              "Group 7 generally gets less reactive down the group.",
+              "Yes. Chlorine displaces the less reactive bromine."
             ]
           }
         ]
@@ -497,12 +497,12 @@
         "parts": [
           {
             "title": "Question 7",
-            "q": "Explain how alveoli are adapted for gas exchange.",
+            "q": "Give three features that help alveoli exchange gases quickly.",
             "m": 3,
             "ms": [
-              "Large surface area",
-              "Thin walls shorten diffusion distance",
-              "Blood supply and ventilation maintain concentration differences"
+              "A large surface area.",
+              "Thin walls give a short distance for gases to travel.",
+              "A good blood supply and fresh air maintain concentration differences."
             ]
           }
         ]
@@ -513,12 +513,12 @@
         "parts": [
           {
             "title": "Question 8",
-            "q": "Explain the roles of enzymes and villi in digestion and absorption.",
+            "q": "How do enzymes and villi help digested nutrients reach the blood?",
             "m": 3,
             "ms": [
-              "Enzymes break large molecules into small soluble products",
-              "Villi increase absorption area",
-              "Thin surface/blood supply supports transfer to circulation"
+              "Enzymes break large food molecules into small soluble ones.",
+              "Villi give a large surface area for absorption.",
+              "Small molecules pass through the thin gut wall into the blood."
             ]
           }
         ]
@@ -529,12 +529,12 @@
         "parts": [
           {
             "title": "Question 9",
-            "q": "Describe the positive iodine test and explain what a negative result does and does not show.",
+            "q": "What does a positive iodine test look like? What can and cannot be concluded from a negative result?",
             "m": 3,
             "ms": [
-              "Blue-black with starch",
-              "Negative means starch was not detected under the test conditions",
-              "Other carbohydrates can still be present"
+              "A blue-black colour shows starch was detected.",
+              "A negative result means starch was not detected in that test.",
+              "Other carbohydrates, such as sugars, may still be present."
             ]
           }
         ]
@@ -545,12 +545,12 @@
         "parts": [
           {
             "title": "Question 10",
-            "q": "Explain why nicotine vaping should not be described as harmless for young people.",
+            "q": "Why should young people not describe nicotine vaping as harmless? Give three points.",
             "m": 3,
             "ms": [
-              "Nicotine can cause dependence",
-              "Developing lungs/brains can be sensitive to effects",
-              "Less harmful than smoking does not mean risk-free or appropriate for non-smokers"
+              "Nicotine can cause dependence, making it difficult to stop.",
+              "It can affect health and the developing body.",
+              "Less harmful than smoking does not mean harmless or suitable for children and non-smokers."
             ]
           }
         ]
@@ -587,12 +587,12 @@
         "parts": [
           {
             "title": "Question 1",
-            "q": "A wave has frequency 8 Hz and wavelength 0.5 m. Calculate speed and explain frequency.",
+            "q": "A wave has frequency 8 Hz and wavelength 0.5 m. Find its speed. What does frequency mean?",
             "m": 3,
             "ms": [
-              "Speed=fλ",
-              "4 m/s",
-              "Frequency is complete oscillations per second"
+              "Speed = frequency × wavelength.",
+              "Speed = 8 × 0.5 = 4 m/s.",
+              "Frequency is the number of complete vibrations each second."
             ]
           }
         ]
@@ -603,12 +603,12 @@
         "parts": [
           {
             "title": "Question 2",
-            "q": "Explain how a higher-pitched sound differs from a louder sound.",
+            "q": "How is a higher-pitched sound different from a louder sound?",
             "m": 3,
             "ms": [
-              "Higher pitch means higher frequency",
-              "Louder sound relates to greater amplitude/intensity",
-              "These can change independently"
+              "A higher pitch means a higher frequency.",
+              "A louder sound usually has a larger amplitude.",
+              "Pitch and loudness can change separately."
             ]
           }
         ]
@@ -619,12 +619,12 @@
         "parts": [
           {
             "title": "Question 3",
-            "q": "A ray hits a plane mirror at 28° to the normal. Find reflection angle and angle to the mirror surface.",
+            "q": "A ray hits a plane mirror at 28° to the normal. Find the reflection angle and the angle to the mirror surface.",
             "m": 3,
             "ms": [
-              "Reflection 28° to normal",
-              "Normal is perpendicular to mirror",
-              "62° to surface"
+              "The reflection angle is 28° to the normal.",
+              "The normal is at 90° to the mirror.",
+              "The angle to the mirror surface is 90 − 28 = 62°."
             ]
           }
         ]
@@ -635,12 +635,12 @@
         "parts": [
           {
             "title": "Question 4",
-            "q": "A reaction in an open flask loses measured mass as gas escapes. Explain why this does not violate conservation of mass.",
+            "q": "A reaction in an open flask gives off gas and the measured mass falls. Why has mass not been destroyed?",
             "m": 3,
             "ms": [
-              "Gas leaves the measured system",
-              "Atoms/mass still exist outside the flask",
-              "A complete closed-system total is conserved"
+              "Gas leaves the flask.",
+              "The gas still exists outside the flask.",
+              "Counting all reactants and products, including the gas, gives the same total mass."
             ]
           }
         ]
@@ -651,12 +651,12 @@
         "parts": [
           {
             "title": "Question 5",
-            "q": "Explain exothermic reactions using energy needed to break bonds and energy released when bonds form.",
+            "q": "Explain why an exothermic reaction warms its surroundings. Include breaking and making bonds.",
             "m": 3,
             "ms": [
-              "Bond breaking requires energy",
-              "Bond formation releases energy",
-              "More is released than required overall, warming surroundings"
+              "Breaking old bonds takes in energy.",
+              "Making new bonds releases energy.",
+              "More energy is released than taken in, so the extra energy warms the surroundings."
             ]
           }
         ]
@@ -667,12 +667,12 @@
         "parts": [
           {
             "title": "Question 6",
-            "q": "Explain why a catalyst can produce more gas after 30 seconds but the same final gas total.",
+            "q": "A catalyst gives more gas after 30 seconds but the same final gas volume. Explain why.",
             "m": 3,
             "ms": [
-              "Catalyst increases reaction rate",
-              "Same limiting reactant amount can produce the same total",
-              "Completion is reached sooner"
+              "A catalyst speeds up the reaction.",
+              "The same starting amounts can make the same total gas.",
+              "The reaction finishes sooner rather than making extra product."
             ]
           }
         ]
@@ -683,12 +683,12 @@
         "parts": [
           {
             "title": "Question 7",
-            "q": "State the aerobic respiration word equation and distinguish respiration from breathing.",
+            "q": "Write the word equation for aerobic respiration. How is respiration different from breathing?",
             "m": 3,
             "ms": [
-              "Glucose+oxygen→carbon dioxide+water",
-              "Respiration is a cellular chemical process transferring energy",
-              "Breathing moves air in and out"
+              "Glucose + oxygen → carbon dioxide + water.",
+              "Respiration is a chemical process in cells that releases energy.",
+              "Breathing moves air into and out of the lungs."
             ]
           }
         ]
@@ -699,12 +699,12 @@
         "parts": [
           {
             "title": "Question 8",
-            "q": "State yeast fermentation products and explain one use in bread making.",
+            "q": "Name the two products of yeast fermentation. Explain how one helps bread making.",
             "m": 3,
             "ms": [
-              "Ethanol",
-              "Carbon dioxide",
-              "Gas makes dough rise"
+              "Ethanol.",
+              "Carbon dioxide.",
+              "Carbon dioxide bubbles make the dough rise."
             ]
           }
         ]
@@ -715,12 +715,12 @@
         "parts": [
           {
             "title": "Question 9",
-            "q": "Explain why brighter light stops increasing pondweed oxygen production beyond a certain point.",
+            "q": "Why might brighter light stop increasing oxygen production by pondweed?",
             "m": 3,
             "ms": [
-              "Light initially limits photosynthesis",
-              "Another factor such as carbon dioxide becomes limiting",
-              "Increasing only light cannot remove the new limitation"
+              "At first, too little light slowed photosynthesis.",
+              "Another factor, such as carbon dioxide, may now be in short supply.",
+              "Extra light alone cannot remove that other limit."
             ]
           }
         ]
@@ -731,12 +731,12 @@
         "parts": [
           {
             "title": "Question 10",
-            "q": "A pupil claims warm dye spreads faster only because of diffusion. Suggest a control and explain an alternative process and a limitation.",
+            "q": "Dye spreads faster in warm water. Give one control and explain why the result may not be due to diffusion alone.",
             "m": 3,
             "ms": [
-              "Same dye amount/vessel/volume and no stirring",
-              "Convection can move coloured water",
-              "Observed spreading alone cannot isolate molecular diffusion"
+              "Keep dye amount, water volume or container size the same and do not stir.",
+              "Convection currents can carry the coloured water.",
+              "The colour spreading therefore does not measure diffusion alone."
             ]
           }
         ]
@@ -771,12 +771,12 @@
         "parts": [
           {
             "title": "Question 1",
-            "q": "Explain why a compass aligns near a bar magnet and state the field-line direction outside it.",
+            "q": "Why does a compass turn near a bar magnet? Which way do field arrows point outside the magnet?",
             "m": 3,
             "ms": [
-              "Compass is a magnet",
-              "It experiences a turning effect in the field",
-              "Outside field lines run north to south"
+              "A compass needle is a small magnet.",
+              "It turns to line up with the magnetic field.",
+              "Field arrows outside a magnet point from north to south."
             ]
           }
         ]
@@ -787,12 +787,12 @@
         "parts": [
           {
             "title": "Question 2",
-            "q": "Describe an electromagnet relay and explain one benefit of a controllable magnet.",
+            "q": "How does an electromagnet operate a relay switch? Give one benefit of this type of magnet.",
             "m": 3,
             "ms": [
-              "Current in a coil produces a field",
-              "Field attracts an armature to operate a switch",
-              "Switching current can control/release the action"
+              "Current in a coil makes a magnetic field.",
+              "The magnet pulls a metal part to operate a switch.",
+              "Switching the current lets you turn the magnet on and off."
             ]
           }
         ]
@@ -803,12 +803,12 @@
         "parts": [
           {
             "title": "Question 3",
-            "q": "A 30 N force moves a load 2.5 m in its direction. Calculate work and explain the unit.",
+            "q": "A 30 N force moves a load 2.5 m in its direction. Find the work done. What does the unit mean?",
             "m": 3,
             "ms": [
-              "W=Fs",
-              "75 J",
-              "Joule measures transferred energy"
+              "Work done = force × distance.",
+              "30 × 2.5 = 75 J.",
+              "A joule is a unit of energy transferred."
             ]
           }
         ]
@@ -819,12 +819,12 @@
         "parts": [
           {
             "title": "Question 4",
-            "q": "A 15 N force at 0.4 m balances another force at 0.6 m. Find the other force.",
+            "q": "A 15 N force acts 0.4 m from a pivot. What force on the opposite side, 0.6 m away, balances it?",
             "m": 3,
             "ms": [
-              "First moment 6 N m",
-              "F×0.6=6",
-              "F=10 N"
+              "First moment = 15 × 0.4 = 6 N m.",
+              "The other force × 0.6 must equal 6 N m.",
+              "Other force = 6 ÷ 0.6 = 10 N."
             ]
           }
         ]
@@ -835,12 +835,12 @@
         "parts": [
           {
             "title": "Question 5",
-            "q": "Explain how a vacuum flask reduces conduction, convection and radiation.",
+            "q": "How does a vacuum flask reduce conduction, convection and radiation?",
             "m": 3,
             "ms": [
-              "Vacuum reduces particle-based conduction",
-              "Vacuum prevents convection across the gap",
-              "Low-emissivity reflective surfaces reduce radiation"
+              "The vacuum greatly reduces conduction across the gap because it has almost no particles.",
+              "The vacuum prevents convection across the gap.",
+              "Shiny surfaces reduce infrared radiation transfer."
             ]
           }
         ]
@@ -851,12 +851,12 @@
         "parts": [
           {
             "title": "Question 6",
-            "q": "Explain how burning fossil fuels changes the carbon cycle and can affect climate.",
+            "q": "How can burning fossil fuels change the carbon cycle and warm Earth?",
             "m": 3,
             "ms": [
-              "Transfers stored carbon into atmospheric carbon dioxide",
-              "CO₂ absorbs/re-emits infrared",
-              "Changed energy balance contributes to warming"
+              "Burning moves carbon from fuel into the air as carbon dioxide.",
+              "Extra carbon dioxide absorbs more outgoing infrared radiation and sends some back towards the surface.",
+              "This changes the energy balance and causes warming."
             ]
           }
         ]
@@ -867,12 +867,12 @@
         "parts": [
           {
             "title": "Question 7",
-            "q": "Explain why aluminium is commonly extracted by electrolysis while some less reactive metal oxides can be reduced with carbon.",
+            "q": "Why can carbon extract some metals from their oxides, while aluminium is usually extracted using electricity?",
             "m": 3,
             "ms": [
-              "Reactivity affects extraction method",
-              "Carbon can reduce oxides of metals below it",
-              "Aluminium is more reactive than carbon"
+              "The metal reactivity affects the extraction method.",
+              "Carbon can remove oxygen from oxides of less reactive metals.",
+              "Aluminium is more reactive than carbon, so electricity is used instead."
             ]
           }
         ]
@@ -883,12 +883,12 @@
         "parts": [
           {
             "title": "Question 8",
-            "q": "Give two environmental benefits and one limitation of recycling metals.",
+            "q": "Give two environmental benefits and one drawback of recycling metals.",
             "m": 3,
             "ms": [
-              "Conserves finite ores",
-              "Often reduces extraction energy/impacts",
-              "Collection/sorting/processing still uses resources"
+              "It saves limited metal ores.",
+              "It often uses less energy and reduces mining damage.",
+              "Collection, sorting and processing still use resources."
             ]
           }
         ]
@@ -899,12 +899,12 @@
         "parts": [
           {
             "title": "Question 9",
-            "q": "Describe evolution by natural selection in three linked stages.",
+            "q": "Describe natural selection in three linked steps.",
             "m": 3,
             "ms": [
-              "Inherited variation",
-              "Differential survival and reproduction under a selection pressure",
-              "Advantageous alleles become more common across generations"
+              "Individuals have inherited differences.",
+              "Those with helpful features are more likely to survive and reproduce.",
+              "They pass on genes, so helpful features can become more common over generations."
             ]
           }
         ]
@@ -915,12 +915,12 @@
         "parts": [
           {
             "title": "Question 10",
-            "q": "Explain why a conservation breeding programme alone may not save a wild species.",
+            "q": "Why might a breeding programme alone not save an endangered species in the wild?",
             "m": 3,
             "ms": [
-              "Needs sufficient genetic diversity and successful breeding",
-              "Suitable habitat/threat reduction is also needed",
-              "Without these, released animals may not establish a viable population"
+              "Enough animals must breed successfully with enough inherited variation.",
+              "They also need a safe, suitable habitat.",
+              "If threats remain, released animals may not survive and reproduce."
             ]
           }
         ]
@@ -955,12 +955,12 @@
         "parts": [
           {
             "title": "Question 1",
-            "q": "Explain the relationship between DNA, chromosomes and genes.",
+            "q": "How are DNA, chromosomes, genes and alleles related?",
             "m": 3,
             "ms": [
-              "Chromosomes contain long DNA molecules",
-              "Genes are sections of DNA",
-              "Alleles are versions of a gene"
+              "Chromosomes contain long DNA molecules.",
+              "Genes are sections of DNA.",
+              "Alleles are different versions of a gene."
             ]
           }
         ]
@@ -971,12 +971,12 @@
         "parts": [
           {
             "title": "Question 2",
-            "q": "For a hypothetical single-gene trait, cross Aa with Aa. Give the genotype ratio and recessive phenotype probability.",
+            "q": "In a simple dominant model, cross Aa with Aa. Give the genotype ratio and the chance of the recessive feature.",
             "m": 3,
             "ms": [
-              "AA,Aa,Aa,aa",
-              "Genotype ratio 1:2:1",
-              "Recessive probability 1/4 under complete dominance"
+              "Possible combinations are AA, Aa, Aa and aa.",
+              "The genotype ratio is 1 AA : 2 Aa : 1 aa.",
+              "The recessive feature has a 1 in 4 chance."
             ]
           }
         ]
@@ -987,12 +987,12 @@
         "parts": [
           {
             "title": "Question 3",
-            "q": "An ultrasound pulse returns after 0.00008 s in a medium with speed 1500 m/s. Find the reflector depth.",
+            "q": "An ultrasound echo returns after 0.00008 seconds. Sound speed is 1500 m/s. How deep is the reflecting surface?",
             "m": 3,
             "ms": [
-              "Total path 1500×0.00008=0.12 m",
-              "Divide by 2 for return journey",
-              "Depth 0.06 m"
+              "Total distance = 1500 × 0.00008 = 0.12 m.",
+              "Divide by two for the outward and return journeys.",
+              "Depth = 0.06 m."
             ]
           }
         ]
@@ -1003,12 +1003,12 @@
         "parts": [
           {
             "title": "Question 4",
-            "q": "Compare sound and electromagnetic waves in terms of medium and ionisation.",
+            "q": "Compare sound and electromagnetic waves. Which need a material to travel through, and which can be ionising?",
             "m": 3,
             "ms": [
-              "Sound needs a medium, EM can cross vacuum",
-              "Sound is not ionising radiation",
-              "High-energy EM such as X-rays can ionise"
+              "Sound needs a material, but electromagnetic waves can cross empty space.",
+              "Sound is not ionising.",
+              "Some high-energy electromagnetic waves, such as X-rays, can ionise atoms and damage cells."
             ]
           }
         ]
@@ -1019,12 +1019,12 @@
         "parts": [
           {
             "title": "Question 5",
-            "q": "Describe how igneous, sedimentary and metamorphic rocks form.",
+            "q": "How do igneous, sedimentary and metamorphic rocks form?",
             "m": 3,
             "ms": [
-              "Igneous from cooling molten material",
-              "Sedimentary from deposited material compacted/cemented or other valid sedimentary process",
-              "Metamorphic from heat/pressure without melting"
+              "Igneous rock forms when molten rock cools and becomes solid.",
+              "Sedimentary rock often forms when layers of sediment are pressed and cemented together.",
+              "Metamorphic rock forms when heat and pressure change rock without melting it."
             ]
           }
         ]
@@ -1035,12 +1035,12 @@
         "parts": [
           {
             "title": "Question 6",
-            "q": "Explain ordinary Moon phases and why they do not require an eclipse.",
+            "q": "Why do normal Moon phases happen? Why are they different from an eclipse?",
             "m": 3,
             "ms": [
-              "Moon reflects sunlight with about half illuminated",
-              "We see different fractions of that half during orbit",
-              "Earth’s shadow causes lunar eclipses, not normal phases"
+              "The Moon reflects sunlight and roughly half is lit.",
+              "Its orbit changes how much of the lit half we can see.",
+              "The shadow of Earth causes a lunar eclipse, not normal phases."
             ]
           }
         ]
@@ -1051,12 +1051,12 @@
         "parts": [
           {
             "title": "Question 7",
-            "q": "Explain Earth’s seasons using axial tilt rather than Earth–Sun distance.",
+            "q": "Explain the seasons on Earth using its tilted axis. Why does summer not depend mainly on Earth being closer to the Sun?",
             "m": 3,
             "ms": [
-              "Axis tilted",
-              "Hemisphere towards Sun has longer days",
-              "Higher sunlight angle increases energy received per area"
+              "The axis of Earth is tilted.",
+              "The hemisphere tilted towards the Sun has longer days.",
+              "It also receives more direct sunlight, while the other hemisphere has winter."
             ]
           }
         ]
@@ -1067,12 +1067,12 @@
         "parts": [
           {
             "title": "Question 8",
-            "q": "A spring extends 0.025 m under 5 N. Find its spring constant and give one limitation of the model.",
+            "q": "A 5 N force extends a spring by 0.025 m. Find the spring constant. State when this calculation is valid.",
             "m": 3,
             "ms": [
-              "k=F/x",
-              "200 N/m",
-              "Proportional relation only below limit of proportionality"
+              "Spring constant = force ÷ extension.",
+              "5 ÷ 0.025 = 200 N/m.",
+              "The spring must be within the straight-line force–extension range, below its limit of proportionality."
             ]
           }
         ]
@@ -1083,12 +1083,12 @@
         "parts": [
           {
             "title": "Question 9",
-            "q": "A 480 N force acts over 0.024 m². Find pressure and explain the effect of doubling area at fixed force.",
+            "q": "A 480 N force acts over 0.024 m². Find the pressure. What if the area doubles while force stays the same?",
             "m": 3,
             "ms": [
-              "p=F/A=20,000 Pa",
-              "Pressure inversely related to area",
-              "New pressure 10,000 Pa"
+              "Pressure = 480 ÷ 0.024 = 20,000 Pa.",
+              "Doubling area halves pressure at the same force.",
+              "The new pressure is 10,000 Pa."
             ]
           }
         ]
@@ -1099,12 +1099,12 @@
         "parts": [
           {
             "title": "Question 10",
-            "q": "Explain how a hydraulic system can increase output force without creating energy.",
+            "q": "How can a hydraulic system give a larger output force without creating extra energy?",
             "m": 3,
             "ms": [
-              "Pressure change transmitted through enclosed fluid",
-              "Larger output area gives larger force",
-              "Larger output piston moves a shorter distance in the ideal system"
+              "A pressure change is passed through the enclosed liquid.",
+              "A larger output piston area gives a larger force.",
+              "The larger piston moves a shorter distance, so no extra energy is created."
             ]
           }
         ]

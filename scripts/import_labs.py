@@ -34,5 +34,5 @@ for lab in LABS:
 out.append('};\nwindow.KS3_LABS='+json.dumps(LABS,ensure_ascii=False)+';\n')
 (ROOT/'gcse-lab-factories.js').write_text('\n'.join(out),encoding='utf-8')
 (ROOT/'lab-provenance.json').write_text(json.dumps(provenance,indent=2),encoding='utf-8')
-notebook=(combined/'lab-notebook.js').read_text(encoding='utf-8');(ROOT/'lab-notebook.js').write_text(notebook,encoding='utf-8')
+assert (ROOT/'lab-notebook.js').exists(), 'Keep the adapted KS3 notebook alongside the apparatus.'
 print('Prepared',len(LABS),'GCSE lab factories; nothing executes until the lab is opened.')
