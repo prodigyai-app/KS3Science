@@ -1,0 +1,255 @@
+[
+  {
+    "id": "bmic",
+    "title": "Microscopy",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "biology-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "60ea25c361f1b0e544d5eacfd5dae3d973fb75a2ceb1842480bd4c9d7442dd1a",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "bosm",
+    "title": "Osmosis in potato tissue",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "biology-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "0ebc1b9722e8b56497cda2aefae01d85bce783d1d2055b6b4ada3d9ad6ca640e",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "bfood",
+    "title": "Food tests",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "biology-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "911e569ba2fe80bb8703250c542c11c282c7062dbd06e89e0b22720f7946bf63",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "benz",
+    "title": "Enzymes and pH",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "biology-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "3e1475009666c141e14a2af22d16597c9093231cfc2ca9963a2fc8acaad2c2c6",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "bphot",
+    "title": "Pondweed photosynthesis",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "biology-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "eb3d852a63488d10b6c2ca4b7e31634a6c8d323fc2a28731473f162a612d26d2",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "breac",
+    "title": "Reaction-time investigation",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "biology-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "26a1e4dbc7244ad20fc41c39b83da93528d091a0247c61ee74f27c4a22bfaa4c",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "bfield",
+    "title": "Quadrats and field sampling",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "biology-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "be7930b9aa92c6387bea5ee9f9fc715814ee09ff6e33f8ff43716d1cc337f1d7",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "salt",
+    "title": "Making salt crystals",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "be3fe31b99cb074926c1b1ccf2d65402c6747b778de3cfc909a2a1ae882ea9ab",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "elec",
+    "title": "Electrolysis: extraction extension",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "688f364acd18adea83bba92fa0ac48d6f3787d4d4993e674b54d704f64032b79",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "temp",
+    "title": "Temperature changes in reactions",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "087f1179f999619fb5fae4d035153bd963e82bc4670a0ca7fc61a6688980387e",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "rate",
+    "title": "Reaction-rate investigation",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "f243e391bf8530b4ca29416139b8ce2ef487844a81c9469e297f5a821530e0ac",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "chrom",
+    "title": "Paper chromatography",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "05d02f18609cb018f6b89ebd478cb6ae63ff38c6bfdf82518f5fcb87fc956dc8",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "water",
+    "title": "Water purification and distillation",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "8b5da0d89ff4a7f704ada761259cc9fc1e076418cd6af2c37f320b0a311d1a59",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "shc",
+    "title": "Heating different materials",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "325c33ca97d2f8641fcfc112a86bc3eabfef567d9c3636a39d2202499d2fd1e5",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "rs",
+    "title": "Resistance in a wire",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "d725dfd1bcbe9851be475acff35be3870beee09614e71bce30753da2538fe407",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "iv",
+    "title": "Current and potential difference",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "8eedac48cd51960ae53426f53c98a9e50584a4194efaafd84142f6f5dc31b68b",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "de",
+    "title": "Measuring density",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "5319dfe55e895ccfe9da3e20e89871e4d4e2075f226338932efd718241593cd7",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "sp",
+    "title": "Force and spring extension",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "9fe7464d872787ce16e4dbf4404636b3bbcc8f08722c99a89c02f0cd7a220563",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "ac",
+    "title": "Trolley motion: extension investigation",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "8c42b6747339e3913dd4eccf193ac3a0dbcfe5f0b75db22e9c2f1f8e2f6bd4b2",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "wv",
+    "title": "Wave speed, frequency and wavelength",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "578cb7d386d438d7d832a6ffd89d2d9df853e0802faa7ced51938c6e26413804",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "lt",
+    "title": "Reflection and refraction",
+    "source": {
+      "repo": "GCSEPhysics",
+      "file": "index.html"
+    },
+    "ref": "13ee2c8dfc7173dfba4c7d8b2c467f17cbbed2e9",
+    "sha256": "fc78813b2577becd18864aec462817b0028d4056c2475c4721bf178397f1e917",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "ir",
+    "title": "Infrared radiation",
+    "source": {
+      "repo": "GCSECombinedScience",
+      "file": "practical-labs.js"
+    },
+    "ref": "9eb2ebfa39aa4f43e667cc910b97b3190099ff1c",
+    "sha256": "e30bdce7433c9fc4d5569e469c0bf30bf56d6bc7f0082847ad5b8b0984532b25",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  },
+  {
+    "id": "insulation",
+    "title": "Thermal insulation",
+    "source": {
+      "repo": "GCSEPhysics",
+      "file": "index.html"
+    },
+    "ref": "13ee2c8dfc7173dfba4c7d8b2c467f17cbbed2e9",
+    "sha256": "201c2ba66933cdcd7a85d6653a1f72c05ba1591926d5de42672842ea1b5992a3",
+    "adaptation": "KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional."
+  }
+]

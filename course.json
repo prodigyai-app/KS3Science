@@ -1,7 +1,7 @@
 {
   "title": "KS3 Science",
   "site": "ks3-science",
-  "reviewed": "2026-10-23",
+  "reviewed": "2026-10-24",
   "units": [
     {
       "id": "y7-unit-01",
@@ -468,7 +468,35 @@
       "unit": "y7-unit-01",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Hazard",
+          "definition": "Something with the potential to cause harm."
+        },
+        {
+          "term": "Risk",
+          "definition": "The likelihood and seriousness of harm occurring."
+        }
+      ],
+      "quiz": {
+        "q": "Which is a specific control for a splash hazard?",
+        "opts": [
+          "Remove all measurements.",
+          "Wear eye protection.",
+          "Simply write “be careful”."
+        ],
+        "a": 1,
+        "why": "A control should state an action that reduces the identified risk."
+      },
+      "misconception": {
+        "q": "In this lesson on laboratory safety, equipment and hazards, Sam says: “Simply write “be careful”.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Wear eye protection.",
+          "A control should state an action that reduces the identified risk."
+        ]
+      }
     },
     {
       "key": "variables",
@@ -490,7 +518,39 @@
       "unit": "y7-unit-01",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Independent variable",
+          "definition": "The factor deliberately changed."
+        },
+        {
+          "term": "Dependent variable",
+          "definition": "The factor measured or observed."
+        },
+        {
+          "term": "Control variable",
+          "definition": "A factor kept consistent to make a comparison fair."
+        }
+      ],
+      "quiz": {
+        "q": "When testing temperature against dissolving time, what is measured?",
+        "opts": [
+          "Time taken to dissolve.",
+          "The temperature chosen.",
+          "The label on the beaker."
+        ],
+        "a": 0,
+        "why": "The dependent variable is the measured outcome, not the setting you change."
+      },
+      "misconception": {
+        "q": "In this lesson on testable questions, predictions and variables, Sam says: “The temperature chosen.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Time taken to dissolve.",
+          "The dependent variable is the measured outcome, not the setting you change."
+        ]
+      }
     },
     {
       "key": "planning",
@@ -512,7 +572,35 @@
       "unit": "y7-unit-01",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Resolution",
+          "definition": "The smallest change an instrument can detect."
+        },
+        {
+          "term": "Repeatability",
+          "definition": "Agreement when the same person repeats a method with the same equipment."
+        }
+      ],
+      "quiz": {
+        "q": "Why time ten swings instead of just one?",
+        "opts": [
+          "It makes the clock perfectly accurate.",
+          "Reaction time has a smaller fractional effect.",
+          "It removes all systematic errors."
+        ],
+        "a": 1,
+        "why": "The timing interval is longer, so the same reaction-time delay is a smaller fraction of it."
+      },
+      "misconception": {
+        "q": "In this lesson on plan fair tests, measurements and repeats, Sam says: “It removes all systematic errors.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Reaction time has a smaller fractional effect.",
+          "The timing interval is longer, so the same reaction-time delay is a smaller fraction of it."
+        ]
+      }
     },
     {
       "key": "burner",
@@ -534,7 +622,35 @@
       "unit": "y7-unit-01",
       "year": 7,
       "number": 4,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Combustion",
+          "definition": "A chemical reaction with oxygen that transfers energy to the surroundings."
+        },
+        {
+          "term": "Safety flame",
+          "definition": "The visible yellow Bunsen flame used when not actively heating."
+        }
+      ],
+      "quiz": {
+        "q": "Opening a Bunsen air hole mainly changes what?",
+        "opts": [
+          "The mass of the metal barrel.",
+          "The air and oxygen supply.",
+          "The identity of the gas fuel."
+        ],
+        "a": 1,
+        "why": "Admitting more air supports more complete combustion and produces the blue heating flame."
+      },
+      "misconception": {
+        "q": "In this lesson on bunsen burners and complete combustion, Sam says: “The identity of the gas fuel.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The air and oxygen supply.",
+          "Admitting more air supports more complete combustion and produces the blue heating flame."
+        ]
+      }
     },
     {
       "key": "data",
@@ -556,7 +672,39 @@
       "unit": "y7-unit-01",
       "year": 7,
       "number": 5,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Continuous data",
+          "definition": "Measurements that can take any value within a range."
+        },
+        {
+          "term": "Discrete data",
+          "definition": "Counts that take separate values."
+        },
+        {
+          "term": "Conclusion",
+          "definition": "An answer to an investigation question supported by evidence."
+        }
+      ],
+      "quiz": {
+        "q": "What supports a strong conclusion?",
+        "opts": [
+          "A claim based on one favourite result.",
+          "A graph with no labelled axes.",
+          "A pattern backed by numerical evidence."
+        ],
+        "a": 2,
+        "why": "Evidence should link the observed relationship to the investigation question."
+      },
+      "misconception": {
+        "q": "In this lesson on tables, graphs and conclusions, Sam says: “A claim based on one favourite result.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A pattern backed by numerical evidence.",
+          "Evidence should link the observed relationship to the investigation question."
+        ]
+      }
     },
     {
       "key": "evaluate",
@@ -578,7 +726,39 @@
       "unit": "y7-unit-01",
       "year": 7,
       "number": 6,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Random error",
+          "definition": "Unpredictable variation between measurements."
+        },
+        {
+          "term": "Systematic error",
+          "definition": "A consistent measurement bias in one direction."
+        },
+        {
+          "term": "Anomaly",
+          "definition": "A result that does not fit the overall pattern."
+        }
+      ],
+      "quiz": {
+        "q": "A balance always reads 2 g too high. What should be done?",
+        "opts": [
+          "Call it random variation.",
+          "Correct the zero or calibration error.",
+          "Average more readings without correction."
+        ],
+        "a": 1,
+        "why": "Repeating measurements retains a consistent offset; calibration is needed."
+      },
+      "misconception": {
+        "q": "In this lesson on random errors, systematic errors and evaluation, Sam says: “Average more readings without correction.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Correct the zero or calibration error.",
+          "Repeating measurements retains a consistent offset; calibration is needed."
+        ]
+      }
     },
     {
       "key": "microscope",
@@ -600,7 +780,35 @@
       "unit": "y7-unit-02",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Magnification",
+          "definition": "Image size divided by actual size, using the same length units."
+        },
+        {
+          "term": "Resolution",
+          "definition": "The ability to distinguish nearby details as separate."
+        }
+      ],
+      "quiz": {
+        "q": "A ×10 eyepiece and ×40 objective give what magnification?",
+        "opts": [
+          "×400.",
+          "×50.",
+          "×4."
+        ],
+        "a": 0,
+        "why": "Multiply the two lens magnifications: 10 × 40 = 400."
+      },
+      "misconception": {
+        "q": "In this lesson on observing cells and magnification, Sam says: “×50.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "×400.",
+          "Multiply the two lens magnifications: 10 × 40 = 400."
+        ]
+      }
     },
     {
       "key": "cell",
@@ -622,7 +830,39 @@
       "unit": "y7-unit-02",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Nucleus",
+          "definition": "A cell structure containing genetic material."
+        },
+        {
+          "term": "Cell membrane",
+          "definition": "The boundary that controls exchange into and out of a cell."
+        },
+        {
+          "term": "Chloroplast",
+          "definition": "A structure containing chlorophyll for photosynthesis."
+        }
+      ],
+      "quiz": {
+        "q": "Which statement about plant cells is accurate?",
+        "opts": [
+          "Every plant cell contains chloroplasts.",
+          "Plant cells cannot respire.",
+          "Root cells usually lack chloroplasts."
+        ],
+        "a": 2,
+        "why": "Photosynthetic cells need chloroplasts; most root cells do not receive light."
+      },
+      "misconception": {
+        "q": "In this lesson on plant and animal cells, Sam says: “Every plant cell contains chloroplasts.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Root cells usually lack chloroplasts.",
+          "Photosynthetic cells need chloroplasts; most root cells do not receive light."
+        ]
+      }
     },
     {
       "key": "specialised",
@@ -644,7 +884,35 @@
       "unit": "y7-unit-02",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Specialised cell",
+          "definition": "A cell with features suited to a particular function."
+        },
+        {
+          "term": "Unicellular organism",
+          "definition": "An organism made of one cell."
+        }
+      ],
+      "quiz": {
+        "q": "Why does a root hair cell have a long extension?",
+        "opts": [
+          "It makes the cell an animal cell.",
+          "It allows the root to make sunlight.",
+          "It increases absorption surface area."
+        ],
+        "a": 2,
+        "why": "A larger surface area supports uptake of water and mineral ions."
+      },
+      "misconception": {
+        "q": "In this lesson on specialised and unicellular organisms, Sam says: “It makes the cell an animal cell.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It increases absorption surface area.",
+          "A larger surface area supports uptake of water and mineral ions."
+        ]
+      }
     },
     {
       "key": "diffusion",
@@ -666,7 +934,35 @@
       "unit": "y7-unit-02",
       "year": 7,
       "number": 4,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Diffusion",
+          "definition": "Net movement of particles from higher to lower concentration due to random motion."
+        },
+        {
+          "term": "Concentration gradient",
+          "definition": "A difference in concentration between regions."
+        }
+      ],
+      "quiz": {
+        "q": "What happens at diffusion equilibrium?",
+        "opts": [
+          "Particles move only uphill in concentration.",
+          "Particles still move in both directions.",
+          "All particles stop moving."
+        ],
+        "a": 1,
+        "why": "Random motion continues, but there is no overall net transfer between equal concentrations."
+      },
+      "misconception": {
+        "q": "In this lesson on diffusion and exchange at cells, Sam says: “All particles stop moving.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Particles still move in both directions.",
+          "Random motion continues, but there is no overall net transfer between equal concentrations."
+        ]
+      }
     },
     {
       "key": "organisation",
@@ -688,7 +984,39 @@
       "unit": "y7-unit-03",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Tissue",
+          "definition": "A group of cells working together in a function."
+        },
+        {
+          "term": "Organ",
+          "definition": "A structure made of different tissues working together."
+        },
+        {
+          "term": "Ligament",
+          "definition": "A structure connecting bone to bone."
+        }
+      ],
+      "quiz": {
+        "q": "Which structure connects muscle to bone?",
+        "opts": [
+          "A tendon.",
+          "A ligament.",
+          "Cartilage alone."
+        ],
+        "a": 0,
+        "why": "Tendons transmit a muscle’s pull to a bone; ligaments join bones."
+      },
+      "misconception": {
+        "q": "In this lesson on multicellular organisation and skeletons, Sam says: “A ligament.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A tendon.",
+          "Tendons transmit a muscle’s pull to a bone; ligaments join bones."
+        ]
+      }
     },
     {
       "key": "muscles",
@@ -710,7 +1038,35 @@
       "unit": "y7-unit-03",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Antagonistic pair",
+          "definition": "Two muscles that pull in opposite directions around a joint."
+        },
+        {
+          "term": "Contraction",
+          "definition": "The active development of tension in a muscle."
+        }
+      ],
+      "quiz": {
+        "q": "Why are opposing muscles needed at an elbow?",
+        "opts": [
+          "Bones contract to reverse the movement.",
+          "A contracting muscle pulls rather than actively pushing.",
+          "One muscle pushes when it relaxes."
+        ],
+        "a": 1,
+        "why": "One muscle pulls for one direction and the opposing muscle pulls for the reverse movement."
+      },
+      "misconception": {
+        "q": "In this lesson on antagonistic muscles and movement investigations, Sam says: “One muscle pushes when it relaxes.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A contracting muscle pulls rather than actively pushing.",
+          "One muscle pulls for one direction and the opposing muscle pulls for the reverse movement."
+        ]
+      }
     },
     {
       "key": "planning",
@@ -732,7 +1088,35 @@
       "unit": "y7-unit-03",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Resolution",
+          "definition": "The smallest change an instrument can detect."
+        },
+        {
+          "term": "Repeatability",
+          "definition": "Agreement when the same person repeats a method with the same equipment."
+        }
+      ],
+      "quiz": {
+        "q": "Why time ten swings instead of just one?",
+        "opts": [
+          "Reaction time has a smaller fractional effect.",
+          "It removes all systematic errors.",
+          "It makes the clock perfectly accurate."
+        ],
+        "a": 0,
+        "why": "The timing interval is longer, so the same reaction-time delay is a smaller fraction of it."
+      },
+      "misconception": {
+        "q": "In this lesson on plan fair tests, measurements and repeats, Sam says: “It removes all systematic errors.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Reaction time has a smaller fractional effect.",
+          "The timing interval is longer, so the same reaction-time delay is a smaller fraction of it."
+        ]
+      }
     },
     {
       "key": "particles",
@@ -754,7 +1138,39 @@
       "unit": "y7-unit-04",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Solid",
+          "definition": "A state with particles vibrating about fixed positions."
+        },
+        {
+          "term": "Liquid",
+          "definition": "A state with close particles that can move past one another."
+        },
+        {
+          "term": "Gas",
+          "definition": "A state with widely separated, freely moving particles."
+        }
+      ],
+      "quiz": {
+        "q": "Why is a gas easy to compress?",
+        "opts": [
+          "Its particles shrink under pressure.",
+          "It contains no particles.",
+          "There are large gaps between particles."
+        ],
+        "a": 2,
+        "why": "Compression mainly reduces the gaps between gas particles."
+      },
+      "misconception": {
+        "q": "In this lesson on solids, liquids and gases, Sam says: “Its particles shrink under pressure.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "There are large gaps between particles.",
+          "Compression mainly reduces the gaps between gas particles."
+        ]
+      }
     },
     {
       "key": "state",
@@ -776,7 +1192,39 @@
       "unit": "y7-unit-04",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Melting",
+          "definition": "Changing from solid to liquid."
+        },
+        {
+          "term": "Evaporation",
+          "definition": "Escape of particles from a liquid surface into the gas state."
+        },
+        {
+          "term": "Condensation",
+          "definition": "Changing from gas to liquid."
+        }
+      ],
+      "quiz": {
+        "q": "How does evaporation differ from boiling?",
+        "opts": [
+          "It changes water into a new element.",
+          "It must occur throughout the liquid.",
+          "It can occur at the surface below the boiling point."
+        ],
+        "a": 2,
+        "why": "Boiling occurs throughout a liquid at its boiling point for the stated pressure."
+      },
+      "misconception": {
+        "q": "In this lesson on changes of state and heating curves, Sam says: “It changes water into a new element.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It can occur at the surface below the boiling point.",
+          "Boiling occurs throughout a liquid at its boiling point for the stated pressure."
+        ]
+      }
     },
     {
       "key": "diffusion",
@@ -798,7 +1246,35 @@
       "unit": "y7-unit-04",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Diffusion",
+          "definition": "Net movement of particles from higher to lower concentration due to random motion."
+        },
+        {
+          "term": "Concentration gradient",
+          "definition": "A difference in concentration between regions."
+        }
+      ],
+      "quiz": {
+        "q": "What happens at diffusion equilibrium?",
+        "opts": [
+          "Particles still move in both directions.",
+          "All particles stop moving.",
+          "Particles move only uphill in concentration."
+        ],
+        "a": 0,
+        "why": "Random motion continues, but there is no overall net transfer between equal concentrations."
+      },
+      "misconception": {
+        "q": "In this lesson on diffusion and exchange at cells, Sam says: “All particles stop moving.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Particles still move in both directions.",
+          "Random motion continues, but there is no overall net transfer between equal concentrations."
+        ]
+      }
     },
     {
       "key": "gas",
@@ -820,7 +1296,35 @@
       "unit": "y7-unit-04",
       "year": 7,
       "number": 4,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Gas pressure",
+          "definition": "Force per unit area caused by particle collisions with surfaces."
+        },
+        {
+          "term": "Compression",
+          "definition": "A reduction in volume."
+        }
+      ],
+      "quiz": {
+        "q": "Heating a sealed rigid gas container usually does what?",
+        "opts": [
+          "Stops particle collisions.",
+          "Increases pressure.",
+          "Decreases particle number."
+        ],
+        "a": 1,
+        "why": "Faster particles make more frequent and more forceful collisions with the fixed walls."
+      },
+      "misconception": {
+        "q": "In this lesson on gas pressure and particle motion, Sam says: “Decreases particle number.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Increases pressure.",
+          "Faster particles make more frequent and more forceful collisions with the fixed walls."
+        ]
+      }
     },
     {
       "key": "atoms",
@@ -842,7 +1346,39 @@
       "unit": "y7-unit-04",
       "year": 7,
       "number": 5,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Element",
+          "definition": "A substance containing one type of atom."
+        },
+        {
+          "term": "Compound",
+          "definition": "A substance with different elements chemically bonded in fixed proportions."
+        },
+        {
+          "term": "Mixture",
+          "definition": "Substances together without being chemically combined."
+        }
+      ],
+      "quiz": {
+        "q": "Which is a compound?",
+        "opts": [
+          "Pure water.",
+          "Air.",
+          "Iron."
+        ],
+        "a": 0,
+        "why": "Water has hydrogen and oxygen chemically combined in a fixed ratio."
+      },
+      "misconception": {
+        "q": "In this lesson on atoms, elements, compounds and mixtures, Sam says: “Air.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Pure water.",
+          "Water has hydrogen and oxygen chemically combined in a fixed ratio."
+        ]
+      }
     },
     {
       "key": "atoms",
@@ -864,7 +1400,39 @@
       "unit": "y7-unit-05",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Element",
+          "definition": "A substance containing one type of atom."
+        },
+        {
+          "term": "Compound",
+          "definition": "A substance with different elements chemically bonded in fixed proportions."
+        },
+        {
+          "term": "Mixture",
+          "definition": "Substances together without being chemically combined."
+        }
+      ],
+      "quiz": {
+        "q": "Which is a compound?",
+        "opts": [
+          "Air.",
+          "Iron.",
+          "Pure water."
+        ],
+        "a": 2,
+        "why": "Water has hydrogen and oxygen chemically combined in a fixed ratio."
+      },
+      "misconception": {
+        "q": "In this lesson on atoms, elements, compounds and mixtures, Sam says: “Air.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Pure water.",
+          "Water has hydrogen and oxygen chemically combined in a fixed ratio."
+        ]
+      }
     },
     {
       "key": "solution",
@@ -886,7 +1454,39 @@
       "unit": "y7-unit-05",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Solute",
+          "definition": "A substance dissolved in a solvent."
+        },
+        {
+          "term": "Solvent",
+          "definition": "A substance that dissolves a solute."
+        },
+        {
+          "term": "Saturated solution",
+          "definition": "A solution containing the maximum dissolved solute at the stated conditions."
+        }
+      ],
+      "quiz": {
+        "q": "What does stirring usually increase?",
+        "opts": [
+          "The rate of dissolving.",
+          "The maximum solubility at a fixed temperature.",
+          "The number of atoms in the salt."
+        ],
+        "a": 0,
+        "why": "Stirring brings fresh solvent into contact with solute; it need not change the final soluble amount."
+      },
+      "misconception": {
+        "q": "In this lesson on solutions and solubility, Sam says: “The maximum solubility at a fixed temperature.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The rate of dissolving.",
+          "Stirring brings fresh solvent into contact with solute; it need not change the final soluble amount."
+        ]
+      }
     },
     {
       "key": "filter",
@@ -908,7 +1508,39 @@
       "unit": "y7-unit-05",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Residue",
+          "definition": "Material retained by a filter."
+        },
+        {
+          "term": "Filtrate",
+          "definition": "Fluid that passes through a filter."
+        },
+        {
+          "term": "Crystallisation",
+          "definition": "Formation of solid crystals from a solution."
+        }
+      ],
+      "quiz": {
+        "q": "Can ordinary filter paper separate dissolved salt from water?",
+        "opts": [
+          "Yes; every salt particle is trapped.",
+          "Yes; filtering turns salt into sand.",
+          "No; dissolved salt passes through with the water."
+        ],
+        "a": 2,
+        "why": "Filtration separates an insoluble solid, not dissolved particles, from a liquid."
+      },
+      "misconception": {
+        "q": "In this lesson on filtration and crystallisation, Sam says: “Yes; every salt particle is trapped.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "No; dissolved salt passes through with the water.",
+          "Filtration separates an insoluble solid, not dissolved particles, from a liquid."
+        ]
+      }
     },
     {
       "key": "distil",
@@ -930,7 +1562,35 @@
       "unit": "y7-unit-05",
       "year": 7,
       "number": 4,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Distillation",
+          "definition": "Separation using evaporation followed by condensation."
+        },
+        {
+          "term": "Chromatography",
+          "definition": "Separation of components that move differently with a mobile phase."
+        }
+      ],
+      "quiz": {
+        "q": "What does a condenser do in distillation?",
+        "opts": [
+          "Filters dissolved salt from liquid.",
+          "Creates new water molecules.",
+          "Cools vapour back into liquid."
+        ],
+        "a": 2,
+        "why": "Condensation collects the evaporated solvent while non-volatile solute stays behind."
+      },
+      "misconception": {
+        "q": "In this lesson on distillation and chromatography, Sam says: “Filters dissolved salt from liquid.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Cools vapour back into liquid.",
+          "Condensation collects the evaporated solvent while non-volatile solute stays behind."
+        ]
+      }
     },
     {
       "key": "energy",
@@ -952,7 +1612,35 @@
       "unit": "y7-unit-06",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Energy store",
+          "definition": "A way of accounting for energy held in a system."
+        },
+        {
+          "term": "Dissipation",
+          "definition": "Spreading energy into less useful stores, often in the surroundings."
+        }
+      ],
+      "quiz": {
+        "q": "What happens to energy described as “wasted”?",
+        "opts": [
+          "It stops being conserved.",
+          "It is transferred into less useful stores.",
+          "It is destroyed."
+        ],
+        "a": 1,
+        "why": "Total energy remains conserved even when useful energy becomes dispersed."
+      },
+      "misconception": {
+        "q": "In this lesson on energy stores, transfers and dissipation, Sam says: “It is destroyed.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It is transferred into less useful stores.",
+          "Total energy remains conserved even when useful energy becomes dispersed."
+        ]
+      }
     },
     {
       "key": "food-energy",
@@ -974,7 +1662,35 @@
       "unit": "y7-unit-06",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Chemical energy store",
+          "definition": "Energy associated with the chemical arrangement of substances."
+        },
+        {
+          "term": "Energy per gram",
+          "definition": "Energy divided by the mass of material involved."
+        }
+      ],
+      "quiz": {
+        "q": "Why compare food energy per gram?",
+        "opts": [
+          "A temperature rise is always the full food energy.",
+          "Every food sample has the same energy.",
+          "Food samples may have different masses."
+        ],
+        "a": 2,
+        "why": "A fair comparison accounts for sample mass and limitations such as heat loss."
+      },
+      "misconception": {
+        "q": "In this lesson on food energy and evaluating heating experiments, Sam says: “A temperature rise is always the full food energy.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Food samples may have different masses.",
+          "A fair comparison accounts for sample mass and limitations such as heat loss."
+        ]
+      }
     },
     {
       "key": "resources",
@@ -996,7 +1712,35 @@
       "unit": "y7-unit-06",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Renewable resource",
+          "definition": "An energy resource replenished on a human timescale."
+        },
+        {
+          "term": "Non-renewable resource",
+          "definition": "A resource used faster than it is naturally replenished."
+        }
+      ],
+      "quiz": {
+        "q": "Which resource is renewable?",
+        "opts": [
+          "Natural gas.",
+          "Uranium fuel.",
+          "Wind."
+        ],
+        "a": 2,
+        "why": "Wind is replenished naturally, although the available output varies."
+      },
+      "misconception": {
+        "q": "In this lesson on renewable and non-renewable energy resources, Sam says: “Natural gas.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Wind.",
+          "Wind is replenished naturally, although the available output varies."
+        ]
+      }
     },
     {
       "key": "power",
@@ -1018,7 +1762,35 @@
       "unit": "y7-unit-06",
       "year": 7,
       "number": 4,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Power",
+          "definition": "The rate of energy transfer."
+        },
+        {
+          "term": "Kilowatt-hour",
+          "definition": "Energy transferred by a power of one kilowatt for one hour."
+        }
+      ],
+      "quiz": {
+        "q": "What quantity is measured in kWh?",
+        "opts": [
+          "Energy.",
+          "Power.",
+          "Electric current."
+        ],
+        "a": 0,
+        "why": "Power multiplied by time gives energy; kW alone is a power unit."
+      },
+      "misconception": {
+        "q": "In this lesson on power, electrical energy and cost, Sam says: “Power.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Energy.",
+          "Power multiplied by time gives energy; kW alone is a power unit."
+        ]
+      }
     },
     {
       "key": "energy",
@@ -1040,7 +1812,35 @@
       "unit": "y7-unit-07",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Energy store",
+          "definition": "A way of accounting for energy held in a system."
+        },
+        {
+          "term": "Dissipation",
+          "definition": "Spreading energy into less useful stores, often in the surroundings."
+        }
+      ],
+      "quiz": {
+        "q": "What happens to energy described as “wasted”?",
+        "opts": [
+          "It is transferred into less useful stores.",
+          "It is destroyed.",
+          "It stops being conserved."
+        ],
+        "a": 0,
+        "why": "Total energy remains conserved even when useful energy becomes dispersed."
+      },
+      "misconception": {
+        "q": "In this lesson on energy stores, transfers and dissipation, Sam says: “It is destroyed.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It is transferred into less useful stores.",
+          "Total energy remains conserved even when useful energy becomes dispersed."
+        ]
+      }
     },
     {
       "key": "efficiency",
@@ -1062,7 +1862,35 @@
       "unit": "y7-unit-07",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Efficiency",
+          "definition": "Useful output energy or power divided by total input energy or power."
+        },
+        {
+          "term": "Sankey diagram",
+          "definition": "A diagram whose arrow widths represent energy transfers."
+        }
+      ],
+      "quiz": {
+        "q": "A device gives 20 J useful output from 100 J input. What is its efficiency?",
+        "opts": [
+          "500%.",
+          "20%.",
+          "80%."
+        ],
+        "a": 1,
+        "why": "Efficiency = 20 ÷ 100 × 100% = 20%."
+      },
+      "misconception": {
+        "q": "In this lesson on efficiency and sankey diagrams, Sam says: “80%.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "20%.",
+          "Efficiency = 20 ÷ 100 × 100% = 20%."
+        ]
+      }
     },
     {
       "key": "variation",
@@ -1084,7 +1912,39 @@
       "unit": "y7-unit-08",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Variation",
+          "definition": "Differences between individuals."
+        },
+        {
+          "term": "Continuous variation",
+          "definition": "Variation taking values across a measurable range."
+        },
+        {
+          "term": "Discontinuous variation",
+          "definition": "Variation in distinct categories."
+        }
+      ],
+      "quiz": {
+        "q": "Which is a suitable continuous variable?",
+        "opts": [
+          "The category “present or absent”.",
+          "Arm span.",
+          "ABO blood group."
+        ],
+        "a": 1,
+        "why": "Arm span can take a range of measured values, unlike a discrete category."
+      },
+      "misconception": {
+        "q": "In this lesson on species, inherited and environmental variation, Sam says: “ABO blood group.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Arm span.",
+          "Arm span can take a range of measured values, unlike a discrete category."
+        ]
+      }
     },
     {
       "key": "adaptation",
@@ -1106,7 +1966,35 @@
       "unit": "y7-unit-08",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Adaptation",
+          "definition": "An inherited feature that can improve survival and reproduction in an environment."
+        },
+        {
+          "term": "Selection pressure",
+          "definition": "An environmental factor affecting reproductive success."
+        }
+      ],
+      "quiz": {
+        "q": "Which explains an inherited adaptation?",
+        "opts": [
+          "It can become more common over generations.",
+          "An organism chooses a new gene when needed.",
+          "All adaptations help in every environment."
+        ],
+        "a": 0,
+        "why": "The advantage depends on conditions, and inherited population changes occur across generations."
+      },
+      "misconception": {
+        "q": "In this lesson on adaptations and changing environments, Sam says: “An organism chooses a new gene when needed.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It can become more common over generations.",
+          "The advantage depends on conditions, and inherited population changes occur across generations."
+        ]
+      }
     },
     {
       "key": "data",
@@ -1128,7 +2016,39 @@
       "unit": "y7-unit-08",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Continuous data",
+          "definition": "Measurements that can take any value within a range."
+        },
+        {
+          "term": "Discrete data",
+          "definition": "Counts that take separate values."
+        },
+        {
+          "term": "Conclusion",
+          "definition": "An answer to an investigation question supported by evidence."
+        }
+      ],
+      "quiz": {
+        "q": "What supports a strong conclusion?",
+        "opts": [
+          "A claim based on one favourite result.",
+          "A graph with no labelled axes.",
+          "A pattern backed by numerical evidence."
+        ],
+        "a": 2,
+        "why": "Evidence should link the observed relationship to the investigation question."
+      },
+      "misconception": {
+        "q": "In this lesson on tables, graphs and conclusions, Sam says: “A claim based on one favourite result.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A pattern backed by numerical evidence.",
+          "Evidence should link the observed relationship to the investigation question."
+        ]
+      }
     },
     {
       "key": "puberty",
@@ -1150,7 +2070,35 @@
       "unit": "y7-unit-09",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Puberty",
+          "definition": "Hormone-controlled changes leading to sexual maturity."
+        },
+        {
+          "term": "Gamete",
+          "definition": "A reproductive cell carrying one set of chromosomes."
+        }
+      ],
+      "quiz": {
+        "q": "Where are sperm produced?",
+        "opts": [
+          "Oviducts.",
+          "Testes.",
+          "Uterus."
+        ],
+        "a": 1,
+        "why": "Testes produce sperm; ovaries produce egg cells."
+      },
+      "misconception": {
+        "q": "In this lesson on adolescence and reproductive systems, Sam says: “Uterus.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Testes.",
+          "Testes produce sperm; ovaries produce egg cells."
+        ]
+      }
     },
     {
       "key": "cycle",
@@ -1172,7 +2120,35 @@
       "unit": "y7-unit-09",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Menstruation",
+          "definition": "Shedding of the uterine lining."
+        },
+        {
+          "term": "Ovulation",
+          "definition": "Release of an egg cell from an ovary."
+        }
+      ],
+      "quiz": {
+        "q": "What is a limitation of a fixed 28-day cycle diagram?",
+        "opts": [
+          "Every cycle must last exactly 28 days.",
+          "Ovulation and menstruation are identical.",
+          "Real cycle length and ovulation timing vary."
+        ],
+        "a": 2,
+        "why": "The diagram is a teaching model and does not predict every individual’s timing."
+      },
+      "misconception": {
+        "q": "In this lesson on the menstrual cycle, Sam says: “Every cycle must last exactly 28 days.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Real cycle length and ovulation timing vary.",
+          "The diagram is a teaching model and does not predict every individual’s timing."
+        ]
+      }
     },
     {
       "key": "pregnancy",
@@ -1194,7 +2170,39 @@
       "unit": "y7-unit-09",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Fertilisation",
+          "definition": "Fusion of male and female gamete nuclei."
+        },
+        {
+          "term": "Implantation",
+          "definition": "Embedding of an embryo in the uterine lining."
+        },
+        {
+          "term": "Placenta",
+          "definition": "An organ allowing exchange between normally separate maternal and fetal blood supplies."
+        }
+      ],
+      "quiz": {
+        "q": "Where does human fertilisation usually happen?",
+        "opts": [
+          "The uterine lining during implantation.",
+          "The placenta.",
+          "An oviduct."
+        ],
+        "a": 2,
+        "why": "Fertilisation usually precedes the embryo’s later implantation in the uterus."
+      },
+      "misconception": {
+        "q": "In this lesson on fertilisation, implantation and fetal development, Sam says: “The uterine lining during implantation.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "An oviduct.",
+          "Fertilisation usually precedes the embryo’s later implantation in the uterus."
+        ]
+      }
     },
     {
       "key": "flower",
@@ -1216,7 +2224,39 @@
       "unit": "y7-unit-10",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Pollination",
+          "definition": "Transfer of pollen from anther to stigma."
+        },
+        {
+          "term": "Anther",
+          "definition": "The part of a stamen that produces pollen."
+        },
+        {
+          "term": "Stigma",
+          "definition": "The pollen-receiving surface of a flower."
+        }
+      ],
+      "quiz": {
+        "q": "Which is pollination?",
+        "opts": [
+          "A seed starting to grow.",
+          "Pollen reaching a compatible stigma.",
+          "Fusion of gamete nuclei."
+        ],
+        "a": 1,
+        "why": "Pollination transfers pollen; fertilisation is a later fusion of nuclei."
+      },
+      "misconception": {
+        "q": "In this lesson on flower structures and pollination, Sam says: “Fusion of gamete nuclei.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Pollen reaching a compatible stigma.",
+          "Pollination transfers pollen; fertilisation is a later fusion of nuclei."
+        ]
+      }
     },
     {
       "key": "seed",
@@ -1238,7 +2278,35 @@
       "unit": "y7-unit-10",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Seed dispersal",
+          "definition": "Movement of seeds away from the parent plant."
+        },
+        {
+          "term": "Ovule",
+          "definition": "A structure in the ovary that can develop into a seed after fertilisation."
+        }
+      ],
+      "quiz": {
+        "q": "What commonly develops into a seed?",
+        "opts": [
+          "The whole anther.",
+          "A petal after implantation.",
+          "A fertilised ovule."
+        ],
+        "a": 2,
+        "why": "The ovule becomes the seed; the ovary commonly develops into the fruit."
+      },
+      "misconception": {
+        "q": "In this lesson on plant fertilisation, seeds and dispersal, Sam says: “The whole anther.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A fertilised ovule.",
+          "The ovule becomes the seed; the ovary commonly develops into the fruit."
+        ]
+      }
     },
     {
       "key": "germination",
@@ -1260,7 +2328,35 @@
       "unit": "y7-unit-10",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Germination",
+          "definition": "The start of seed growth into a seedling."
+        },
+        {
+          "term": "Control group",
+          "definition": "A comparison group used to help interpret an investigation."
+        }
+      ],
+      "quiz": {
+        "q": "Which is commonly needed for seed germination?",
+        "opts": [
+          "Light for every type of seed.",
+          "Soil as the seed’s food supply.",
+          "Water, oxygen and a suitable temperature."
+        ],
+        "a": 2,
+        "why": "Seeds initially use stored reserves; many germinate without light but need oxygen for respiration."
+      },
+      "misconception": {
+        "q": "In this lesson on germination and experimental controls, Sam says: “Light for every type of seed.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Water, oxygen and a suitable temperature.",
+          "Seeds initially use stored reserves; many germinate without light but need oxygen for respiration."
+        ]
+      }
     },
     {
       "key": "reaction",
@@ -1282,7 +2378,39 @@
       "unit": "y7-unit-11",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Reactant",
+          "definition": "A substance present at the start of a chemical reaction."
+        },
+        {
+          "term": "Product",
+          "definition": "A substance formed in a chemical reaction."
+        },
+        {
+          "term": "Physical change",
+          "definition": "A change that leaves chemical identity unchanged."
+        }
+      ],
+      "quiz": {
+        "q": "Which observation alone does not prove a chemical reaction?",
+        "opts": [
+          "Bubbles appearing.",
+          "Evidence that a new substance formed.",
+          "A confirmed change in chemical identity."
+        ],
+        "a": 0,
+        "why": "Boiling also produces bubbles without making a new chemical substance."
+      },
+      "misconception": {
+        "q": "In this lesson on chemical reactions, observations and equations, Sam says: “Evidence that a new substance formed.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Bubbles appearing.",
+          "Boiling also produces bubbles without making a new chemical substance."
+        ]
+      }
     },
     {
       "key": "acid",
@@ -1304,7 +2432,39 @@
       "unit": "y7-unit-11",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Acid",
+          "definition": "In school aqueous examples, a substance giving a solution with pH below 7."
+        },
+        {
+          "term": "Alkali",
+          "definition": "A base that dissolves in water."
+        },
+        {
+          "term": "Concentration",
+          "definition": "Amount of solute per volume of solution."
+        }
+      ],
+      "quiz": {
+        "q": "What does “concentrated” describe?",
+        "opts": [
+          "Amount of solute per solution volume.",
+          "How completely an acid ionises.",
+          "A guarantee that an acid is strong."
+        ],
+        "a": 0,
+        "why": "Concentration and acid strength are different properties."
+      },
+      "misconception": {
+        "q": "In this lesson on acids, alkalis, ph and concentration, Sam says: “How completely an acid ionises.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Amount of solute per solution volume.",
+          "Concentration and acid strength are different properties."
+        ]
+      }
     },
     {
       "key": "neutral",
@@ -1326,7 +2486,35 @@
       "unit": "y7-unit-11",
       "year": 7,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Neutralisation",
+          "definition": "Reaction of an acid with a base."
+        },
+        {
+          "term": "Salt",
+          "definition": "A compound formed when the hydrogen of an acid is replaced by metal or ammonium ions."
+        }
+      ],
+      "quiz": {
+        "q": "Which salt name follows from hydrochloric acid?",
+        "opts": [
+          "A nitrate.",
+          "A chloride.",
+          "A sulfate."
+        ],
+        "a": 1,
+        "why": "Hydrochloric acid forms chlorides; sulfuric acid forms sulfates."
+      },
+      "misconception": {
+        "q": "In this lesson on neutralisation and naming salts, Sam says: “A sulfate.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A chloride.",
+          "Hydrochloric acid forms chlorides; sulfuric acid forms sulfates."
+        ]
+      }
     },
     {
       "key": "metals",
@@ -1348,7 +2536,35 @@
       "unit": "y7-unit-12",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Displacement",
+          "definition": "A reaction in which a more reactive element replaces a less reactive one in a compound."
+        },
+        {
+          "term": "Oxidation",
+          "definition": "At this level, a reaction in which a substance gains oxygen."
+        }
+      ],
+      "quiz": {
+        "q": "Can copper displace iron from iron sulfate, if iron is more reactive?",
+        "opts": [
+          "No.",
+          "Yes, because all metals displace each other.",
+          "Yes, because copper is coloured."
+        ],
+        "a": 0,
+        "why": "A metal displaces another only when it is more reactive under the stated conditions."
+      },
+      "misconception": {
+        "q": "In this lesson on metal properties, oxidation and reactivity, Sam says: “Yes, because all metals displace each other.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "No.",
+          "A metal displaces another only when it is more reactive under the stated conditions."
+        ]
+      }
     },
     {
       "key": "metal-acid",
@@ -1370,7 +2586,35 @@
       "unit": "y7-unit-12",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Reactivity series",
+          "definition": "An ordering of metals by their tendency to react."
+        },
+        {
+          "term": "Hydrogen test",
+          "definition": "A small sample gives a squeaky pop with a lighted splint under supervision."
+        }
+      ],
+      "quiz": {
+        "q": "What forms when magnesium reacts with dilute hydrochloric acid?",
+        "opts": [
+          "Only water.",
+          "Magnesium chloride and hydrogen.",
+          "Magnesium sulfate and oxygen."
+        ],
+        "a": 1,
+        "why": "Metal plus a suitable dilute acid forms a salt and hydrogen."
+      },
+      "misconception": {
+        "q": "In this lesson on metals with acids and water, Sam says: “Magnesium sulfate and oxygen.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Magnesium chloride and hydrogen.",
+          "Metal plus a suitable dilute acid forms a salt and hydrogen."
+        ]
+      }
     },
     {
       "key": "charge",
@@ -1392,7 +2636,35 @@
       "unit": "y7-unit-13",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Electron",
+          "definition": "A particle carrying negative electric charge."
+        },
+        {
+          "term": "Static charge",
+          "definition": "A charge imbalance that can build up on an object."
+        }
+      ],
+      "quiz": {
+        "q": "An insulating rod gains electrons. What is its charge?",
+        "opts": [
+          "Necessarily neutral.",
+          "Negative.",
+          "Positive."
+        ],
+        "a": 1,
+        "why": "Gaining negative electrons produces an overall negative charge."
+      },
+      "misconception": {
+        "q": "In this lesson on charge, static electricity and uses, Sam says: “Positive.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Negative.",
+          "Gaining negative electrons produces an overall negative charge."
+        ]
+      }
     },
     {
       "key": "current",
@@ -1414,7 +2686,35 @@
       "unit": "y7-unit-13",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Current",
+          "definition": "Rate of flow of electric charge."
+        },
+        {
+          "term": "Ammeter",
+          "definition": "An instrument measuring current, connected in series."
+        }
+      ],
+      "quiz": {
+        "q": "What happens to current at a junction?",
+        "opts": [
+          "Current is used up.",
+          "Each branch always has the full supply current.",
+          "Total current in equals total current out."
+        ],
+        "a": 2,
+        "why": "Charge is conserved, so branch currents add to the current in the shared wire."
+      },
+      "misconception": {
+        "q": "In this lesson on circuit diagrams, current and charge conservation, Sam says: “Current is used up.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Total current in equals total current out.",
+          "Charge is conserved, so branch currents add to the current in the shared wire."
+        ]
+      }
     },
     {
       "key": "voltage",
@@ -1436,7 +2736,39 @@
       "unit": "y7-unit-14",
       "year": 7,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Potential difference",
+          "definition": "Energy transferred per unit charge."
+        },
+        {
+          "term": "Resistance",
+          "definition": "Potential difference divided by current."
+        },
+        {
+          "term": "Voltmeter",
+          "definition": "An instrument connected across a component to measure potential difference."
+        }
+      ],
+      "quiz": {
+        "q": "How is a voltmeter connected?",
+        "opts": [
+          "Across nothing, with one lead unattached.",
+          "In parallel across a component.",
+          "In series instead of the connecting wire."
+        ],
+        "a": 1,
+        "why": "Potential difference is measured between two points across a component."
+      },
+      "misconception": {
+        "q": "In this lesson on potential difference, resistance and circuit models, Sam says: “In series instead of the connecting wire.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "In parallel across a component.",
+          "Potential difference is measured between two points across a component."
+        ]
+      }
     },
     {
       "key": "current",
@@ -1458,7 +2790,35 @@
       "unit": "y7-unit-14",
       "year": 7,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Current",
+          "definition": "Rate of flow of electric charge."
+        },
+        {
+          "term": "Ammeter",
+          "definition": "An instrument measuring current, connected in series."
+        }
+      ],
+      "quiz": {
+        "q": "What happens to current at a junction?",
+        "opts": [
+          "Current is used up.",
+          "Each branch always has the full supply current.",
+          "Total current in equals total current out."
+        ],
+        "a": 2,
+        "why": "Charge is conserved, so branch currents add to the current in the shared wire."
+      },
+      "misconception": {
+        "q": "In this lesson on circuit diagrams, current and charge conservation, Sam says: “Current is used up.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Total current in equals total current out.",
+          "Charge is conserved, so branch currents add to the current in the shared wire."
+        ]
+      }
     },
     {
       "key": "foodweb",
@@ -1480,7 +2840,39 @@
       "unit": "y8-unit-01",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Producer",
+          "definition": "An organism that makes organic substances, usually by photosynthesis."
+        },
+        {
+          "term": "Consumer",
+          "definition": "An organism that obtains organic material by eating other organisms."
+        },
+        {
+          "term": "Food web",
+          "definition": "Connected feeding relationships in a community."
+        }
+      ],
+      "quiz": {
+        "q": "Which way does a food-chain arrow point?",
+        "opts": [
+          "Always towards the producer.",
+          "From predator to prey to show hunting.",
+          "From food to the organism eating it."
+        ],
+        "a": 2,
+        "why": "The arrow shows the direction of energy and material transfer."
+      },
+      "misconception": {
+        "q": "In this lesson on food chains, webs and interdependence, Sam says: “Always towards the producer.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "From food to the organism eating it.",
+          "The arrow shows the direction of energy and material transfer."
+        ]
+      }
     },
     {
       "key": "ecosystem",
@@ -1502,7 +2894,39 @@
       "unit": "y8-unit-01",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Ecosystem",
+          "definition": "A community and its interactions with the non-living environment."
+        },
+        {
+          "term": "Competition",
+          "definition": "An interaction over a shared limited resource."
+        },
+        {
+          "term": "Quadrat",
+          "definition": "A frame marking a known sampling area."
+        }
+      ],
+      "quiz": {
+        "q": "Why choose quadrat positions randomly?",
+        "opts": [
+          "To find only the most crowded patches.",
+          "To reduce selection bias.",
+          "To guarantee identical counts."
+        ],
+        "a": 1,
+        "why": "Random placement avoids deliberately favouring particular parts of the habitat."
+      },
+      "misconception": {
+        "q": "In this lesson on ecosystems, competition and sampling, Sam says: “To guarantee identical counts.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "To reduce selection bias.",
+          "Random placement avoids deliberately favouring particular parts of the habitat."
+        ]
+      }
     },
     {
       "key": "speed",
@@ -1524,7 +2948,35 @@
       "unit": "y8-unit-02",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Average speed",
+          "definition": "Total distance divided by total time."
+        },
+        {
+          "term": "Repeat",
+          "definition": "A new measurement under the same chosen conditions."
+        }
+      ],
+      "quiz": {
+        "q": "A trolley travels 6 m in 3 s. Its average speed is what?",
+        "opts": [
+          "2 m/s.",
+          "18 m/s.",
+          "0.5 m/s."
+        ],
+        "a": 0,
+        "why": "Divide distance by time: 6 ÷ 3 = 2 m/s."
+      },
+      "misconception": {
+        "q": "In this lesson on speed calculations and practical measurements, Sam says: “18 m/s.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "2 m/s.",
+          "Divide distance by time: 6 ÷ 3 = 2 m/s."
+        ]
+      }
     },
     {
       "key": "dt",
@@ -1546,7 +2998,35 @@
       "unit": "y8-unit-02",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Gradient",
+          "definition": "Change in the vertical quantity divided by change in the horizontal quantity."
+        },
+        {
+          "term": "Distance–time graph",
+          "definition": "A graph relating distance to elapsed time."
+        }
+      ],
+      "quiz": {
+        "q": "What does a horizontal distance–time segment show?",
+        "opts": [
+          "The distance stays constant.",
+          "The speed keeps increasing.",
+          "The road is flat."
+        ],
+        "a": 0,
+        "why": "A horizontal segment has zero gradient and shows no change in distance."
+      },
+      "misconception": {
+        "q": "In this lesson on distance–time graphs, Sam says: “The speed keeps increasing.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The distance stays constant.",
+          "A horizontal segment has zero gradient and shows no change in distance."
+        ]
+      }
     },
     {
       "key": "data",
@@ -1568,7 +3048,39 @@
       "unit": "y8-unit-02",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Continuous data",
+          "definition": "Measurements that can take any value within a range."
+        },
+        {
+          "term": "Discrete data",
+          "definition": "Counts that take separate values."
+        },
+        {
+          "term": "Conclusion",
+          "definition": "An answer to an investigation question supported by evidence."
+        }
+      ],
+      "quiz": {
+        "q": "What supports a strong conclusion?",
+        "opts": [
+          "A pattern backed by numerical evidence.",
+          "A claim based on one favourite result.",
+          "A graph with no labelled axes."
+        ],
+        "a": 0,
+        "why": "Evidence should link the observed relationship to the investigation question."
+      },
+      "misconception": {
+        "q": "In this lesson on tables, graphs and conclusions, Sam says: “A claim based on one favourite result.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A pattern backed by numerical evidence.",
+          "Evidence should link the observed relationship to the investigation question."
+        ]
+      }
     },
     {
       "key": "force",
@@ -1590,7 +3102,35 @@
       "unit": "y8-unit-03",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Resultant force",
+          "definition": "The overall vector sum of forces on an object."
+        },
+        {
+          "term": "Balanced forces",
+          "definition": "Forces with zero resultant."
+        }
+      ],
+      "quiz": {
+        "q": "An object has balanced forces. What can it do?",
+        "opts": [
+          "Remain at rest or move at constant velocity.",
+          "Only remain at rest.",
+          "Keep increasing its speed."
+        ],
+        "a": 0,
+        "why": "Zero resultant means velocity does not change, not that velocity must be zero."
+      },
+      "misconception": {
+        "q": "In this lesson on forces, resultants and motion, Sam says: “Only remain at rest.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Remain at rest or move at constant velocity.",
+          "Zero resultant means velocity does not change, not that velocity must be zero."
+        ]
+      }
     },
     {
       "key": "gravity",
@@ -1612,7 +3152,39 @@
       "unit": "y8-unit-03",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Mass",
+          "definition": "The amount of matter in an object, measured in kilograms."
+        },
+        {
+          "term": "Weight",
+          "definition": "The gravitational force on an object."
+        },
+        {
+          "term": "Terminal velocity",
+          "definition": "Constant velocity reached when forces during a fall balance."
+        }
+      ],
+      "quiz": {
+        "q": "At terminal velocity, how do drag and weight compare?",
+        "opts": [
+          "Weight disappears.",
+          "Drag must be zero.",
+          "They are equal and opposite."
+        ],
+        "a": 2,
+        "why": "Their zero resultant means the falling object no longer accelerates."
+      },
+      "misconception": {
+        "q": "In this lesson on gravity, mass, weight and skydiving, Sam says: “Weight disappears.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "They are equal and opposite.",
+          "Their zero resultant means the falling object no longer accelerates."
+        ]
+      }
     },
     {
       "key": "crater",
@@ -1634,7 +3206,35 @@
       "unit": "y8-unit-03",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Model",
+          "definition": "A simplified representation used to explore an idea."
+        },
+        {
+          "term": "Control variable",
+          "definition": "A factor kept consistent while another is changed."
+        }
+      ],
+      "quiz": {
+        "q": "In a drop-height crater test, what should usually stay the same?",
+        "opts": [
+          "The crater diameter measured.",
+          "The ball and prepared surface.",
+          "The drop height."
+        ],
+        "a": 1,
+        "why": "Drop height is changed and crater diameter measured; ball and surface properties should be controlled."
+      },
+      "misconception": {
+        "q": "In this lesson on crater investigations and evaluating results, Sam says: “The drop height.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The ball and prepared surface.",
+          "Drop height is changed and crater diameter measured; ball and surface properties should be controlled."
+        ]
+      }
     },
     {
       "key": "atoms",
@@ -1656,7 +3256,39 @@
       "unit": "y8-unit-04",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Element",
+          "definition": "A substance containing one type of atom."
+        },
+        {
+          "term": "Compound",
+          "definition": "A substance with different elements chemically bonded in fixed proportions."
+        },
+        {
+          "term": "Mixture",
+          "definition": "Substances together without being chemically combined."
+        }
+      ],
+      "quiz": {
+        "q": "Which is a compound?",
+        "opts": [
+          "Air.",
+          "Iron.",
+          "Pure water."
+        ],
+        "a": 2,
+        "why": "Water has hydrogen and oxygen chemically combined in a fixed ratio."
+      },
+      "misconception": {
+        "q": "In this lesson on atoms, elements, compounds and mixtures, Sam says: “Air.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Pure water.",
+          "Water has hydrogen and oxygen chemically combined in a fixed ratio."
+        ]
+      }
     },
     {
       "key": "elements",
@@ -1678,7 +3310,35 @@
       "unit": "y8-unit-04",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Chemical symbol",
+          "definition": "A one- or two-letter label for an element, starting with a capital letter."
+        },
+        {
+          "term": "Chemical formula",
+          "definition": "A representation of the elements and atom ratios in a substance."
+        }
+      ],
+      "quiz": {
+        "q": "What does CO₂ represent?",
+        "opts": [
+          "Two carbon atoms for each oxygen atom.",
+          "One carbon atom for every two oxygen atoms.",
+          "Cobalt with two electrons."
+        ],
+        "a": 1,
+        "why": "The subscript 2 applies to oxygen; Co and CO have different meanings."
+      },
+      "misconception": {
+        "q": "In this lesson on chemical symbols, compound names and formulae, Sam says: “Cobalt with two electrons.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "One carbon atom for every two oxygen atoms.",
+          "The subscript 2 applies to oxygen; Co and CO have different meanings."
+        ]
+      }
     },
     {
       "key": "metals",
@@ -1700,7 +3360,35 @@
       "unit": "y8-unit-04",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Displacement",
+          "definition": "A reaction in which a more reactive element replaces a less reactive one in a compound."
+        },
+        {
+          "term": "Oxidation",
+          "definition": "At this level, a reaction in which a substance gains oxygen."
+        }
+      ],
+      "quiz": {
+        "q": "Can copper displace iron from iron sulfate, if iron is more reactive?",
+        "opts": [
+          "Yes, because copper is coloured.",
+          "No.",
+          "Yes, because all metals displace each other."
+        ],
+        "a": 1,
+        "why": "A metal displaces another only when it is more reactive under the stated conditions."
+      },
+      "misconception": {
+        "q": "In this lesson on metal properties, oxidation and reactivity, Sam says: “Yes, because all metals displace each other.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "No.",
+          "A metal displaces another only when it is more reactive under the stated conditions."
+        ]
+      }
     },
     {
       "key": "polymer",
@@ -1722,7 +3410,35 @@
       "unit": "y8-unit-04",
       "year": 8,
       "number": 4,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Polymer",
+          "definition": "A substance with very large molecules made from repeating units."
+        },
+        {
+          "term": "Biodegradable",
+          "definition": "Capable of being broken down by biological processes under suitable conditions."
+        }
+      ],
+      "quiz": {
+        "q": "Which statement about polymers is accurate?",
+        "opts": [
+          "Different polymers have different properties.",
+          "Every polymer is readily biodegradable.",
+          "All polymers are the same plastic."
+        ],
+        "a": 0,
+        "why": "Structure and interactions vary, so properties and disposal options differ."
+      },
+      "misconception": {
+        "q": "In this lesson on polymers and materials, Sam says: “Every polymer is readily biodegradable.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Different polymers have different properties.",
+          "Structure and interactions vary, so properties and disposal options differ."
+        ]
+      }
     },
     {
       "key": "periodic",
@@ -1744,7 +3460,35 @@
       "unit": "y8-unit-05",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Group",
+          "definition": "A vertical column in the periodic table."
+        },
+        {
+          "term": "Period",
+          "definition": "A horizontal row in the periodic table."
+        }
+      ],
+      "quiz": {
+        "q": "What is a useful feature of elements in a group?",
+        "opts": [
+          "They must have identical melting points.",
+          "They are all the same element.",
+          "They often have related chemical properties."
+        ],
+        "a": 2,
+        "why": "A group gives patterns that support predictions, while individual properties still differ."
+      },
+      "misconception": {
+        "q": "In this lesson on the periodic table and element patterns, Sam says: “They must have identical melting points.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "They often have related chemical properties.",
+          "A group gives patterns that support predictions, while individual properties still differ."
+        ]
+      }
     },
     {
       "key": "groups",
@@ -1766,7 +3510,35 @@
       "unit": "y8-unit-05",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Halogen",
+          "definition": "A reactive non-metal in school Group 7, modern Group 17."
+        },
+        {
+          "term": "Noble gas",
+          "definition": "An element in school Group 0, modern Group 18, with very low ordinary reactivity."
+        }
+      ],
+      "quiz": {
+        "q": "How does Group 1 reactivity generally change down the group?",
+        "opts": [
+          "It stays exactly identical.",
+          "It increases.",
+          "It decreases like the halogens."
+        ],
+        "a": 1,
+        "why": "Alkali-metal reactivity generally increases down Group 1; halogen reactivity generally decreases."
+      },
+      "misconception": {
+        "q": "In this lesson on groups 1, 7 and 0, Sam says: “It decreases like the halogens.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It increases.",
+          "Alkali-metal reactivity generally increases down Group 1; halogen reactivity generally decreases."
+        ]
+      }
     },
     {
       "key": "transition",
@@ -1788,7 +3560,35 @@
       "unit": "y8-unit-05",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Catalyst",
+          "definition": "A substance that speeds a reaction and is regenerated overall."
+        },
+        {
+          "term": "Transition metal",
+          "definition": "One of the central metals commonly showing properties such as coloured compounds and catalytic activity."
+        }
+      ],
+      "quiz": {
+        "q": "Why is copper useful in electrical wiring?",
+        "opts": [
+          "It is an electrical insulator.",
+          "Every copper compound is an identical conductor.",
+          "It conducts electricity well."
+        ],
+        "a": 2,
+        "why": "A material’s properties must be linked to the job; copper metal is a good conductor."
+      },
+      "misconception": {
+        "q": "In this lesson on transition metals and useful properties, Sam says: “It is an electrical insulator.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It conducts electricity well.",
+          "A material’s properties must be linked to the job; copper metal is a good conductor."
+        ]
+      }
     },
     {
       "key": "lungs",
@@ -1810,7 +3610,39 @@
       "unit": "y8-unit-06",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Ventilation",
+          "definition": "Movement of air into and out of the lungs."
+        },
+        {
+          "term": "Alveolus",
+          "definition": "A small air sac providing a gas-exchange surface."
+        },
+        {
+          "term": "Diaphragm",
+          "definition": "A sheet of muscle helping change chest volume."
+        }
+      ],
+      "quiz": {
+        "q": "What happens during normal inhalation?",
+        "opts": [
+          "Oxygen is made by the lungs.",
+          "The diaphragm contracts and chest volume increases.",
+          "The diaphragm relaxes and chest volume decreases."
+        ],
+        "a": 1,
+        "why": "Greater chest volume lowers pressure, allowing air to enter."
+      },
+      "misconception": {
+        "q": "In this lesson on gas exchange and ventilation, Sam says: “The diaphragm relaxes and chest volume decreases.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The diaphragm contracts and chest volume increases.",
+          "Greater chest volume lowers pressure, allowing air to enter."
+        ]
+      }
     },
     {
       "key": "drugs",
@@ -1832,7 +3664,35 @@
       "unit": "y8-unit-06",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Drug",
+          "definition": "A substance that changes how the body works."
+        },
+        {
+          "term": "Dependence",
+          "definition": "A state in which stopping a substance can be difficult and may cause withdrawal effects."
+        }
+      ],
+      "quiz": {
+        "q": "Which statement about nicotine vaping is accurate?",
+        "opts": [
+          "It is harmless because tobacco is not burned.",
+          "Nicotine cannot cause dependence.",
+          "It is not risk-free and is not suitable for children or non-smokers."
+        ],
+        "a": 2,
+        "why": "Lower harm than smoking does not mean no risk; nicotine is addictive."
+      },
+      "misconception": {
+        "q": "In this lesson on drugs, alcohol, smoking and vaping, Sam says: “It is harmless because tobacco is not burned.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It is not risk-free and is not suitable for children or non-smokers.",
+          "Lower harm than smoking does not mean no risk; nicotine is addictive."
+        ]
+      }
     },
     {
       "key": "nutrition",
@@ -1854,7 +3714,39 @@
       "unit": "y8-unit-07",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Nutrient",
+          "definition": "A substance needed for growth, maintenance or normal body processes."
+        },
+        {
+          "term": "Deficiency",
+          "definition": "A shortage of a required nutrient."
+        },
+        {
+          "term": "Fibre",
+          "definition": "Dietary material that supports digestive function and is not digested by human enzymes."
+        }
+      ],
+      "quiz": {
+        "q": "What is a role of iron in the diet?",
+        "opts": [
+          "Providing most dietary energy.",
+          "Replacing the need for water.",
+          "Making haemoglobin."
+        ],
+        "a": 2,
+        "why": "Haemoglobin needs iron and supports oxygen transport."
+      },
+      "misconception": {
+        "q": "In this lesson on nutrients, balanced diets and deficiency, Sam says: “Providing most dietary energy.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Making haemoglobin.",
+          "Haemoglobin needs iron and supports oxygen transport."
+        ]
+      }
     },
     {
       "key": "food-tests",
@@ -1876,7 +3768,35 @@
       "unit": "y8-unit-07",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Positive test",
+          "definition": "A result indicating the tested substance was detected under those conditions."
+        },
+        {
+          "term": "Reducing sugar",
+          "definition": "A sugar detected by Benedict’s reagent with suitable heating."
+        }
+      ],
+      "quiz": {
+        "q": "What is a positive starch test?",
+        "opts": [
+          "Biuret turns orange.",
+          "Iodine turns blue-black.",
+          "Benedict’s stays blue."
+        ],
+        "a": 1,
+        "why": "Iodine is used for starch; protein and reducing sugars need different tests."
+      },
+      "misconception": {
+        "q": "In this lesson on food tests and interpreting evidence, Sam says: “Benedict’s stays blue.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Iodine turns blue-black.",
+          "Iodine is used for starch; protein and reducing sugars need different tests."
+        ]
+      }
     },
     {
       "key": "digestion",
@@ -1898,7 +3818,39 @@
       "unit": "y8-unit-07",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Digestion",
+          "definition": "Breaking large insoluble food molecules into smaller soluble ones."
+        },
+        {
+          "term": "Enzyme",
+          "definition": "A biological catalyst."
+        },
+        {
+          "term": "Absorption",
+          "definition": "Transfer of digested substances across the gut wall."
+        }
+      ],
+      "quiz": {
+        "q": "How do villi help absorption?",
+        "opts": [
+          "They stop blood reaching the intestine.",
+          "They provide a large surface area.",
+          "They make food molecules larger."
+        ],
+        "a": 1,
+        "why": "A large area, thin surface and blood supply support exchange of digested nutrients."
+      },
+      "misconception": {
+        "q": "In this lesson on digestion, absorption and enzymes, Sam says: “They make food molecules larger.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "They provide a large surface area.",
+          "A large area, thin surface and blood supply support exchange of digested nutrients."
+        ]
+      }
     },
     {
       "key": "sound",
@@ -1920,7 +3872,39 @@
       "unit": "y8-unit-08",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Amplitude",
+          "definition": "Maximum displacement from an undisturbed position."
+        },
+        {
+          "term": "Frequency",
+          "definition": "Number of complete oscillations per second."
+        },
+        {
+          "term": "Longitudinal wave",
+          "definition": "A wave with oscillations parallel to energy transfer."
+        }
+      ],
+      "quiz": {
+        "q": "What usually changes when a sound has a higher pitch?",
+        "opts": [
+          "It begins to travel through a vacuum.",
+          "Frequency increases.",
+          "Amplitude alone increases."
+        ],
+        "a": 1,
+        "why": "Pitch relates to frequency; amplitude relates to intensity and perceived loudness."
+      },
+      "misconception": {
+        "q": "In this lesson on wave properties and sound transmission, Sam says: “Amplitude alone increases.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Frequency increases.",
+          "Pitch relates to frequency; amplitude relates to intensity and perceived loudness."
+        ]
+      }
     },
     {
       "key": "ear",
@@ -1942,7 +3926,35 @@
       "unit": "y8-unit-08",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Echo",
+          "definition": "A reflected sound."
+        },
+        {
+          "term": "Cochlea",
+          "definition": "An inner-ear structure with receptors converting vibrations into nerve signals."
+        }
+      ],
+      "quiz": {
+        "q": "Why divide speed × echo time by two to find a wall’s distance?",
+        "opts": [
+          "Sound always travels at half speed.",
+          "The wall absorbs all sound.",
+          "The sound travels to the wall and back."
+        ],
+        "a": 2,
+        "why": "The measured time covers a return path, twice the direct distance to the reflector."
+      },
+      "misconception": {
+        "q": "In this lesson on hearing, echoes and sound speed, Sam says: “Sound always travels at half speed.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The sound travels to the wall and back.",
+          "The measured time covers a return path, twice the direct distance to the reflector."
+        ]
+      }
     },
     {
       "key": "light",
@@ -1964,7 +3976,39 @@
       "unit": "y8-unit-09",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Normal",
+          "definition": "A line perpendicular to a surface at the ray’s point of contact."
+        },
+        {
+          "term": "Reflection",
+          "definition": "Return of a wave from a boundary."
+        },
+        {
+          "term": "Refraction",
+          "definition": "Change in wave direction due to a change in speed across a boundary."
+        }
+      ],
+      "quiz": {
+        "q": "From where are reflection angles measured?",
+        "opts": [
+          "The end of the ruler.",
+          "The normal.",
+          "The mirror surface."
+        ],
+        "a": 1,
+        "why": "The normal is perpendicular to the surface and is the reference for incidence and reflection angles."
+      },
+      "misconception": {
+        "q": "In this lesson on light, reflection and refraction, Sam says: “The mirror surface.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The normal.",
+          "The normal is perpendicular to the surface and is the reference for incidence and reflection angles."
+        ]
+      }
     },
     {
       "key": "colour",
@@ -1986,7 +4030,39 @@
       "unit": "y8-unit-09",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Filter",
+          "definition": "A material transmitting some wavelengths while absorbing others."
+        },
+        {
+          "term": "Convex lens",
+          "definition": "A lens that can converge parallel light rays."
+        },
+        {
+          "term": "Spectrum",
+          "definition": "A range of radiation arranged by wavelength or frequency."
+        }
+      ],
+      "quiz": {
+        "q": "Why may a red object look dark in blue light?",
+        "opts": [
+          "It reflects little of the available blue light.",
+          "It makes its own red light.",
+          "The blue light has no energy."
+        ],
+        "a": 0,
+        "why": "A red object mainly reflects red wavelengths, which are missing from pure blue illumination."
+      },
+      "misconception": {
+        "q": "In this lesson on colour, lenses and the electromagnetic spectrum, Sam says: “It makes its own red light.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It reflects little of the available blue light.",
+          "A red object mainly reflects red wavelengths, which are missing from pure blue illumination."
+        ]
+      }
     },
     {
       "key": "reaction",
@@ -2008,7 +4084,39 @@
       "unit": "y8-unit-10",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Reactant",
+          "definition": "A substance present at the start of a chemical reaction."
+        },
+        {
+          "term": "Product",
+          "definition": "A substance formed in a chemical reaction."
+        },
+        {
+          "term": "Physical change",
+          "definition": "A change that leaves chemical identity unchanged."
+        }
+      ],
+      "quiz": {
+        "q": "Which observation alone does not prove a chemical reaction?",
+        "opts": [
+          "Bubbles appearing.",
+          "Evidence that a new substance formed.",
+          "A confirmed change in chemical identity."
+        ],
+        "a": 0,
+        "why": "Boiling also produces bubbles without making a new chemical substance."
+      },
+      "misconception": {
+        "q": "In this lesson on chemical reactions, observations and equations, Sam says: “Evidence that a new substance formed.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Bubbles appearing.",
+          "Boiling also produces bubbles without making a new chemical substance."
+        ]
+      }
     },
     {
       "key": "combustion",
@@ -2030,7 +4138,35 @@
       "unit": "y8-unit-10",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Thermal decomposition",
+          "definition": "Breaking down a compound by heating."
+        },
+        {
+          "term": "Complete combustion",
+          "definition": "Reaction of a fuel with sufficient oxygen to form fully oxidised products."
+        }
+      ],
+      "quiz": {
+        "q": "Which is thermal decomposition?",
+        "opts": [
+          "A compound breaking into simpler substances on heating.",
+          "Ice melting into water.",
+          "A solute being filtered out of a solution."
+        ],
+        "a": 0,
+        "why": "Decomposition forms different substances; melting changes only physical state."
+      },
+      "misconception": {
+        "q": "In this lesson on combustion, decomposition and physical changes, Sam says: “Ice melting into water.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A compound breaking into simpler substances on heating.",
+          "Decomposition forms different substances; melting changes only physical state."
+        ]
+      }
     },
     {
       "key": "mass",
@@ -2052,7 +4188,35 @@
       "unit": "y8-unit-10",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Closed system",
+          "definition": "A system with no matter entering or leaving."
+        },
+        {
+          "term": "Conservation of mass",
+          "definition": "Total mass stays constant in an ordinary chemical reaction when all matter is counted."
+        }
+      ],
+      "quiz": {
+        "q": "Why can an open reaction flask lose mass?",
+        "opts": [
+          "The balance converts matter into nothing.",
+          "A gas product leaves the measured flask.",
+          "Atoms are destroyed."
+        ],
+        "a": 1,
+        "why": "The gas still exists outside the flask; the complete system conserves mass."
+      },
+      "misconception": {
+        "q": "In this lesson on conservation of mass and gas exchange, Sam says: “Atoms are destroyed.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A gas product leaves the measured flask.",
+          "The gas still exists outside the flask; the complete system conserves mass."
+        ]
+      }
     },
     {
       "key": "chemical-energy",
@@ -2074,7 +4238,39 @@
       "unit": "y8-unit-11",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Exothermic",
+          "definition": "A process transferring energy to the surroundings overall."
+        },
+        {
+          "term": "Endothermic",
+          "definition": "A process taking energy from the surroundings overall."
+        },
+        {
+          "term": "Bond",
+          "definition": "A chemical link between atoms."
+        }
+      ],
+      "quiz": {
+        "q": "Which statement about bonds is correct?",
+        "opts": [
+          "Breaking bonds requires energy.",
+          "Breaking bonds always releases energy.",
+          "Forming bonds always requires energy overall."
+        ],
+        "a": 0,
+        "why": "Bond formation releases energy; the balance between breaking and forming determines the overall transfer."
+      },
+      "misconception": {
+        "q": "In this lesson on bonds, exothermic and endothermic reactions, Sam says: “Breaking bonds always releases energy.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Breaking bonds requires energy.",
+          "Bond formation releases energy; the balance between breaking and forming determines the overall transfer."
+        ]
+      }
     },
     {
       "key": "catalyst",
@@ -2096,7 +4292,35 @@
       "unit": "y8-unit-11",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Activation energy",
+          "definition": "The energy barrier needed to start a reaction."
+        },
+        {
+          "term": "Catalyst",
+          "definition": "A substance that provides a faster reaction pathway and is regenerated overall."
+        }
+      ],
+      "quiz": {
+        "q": "What can a catalyst change for the same reactant amount?",
+        "opts": [
+          "The total number of atoms.",
+          "Always the final amount of gas.",
+          "Time taken to reach the final gas volume."
+        ],
+        "a": 2,
+        "why": "A catalyst changes rate, so completion can occur sooner without changing the final product amount."
+      },
+      "misconception": {
+        "q": "In this lesson on catalysts and enzyme activity, Sam says: “The total number of atoms.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Time taken to reach the final gas volume.",
+          "A catalyst changes rate, so completion can occur sooner without changing the final product amount."
+        ]
+      }
     },
     {
       "key": "respiration",
@@ -2118,7 +4342,35 @@
       "unit": "y8-unit-12",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Aerobic respiration",
+          "definition": "Cellular breakdown of glucose using oxygen to transfer energy."
+        },
+        {
+          "term": "Respiration",
+          "definition": "A set of cellular chemical processes transferring energy from organic substances."
+        }
+      ],
+      "quiz": {
+        "q": "Which organisms respire?",
+        "opts": [
+          "Only animals.",
+          "Plants only at night.",
+          "Plants and animals."
+        ],
+        "a": 2,
+        "why": "Plant and animal cells need energy transfer continually; photosynthesis does not replace respiration."
+      },
+      "misconception": {
+        "q": "In this lesson on aerobic respiration and exercise, Sam says: “Only animals.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Plants and animals.",
+          "Plant and animal cells need energy transfer continually; photosynthesis does not replace respiration."
+        ]
+      }
     },
     {
       "key": "anaerobic",
@@ -2140,7 +4392,35 @@
       "unit": "y8-unit-12",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Anaerobic respiration",
+          "definition": "Energy transfer from glucose without using oxygen."
+        },
+        {
+          "term": "Fermentation",
+          "definition": "Anaerobic respiration in yeast producing ethanol and carbon dioxide."
+        }
+      ],
+      "quiz": {
+        "q": "Which gas helps bread dough rise?",
+        "opts": [
+          "Carbon dioxide from yeast.",
+          "Oxygen made by yeast fermentation.",
+          "Nitrogen from glucose."
+        ],
+        "a": 0,
+        "why": "Yeast fermentation produces carbon dioxide, whose bubbles expand the dough."
+      },
+      "misconception": {
+        "q": "In this lesson on anaerobic respiration, fermentation and biotechnology, Sam says: “Oxygen made by yeast fermentation.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Carbon dioxide from yeast.",
+          "Yeast fermentation produces carbon dioxide, whose bubbles expand the dough."
+        ]
+      }
     },
     {
       "key": "planning",
@@ -2162,7 +4442,35 @@
       "unit": "y8-unit-12",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Resolution",
+          "definition": "The smallest change an instrument can detect."
+        },
+        {
+          "term": "Repeatability",
+          "definition": "Agreement when the same person repeats a method with the same equipment."
+        }
+      ],
+      "quiz": {
+        "q": "Why time ten swings instead of just one?",
+        "opts": [
+          "It removes all systematic errors.",
+          "It makes the clock perfectly accurate.",
+          "Reaction time has a smaller fractional effect."
+        ],
+        "a": 2,
+        "why": "The timing interval is longer, so the same reaction-time delay is a smaller fraction of it."
+      },
+      "misconception": {
+        "q": "In this lesson on plan fair tests, measurements and repeats, Sam says: “It removes all systematic errors.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Reaction time has a smaller fractional effect.",
+          "The timing interval is longer, so the same reaction-time delay is a smaller fraction of it."
+        ]
+      }
     },
     {
       "key": "photosynthesis",
@@ -2184,7 +4492,35 @@
       "unit": "y8-unit-13",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Photosynthesis",
+          "definition": "Using light to make glucose from carbon dioxide and water, releasing oxygen."
+        },
+        {
+          "term": "Chlorophyll",
+          "definition": "A pigment that absorbs light for photosynthesis."
+        }
+      ],
+      "quiz": {
+        "q": "Where does much of a plant’s dry carbon come from?",
+        "opts": [
+          "Soil as ready-made plant food.",
+          "Carbon dioxide in the air.",
+          "Mineral ions as a source of carbon."
+        ],
+        "a": 1,
+        "why": "Photosynthesis incorporates carbon from carbon dioxide into organic material."
+      },
+      "misconception": {
+        "q": "In this lesson on photosynthesis and uses of glucose, Sam says: “Mineral ions as a source of carbon.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Carbon dioxide in the air.",
+          "Photosynthesis incorporates carbon from carbon dioxide into organic material."
+        ]
+      }
     },
     {
       "key": "leaf",
@@ -2206,7 +4542,35 @@
       "unit": "y8-unit-13",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Stoma",
+          "definition": "A pore in a leaf surface that allows gas exchange."
+        },
+        {
+          "term": "Limiting factor",
+          "definition": "A factor preventing the rate from increasing under the current conditions."
+        }
+      ],
+      "quiz": {
+        "q": "Why can extra light eventually stop increasing photosynthesis?",
+        "opts": [
+          "All chloroplasts disappear.",
+          "Another factor becomes limiting.",
+          "Plants stop needing carbon dioxide."
+        ],
+        "a": 1,
+        "why": "If carbon dioxide or temperature limits the rate, more light alone does not remove the limit."
+      },
+      "misconception": {
+        "q": "In this lesson on leaf structure, minerals and limiting factors, Sam says: “Plants stop needing carbon dioxide.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Another factor becomes limiting.",
+          "If carbon dioxide or temperature limits the rate, more light alone does not remove the limit."
+        ]
+      }
     },
     {
       "key": "plant-practical",
@@ -2228,7 +4592,35 @@
       "unit": "y8-unit-13",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Proxy",
+          "definition": "A measurement used as an indicator of another quantity."
+        },
+        {
+          "term": "Destarching",
+          "definition": "Allowing stored starch in a plant to be used up before an investigation."
+        }
+      ],
+      "quiz": {
+        "q": "Why can oxygen volume be better than bubble count?",
+        "opts": [
+          "Every bubble always has the same size.",
+          "Volume removes all biological variation.",
+          "Bubbles can have different volumes."
+        ],
+        "a": 2,
+        "why": "Counting bubbles treats unequal bubbles as equal; a collected volume measures gas more directly."
+      },
+      "misconception": {
+        "q": "In this lesson on pondweed, starch tests and evaluating photosynthesis evidence, Sam says: “Every bubble always has the same size.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Bubbles can have different volumes.",
+          "Counting bubbles treats unequal bubbles as equal; a collected volume measures gas more directly."
+        ]
+      }
     },
     {
       "key": "investigate-candle",
@@ -2250,7 +4642,35 @@
       "unit": "y8-unit-14",
       "year": 8,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Independent variable",
+          "definition": "The factor deliberately changed."
+        },
+        {
+          "term": "Endpoint",
+          "definition": "A clearly defined event used to finish a measurement."
+        }
+      ],
+      "quiz": {
+        "q": "What should be controlled in an air-volume candle investigation?",
+        "opts": [
+          "Candle and wick conditions.",
+          "The container volume being tested.",
+          "The time to extinction being measured."
+        ],
+        "a": 0,
+        "why": "Control the fuel and starting conditions so container volume is the intended difference."
+      },
+      "misconception": {
+        "q": "In this lesson on investigation: candle burning and air volume, Sam says: “The container volume being tested.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Candle and wick conditions.",
+          "Control the fuel and starting conditions so container volume is the intended difference."
+        ]
+      }
     },
     {
       "key": "investigate-bounce",
@@ -2272,7 +4692,35 @@
       "unit": "y8-unit-14",
       "year": 8,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Rebound height",
+          "definition": "The maximum height reached after a bounce."
+        },
+        {
+          "term": "Dissipation",
+          "definition": "Transfer of energy into less useful stores in the surroundings."
+        }
+      ],
+      "quiz": {
+        "q": "Why is a rebound usually lower than the drop height?",
+        "opts": [
+          "Energy is destroyed at impact.",
+          "Gravity switches off after the bounce.",
+          "Some mechanical energy is dissipated."
+        ],
+        "a": 2,
+        "why": "Energy transfers to thermal stores and sound, so less remains for the rebound."
+      },
+      "misconception": {
+        "q": "In this lesson on investigation: bouncing balls, Sam says: “Energy is destroyed at impact.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Some mechanical energy is dissipated.",
+          "Energy transfers to thermal stores and sound, so less remains for the rebound."
+        ]
+      }
     },
     {
       "key": "investigate-bungee",
@@ -2294,7 +4742,35 @@
       "unit": "y8-unit-14",
       "year": 8,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Extension",
+          "definition": "Stretched length minus original length."
+        },
+        {
+          "term": "Elastic deformation",
+          "definition": "A change of shape reversed when the force is removed."
+        }
+      ],
+      "quiz": {
+        "q": "A cord lengthens from 20 cm to 28 cm. What is its extension?",
+        "opts": [
+          "8 cm.",
+          "28 cm.",
+          "48 cm."
+        ],
+        "a": 0,
+        "why": "Extension measures the increase in length, not the full stretched length."
+      },
+      "misconception": {
+        "q": "In this lesson on investigation: bungee extension and safe clearance, Sam says: “28 cm.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "8 cm.",
+          "Extension measures the increase in length, not the full stretched length."
+        ]
+      }
     },
     {
       "key": "investigate-conduction",
@@ -2316,7 +4792,35 @@
       "unit": "y8-unit-14",
       "year": 8,
       "number": 4,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Thermal conductor",
+          "definition": "A material through which thermal energy transfers readily."
+        },
+        {
+          "term": "Fair comparison",
+          "definition": "A comparison controlling other factors that could affect the result."
+        }
+      ],
+      "quiz": {
+        "q": "What is essential when comparing metal rods?",
+        "opts": [
+          "Matching dimensions and heating conditions.",
+          "A different flame for each rod.",
+          "Changing rod length together with metal type."
+        ],
+        "a": 0,
+        "why": "Geometry and heating affect transfer, so uncontrolled changes could explain the result."
+      },
+      "misconception": {
+        "q": "In this lesson on investigation: conduction through metals, Sam says: “A different flame for each rod.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Matching dimensions and heating conditions.",
+          "Geometry and heating affect transfer, so uncontrolled changes could explain the result."
+        ]
+      }
     },
     {
       "key": "investigate-cupcake",
@@ -2338,7 +4842,35 @@
       "unit": "y8-unit-14",
       "year": 8,
       "number": 5,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Drag",
+          "definition": "A force opposing motion through a fluid."
+        },
+        {
+          "term": "Terminal velocity",
+          "definition": "Constant velocity when weight and resistive forces balance."
+        }
+      ],
+      "quiz": {
+        "q": "Does one average falling speed prove terminal velocity was reached?",
+        "opts": [
+          "No; it can combine changing speeds.",
+          "Yes; every falling object is always at terminal velocity.",
+          "Yes; time measurements show forces are zero."
+        ],
+        "a": 0,
+        "why": "Evidence of a constant speed over part of the fall is needed."
+      },
+      "misconception": {
+        "q": "In this lesson on investigation: paper cases and falling motion, Sam says: “Yes; every falling object is always at terminal velocity.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "No; it can combine changing speeds.",
+          "Evidence of a constant speed over part of the fall is needed."
+        ]
+      }
     },
     {
       "key": "investigate-salt",
@@ -2360,7 +4892,35 @@
       "unit": "y8-unit-14",
       "year": 8,
       "number": 6,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Solubility",
+          "definition": "Maximum amount dissolving in a given solvent amount at stated conditions."
+        },
+        {
+          "term": "Dissolving rate",
+          "definition": "How quickly a solute dissolves."
+        }
+      ],
+      "quiz": {
+        "q": "What happens if too much salt is added to a saturated solution?",
+        "opts": [
+          "The salt particles stop existing.",
+          "Some remains undissolved.",
+          "It must all dissolve given the same conditions."
+        ],
+        "a": 1,
+        "why": "At a fixed temperature and solvent amount, the maximum soluble amount has been reached."
+      },
+      "misconception": {
+        "q": "In this lesson on investigation: salt amount and dissolving time, Sam says: “It must all dissolve given the same conditions.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Some remains undissolved.",
+          "At a fixed temperature and solvent amount, the maximum soluble amount has been reached."
+        ]
+      }
     },
     {
       "key": "investigate-diffusion",
@@ -2382,7 +4942,35 @@
       "unit": "y8-unit-14",
       "year": 8,
       "number": 7,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Diffusion",
+          "definition": "Net movement down a concentration gradient due to random motion."
+        },
+        {
+          "term": "Convection",
+          "definition": "Energy and material transfer by bulk movement in a fluid."
+        }
+      ],
+      "quiz": {
+        "q": "What can confound a warm-water dye-spreading experiment?",
+        "opts": [
+          "Keeping dye amount the same.",
+          "Using the same vessel shape.",
+          "Convection currents."
+        ],
+        "a": 2,
+        "why": "Bulk movement can carry dye, so visible spreading is not necessarily due to diffusion alone."
+      },
+      "misconception": {
+        "q": "In this lesson on investigation: temperature and diffusion, Sam says: “Keeping dye amount the same.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Convection currents.",
+          "Bulk movement can carry dye, so visible spreading is not necessarily due to diffusion alone."
+        ]
+      }
     },
     {
       "key": "magnet",
@@ -2404,7 +4992,35 @@
       "unit": "y9-unit-01",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Magnetic field",
+          "definition": "A region where a magnet or magnetic material experiences a force."
+        },
+        {
+          "term": "Induced magnet",
+          "definition": "A material becoming magnetised in a nearby magnetic field."
+        }
+      ],
+      "quiz": {
+        "q": "Which is stronger evidence that an object is itself a magnet?",
+        "opts": [
+          "It is attracted to a magnet.",
+          "It is shiny.",
+          "It repels a known magnet in one orientation."
+        ],
+        "a": 2,
+        "why": "Induced magnetic materials can be attracted; repulsion indicates interacting magnetic poles."
+      },
+      "misconception": {
+        "q": "In this lesson on permanent magnets, fields and the earth, Sam says: “It is attracted to a magnet.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It repels a known magnet in one orientation.",
+          "Induced magnetic materials can be attracted; repulsion indicates interacting magnetic poles."
+        ]
+      }
     },
     {
       "key": "electromagnet",
@@ -2426,7 +5042,35 @@
       "unit": "y9-unit-01",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Electromagnet",
+          "definition": "A magnet produced by current in a coil."
+        },
+        {
+          "term": "Relay",
+          "definition": "A switch operated by an electromagnet."
+        }
+      ],
+      "quiz": {
+        "q": "How can an electromagnet be strengthened?",
+        "opts": [
+          "Remove every coil turn.",
+          "Switch the current off.",
+          "Increase the current under suitable safe conditions."
+        ],
+        "a": 2,
+        "why": "A larger coil current increases its magnetic field; turns and core also matter."
+      },
+      "misconception": {
+        "q": "In this lesson on electromagnets, relays and fair comparisons, Sam says: “Remove every coil turn.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Increase the current under suitable safe conditions.",
+          "A larger coil current increases its magnetic field; turns and core also matter."
+        ]
+      }
     },
     {
       "key": "planning",
@@ -2448,7 +5092,35 @@
       "unit": "y9-unit-01",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Resolution",
+          "definition": "The smallest change an instrument can detect."
+        },
+        {
+          "term": "Repeatability",
+          "definition": "Agreement when the same person repeats a method with the same equipment."
+        }
+      ],
+      "quiz": {
+        "q": "Why time ten swings instead of just one?",
+        "opts": [
+          "Reaction time has a smaller fractional effect.",
+          "It removes all systematic errors.",
+          "It makes the clock perfectly accurate."
+        ],
+        "a": 0,
+        "why": "The timing interval is longer, so the same reaction-time delay is a smaller fraction of it."
+      },
+      "misconception": {
+        "q": "In this lesson on plan fair tests, measurements and repeats, Sam says: “It removes all systematic errors.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Reaction time has a smaller fractional effect.",
+          "The timing interval is longer, so the same reaction-time delay is a smaller fraction of it."
+        ]
+      }
     },
     {
       "key": "work",
@@ -2470,7 +5142,35 @@
       "unit": "y9-unit-02",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Work done",
+          "definition": "Energy transferred by a force moving an object through a distance in its direction."
+        },
+        {
+          "term": "Simple machine",
+          "definition": "A device trading force against movement distance."
+        }
+      ],
+      "quiz": {
+        "q": "An ideal pulley halves the lifting force. What is the trade-off?",
+        "opts": [
+          "Half the input distance too.",
+          "Twice the input pulling distance for the same lifted height.",
+          "Free extra energy."
+        ],
+        "a": 1,
+        "why": "Input work equals useful output work in the ideal model, so force × distance stays consistent."
+      },
+      "misconception": {
+        "q": "In this lesson on work done and simple machines, Sam says: “Free extra energy.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Twice the input pulling distance for the same lifted height.",
+          "Input work equals useful output work in the ideal model, so force × distance stays consistent."
+        ]
+      }
     },
     {
       "key": "food-energy",
@@ -2492,7 +5192,35 @@
       "unit": "y9-unit-02",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Chemical energy store",
+          "definition": "Energy associated with the chemical arrangement of substances."
+        },
+        {
+          "term": "Energy per gram",
+          "definition": "Energy divided by the mass of material involved."
+        }
+      ],
+      "quiz": {
+        "q": "Why compare food energy per gram?",
+        "opts": [
+          "Every food sample has the same energy.",
+          "Food samples may have different masses.",
+          "A temperature rise is always the full food energy."
+        ],
+        "a": 1,
+        "why": "A fair comparison accounts for sample mass and limitations such as heat loss."
+      },
+      "misconception": {
+        "q": "In this lesson on food energy and evaluating heating experiments, Sam says: “A temperature rise is always the full food energy.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Food samples may have different masses.",
+          "A fair comparison accounts for sample mass and limitations such as heat loss."
+        ]
+      }
     },
     {
       "key": "moments",
@@ -2514,7 +5242,35 @@
       "unit": "y9-unit-02",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Moment",
+          "definition": "The turning effect of a force about a pivot."
+        },
+        {
+          "term": "Pivot",
+          "definition": "The point or axis about which turning occurs."
+        }
+      ],
+      "quiz": {
+        "q": "Which distance is used to calculate a moment?",
+        "opts": [
+          "Perpendicular distance to the force’s line of action.",
+          "Any diagonal distance to the load.",
+          "The total length of the object."
+        ],
+        "a": 0,
+        "why": "The effective lever arm is perpendicular to the line of action."
+      },
+      "misconception": {
+        "q": "In this lesson on levers, turning effects and moments, Sam says: “Any diagonal distance to the load.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Perpendicular distance to the force’s line of action.",
+          "The effective lever arm is perpendicular to the line of action."
+        ]
+      }
     },
     {
       "key": "thermal",
@@ -2536,7 +5292,35 @@
       "unit": "y9-unit-03",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Temperature",
+          "definition": "A measure related to average particle kinetic energy."
+        },
+        {
+          "term": "Conduction",
+          "definition": "Thermal energy transfer through interactions without bulk flow."
+        }
+      ],
+      "quiz": {
+        "q": "Does a hotter small cup necessarily have a larger thermal store than a cooler bath?",
+        "opts": [
+          "Yes; temperature alone decides the total store.",
+          "Yes; water has no mass.",
+          "No; mass and material also matter."
+        ],
+        "a": 2,
+        "why": "Total thermal energy depends on the amount of material as well as temperature."
+      },
+      "misconception": {
+        "q": "In this lesson on temperature, energy and conduction, Sam says: “Yes; temperature alone decides the total store.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "No; mass and material also matter.",
+          "Total thermal energy depends on the amount of material as well as temperature."
+        ]
+      }
     },
     {
       "key": "convection",
@@ -2558,7 +5342,39 @@
       "unit": "y9-unit-03",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Convection",
+          "definition": "Transfer by bulk movement of a fluid."
+        },
+        {
+          "term": "Thermal radiation",
+          "definition": "Energy transfer by electromagnetic radiation."
+        },
+        {
+          "term": "Insulator",
+          "definition": "A material or arrangement that reduces a transfer pathway."
+        }
+      ],
+      "quiz": {
+        "q": "Which transfer can cross a vacuum?",
+        "opts": [
+          "Convection across the vacuum.",
+          "Conduction by absent particles.",
+          "Thermal radiation."
+        ],
+        "a": 2,
+        "why": "Electromagnetic radiation needs no material medium; conduction and convection do."
+      },
+      "misconception": {
+        "q": "In this lesson on convection, radiation and insulation, Sam says: “Convection across the vacuum.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Thermal radiation.",
+          "Electromagnetic radiation needs no material medium; conduction and convection do."
+        ]
+      }
     },
     {
       "key": "atmosphere",
@@ -2580,7 +5396,35 @@
       "unit": "y9-unit-04",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Atmosphere",
+          "definition": "The gases surrounding a planet."
+        },
+        {
+          "term": "Carbon cycle",
+          "definition": "Movement of carbon through organisms and the physical environment."
+        }
+      ],
+      "quiz": {
+        "q": "Which process removes carbon dioxide from air?",
+        "opts": [
+          "Photosynthesis.",
+          "Burning fossil fuels.",
+          "Aerobic respiration."
+        ],
+        "a": 0,
+        "why": "Photosynthesis incorporates carbon into organic substances; combustion and respiration return it."
+      },
+      "misconception": {
+        "q": "In this lesson on the atmosphere and carbon cycle, Sam says: “Burning fossil fuels.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Photosynthesis.",
+          "Photosynthesis incorporates carbon into organic substances; combustion and respiration return it."
+        ]
+      }
     },
     {
       "key": "climate",
@@ -2602,7 +5446,35 @@
       "unit": "y9-unit-04",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Greenhouse gas",
+          "definition": "A gas absorbing and re-emitting infrared radiation."
+        },
+        {
+          "term": "Climate",
+          "definition": "Patterns in weather over long periods."
+        }
+      ],
+      "quiz": {
+        "q": "What is central to the enhanced greenhouse effect?",
+        "opts": [
+          "A hole allowing extra visible sunlight through.",
+          "One cold day disproving a long-term trend.",
+          "Changed absorption and re-emission of outgoing infrared."
+        ],
+        "a": 2,
+        "why": "Increasing greenhouse gases changes Earth’s energy balance and contributes to warming."
+      },
+      "misconception": {
+        "q": "In this lesson on greenhouse effect, climate evidence and human activity, Sam says: “A hole allowing extra visible sunlight through.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Changed absorption and re-emission of outgoing infrared.",
+          "Increasing greenhouse gases changes Earth’s energy balance and contributes to warming."
+        ]
+      }
     },
     {
       "key": "extraction",
@@ -2624,7 +5496,35 @@
       "unit": "y9-unit-05",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Ore",
+          "definition": "A material containing enough useful substance for extraction to be worthwhile."
+        },
+        {
+          "term": "Reduction",
+          "definition": "Here, removal of oxygen from a metal oxide."
+        }
+      ],
+      "quiz": {
+        "q": "Why is aluminium not normally extracted using carbon reduction?",
+        "opts": [
+          "Aluminium contains no atoms.",
+          "Carbon can extract every metal.",
+          "Aluminium is more reactive than carbon."
+        ],
+        "a": 2,
+        "why": "Carbon reduces oxides of suitable metals below it in the reactivity series."
+      },
+      "misconception": {
+        "q": "In this lesson on metal extraction, displacement and resources, Sam says: “Aluminium contains no atoms.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Aluminium is more reactive than carbon.",
+          "Carbon reduces oxides of suitable metals below it in the reactivity series."
+        ]
+      }
     },
     {
       "key": "metals",
@@ -2646,7 +5546,35 @@
       "unit": "y9-unit-05",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Displacement",
+          "definition": "A reaction in which a more reactive element replaces a less reactive one in a compound."
+        },
+        {
+          "term": "Oxidation",
+          "definition": "At this level, a reaction in which a substance gains oxygen."
+        }
+      ],
+      "quiz": {
+        "q": "Can copper displace iron from iron sulfate, if iron is more reactive?",
+        "opts": [
+          "Yes, because all metals displace each other.",
+          "Yes, because copper is coloured.",
+          "No."
+        ],
+        "a": 2,
+        "why": "A metal displaces another only when it is more reactive under the stated conditions."
+      },
+      "misconception": {
+        "q": "In this lesson on metal properties, oxidation and reactivity, Sam says: “Yes, because all metals displace each other.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "No.",
+          "A metal displaces another only when it is more reactive under the stated conditions."
+        ]
+      }
     },
     {
       "key": "recycle",
@@ -2668,7 +5596,39 @@
       "unit": "y9-unit-05",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Reuse",
+          "definition": "Using a product again without converting its material into a new material product."
+        },
+        {
+          "term": "Recycling",
+          "definition": "Processing recovered materials into new products."
+        },
+        {
+          "term": "Life cycle",
+          "definition": "Stages from extraction through production and use to disposal."
+        }
+      ],
+      "quiz": {
+        "q": "Which is a sound recycling evaluation?",
+        "opts": [
+          "Ignore collection and contamination.",
+          "Compare resources and energy across the life cycle.",
+          "Assume recycling needs no energy."
+        ],
+        "a": 1,
+        "why": "Benefits can be substantial, but processing, collection and sorting still have impacts."
+      },
+      "misconception": {
+        "q": "In this lesson on recycling and life-cycle evaluation, Sam says: “Assume recycling needs no energy.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Compare resources and energy across the life cycle.",
+          "Benefits can be substantial, but processing, collection and sorting still have impacts."
+        ]
+      }
     },
     {
       "key": "selection",
@@ -2690,7 +5650,35 @@
       "unit": "y9-unit-06",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Natural selection",
+          "definition": "Change in inherited trait frequencies through differences in survival and reproduction."
+        },
+        {
+          "term": "Inherited variation",
+          "definition": "Differences linked to genetic information passed between generations."
+        }
+      ],
+      "quiz": {
+        "q": "Which is needed for natural selection to change a population?",
+        "opts": [
+          "Individuals choosing which mutations they need.",
+          "Every individual surviving equally with no inherited variation.",
+          "Inherited differences affecting reproduction."
+        ],
+        "a": 2,
+        "why": "Differences must connect to inheritance and reproductive success across generations."
+      },
+      "misconception": {
+        "q": "In this lesson on evolution by natural selection, Sam says: “Individuals choosing which mutations they need.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Inherited differences affecting reproduction.",
+          "Differences must connect to inheritance and reproductive success across generations."
+        ]
+      }
     },
     {
       "key": "evidence-evolution",
@@ -2712,7 +5700,35 @@
       "unit": "y9-unit-06",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Scientific theory",
+          "definition": "A tested explanatory framework supported by evidence."
+        },
+        {
+          "term": "Acquired characteristic",
+          "definition": "A feature developed during an individual’s lifetime."
+        }
+      ],
+      "quiz": {
+        "q": "Why is muscle training not itself inherited evolution?",
+        "opts": [
+          "An acquired change need not alter inherited genetic information.",
+          "Every acquired trait is automatically inherited.",
+          "Evolution means any individual change."
+        ],
+        "a": 0,
+        "why": "Evolution concerns inherited population changes across generations."
+      },
+      "misconception": {
+        "q": "In this lesson on darwin, competing ideas and evidence, Sam says: “Every acquired trait is automatically inherited.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "An acquired change need not alter inherited genetic information.",
+          "Evolution concerns inherited population changes across generations."
+        ]
+      }
     },
     {
       "key": "biodiversity",
@@ -2734,7 +5750,39 @@
       "unit": "y9-unit-06",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Biodiversity",
+          "definition": "The variety of life, including species and genetic diversity."
+        },
+        {
+          "term": "Extinction",
+          "definition": "Loss of all living members of a species."
+        },
+        {
+          "term": "Conservation",
+          "definition": "Actions protecting species, habitats and biodiversity."
+        }
+      ],
+      "quiz": {
+        "q": "Why may captive breeding alone fail to restore a species?",
+        "opts": [
+          "Suitable wild habitat and reduced threats are also needed.",
+          "Breeding automatically removes every threat.",
+          "Genetic diversity never matters."
+        ],
+        "a": 0,
+        "why": "A self-sustaining wild population needs conditions supporting survival and reproduction."
+      },
+      "misconception": {
+        "q": "In this lesson on extinction, endangered species and biodiversity, Sam says: “Breeding automatically removes every threat.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Suitable wild habitat and reduced threats are also needed.",
+          "A self-sustaining wild population needs conditions supporting survival and reproduction."
+        ]
+      }
     },
     {
       "key": "inheritance",
@@ -2756,7 +5804,39 @@
       "unit": "y9-unit-07",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Gene",
+          "definition": "A section of DNA contributing to a functional product."
+        },
+        {
+          "term": "Allele",
+          "definition": "An alternative version of a gene."
+        },
+        {
+          "term": "Chromosome",
+          "definition": "A long DNA molecule associated with proteins."
+        }
+      ],
+      "quiz": {
+        "q": "What is an allele?",
+        "opts": [
+          "A synonym for every chromosome.",
+          "A version of a gene.",
+          "An entire organism."
+        ],
+        "a": 1,
+        "why": "Different versions of a gene can contribute to inherited variation."
+      },
+      "misconception": {
+        "q": "In this lesson on dna, genes, chromosomes and inherited variation, Sam says: “An entire organism.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "A version of a gene.",
+          "Different versions of a gene can contribute to inherited variation."
+        ]
+      }
     },
     {
       "key": "dna-practical",
@@ -2778,7 +5858,35 @@
       "unit": "y9-unit-07",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "DNA",
+          "definition": "The molecule carrying genetic information."
+        },
+        {
+          "term": "Precipitate",
+          "definition": "A solid that separates from a solution."
+        }
+      ],
+      "quiz": {
+        "q": "What do visible strands in a classroom DNA extraction show?",
+        "opts": [
+          "DNA-rich material from many molecules, potentially with impurities.",
+          "The exact base sequence by eye.",
+          "A complete view of one individual gene."
+        ],
+        "a": 0,
+        "why": "The extraction makes aggregated material visible; it does not resolve the molecular sequence."
+      },
+      "misconception": {
+        "q": "In this lesson on dna evidence, structure and extraction, Sam says: “The exact base sequence by eye.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "DNA-rich material from many molecules, potentially with impurities.",
+          "The extraction makes aggregated material visible; it does not resolve the molecular sequence."
+        ]
+      }
     },
     {
       "key": "cross",
@@ -2800,7 +5908,39 @@
       "unit": "y9-unit-07",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Genotype",
+          "definition": "The allele combination for a gene or genes."
+        },
+        {
+          "term": "Phenotype",
+          "definition": "An expressed characteristic."
+        },
+        {
+          "term": "Recessive allele",
+          "definition": "An allele whose phenotype in a simple complete-dominance model needs two copies."
+        }
+      ],
+      "quiz": {
+        "q": "For Aa × Aa in a simple complete-dominance model, what is P(aa)?",
+        "opts": [
+          "Exactly one in every four siblings.",
+          "3/4.",
+          "1/4."
+        ],
+        "a": 2,
+        "why": "Each offspring has an independent one-in-four chance; a family need not match the ratio exactly."
+      },
+      "misconception": {
+        "q": "In this lesson on genetic crosses and probability, Sam says: “Exactly one in every four siblings.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "1/4.",
+          "Each offspring has an independent one-in-four chance; a family need not match the ratio exactly."
+        ]
+      }
     },
     {
       "key": "gm",
@@ -2822,7 +5962,35 @@
       "unit": "y9-unit-07",
       "year": 9,
       "number": 4,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Genetic modification",
+          "definition": "Changing genetic material using biotechnology."
+        },
+        {
+          "term": "Selective breeding",
+          "definition": "Choosing parents with desired inherited traits over generations."
+        }
+      ],
+      "quiz": {
+        "q": "How does selective breeding differ from genetic modification?",
+        "opts": [
+          "It cannot affect inherited characteristics.",
+          "It chooses parents rather than directly editing genetic material.",
+          "It changes every individual instantly."
+        ],
+        "a": 1,
+        "why": "Selecting parents changes inherited combinations over generations, using a different method from direct modification."
+      },
+      "misconception": {
+        "q": "In this lesson on genetic modification: benefits and limitations, Sam says: “It changes every individual instantly.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "It chooses parents rather than directly editing genetic material.",
+          "Selecting parents changes inherited combinations over generations, using a different method from direct modification."
+        ]
+      }
     },
     {
       "key": "waves",
@@ -2844,7 +6012,39 @@
       "unit": "y9-unit-08",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Transverse wave",
+          "definition": "A wave with oscillations perpendicular to energy transfer."
+        },
+        {
+          "term": "Wavelength",
+          "definition": "Spacing between corresponding points on a wave."
+        },
+        {
+          "term": "Period",
+          "definition": "Time for one complete oscillation."
+        }
+      ],
+      "quiz": {
+        "q": "A wave has f=3 Hz and wavelength 2 m. What is its speed?",
+        "opts": [
+          "5 m/s.",
+          "6 m/s.",
+          "1.5 m/s."
+        ],
+        "a": 1,
+        "why": "Wave speed = frequency × wavelength = 3 × 2 = 6 m/s."
+      },
+      "misconception": {
+        "q": "In this lesson on transverse and longitudinal waves, Sam says: “1.5 m/s.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "6 m/s.",
+          "Wave speed = frequency × wavelength = 3 × 2 = 6 m/s."
+        ]
+      }
     },
     {
       "key": "ultrasound",
@@ -2866,7 +6066,35 @@
       "unit": "y9-unit-08",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Ultrasound",
+          "definition": "Sound above about 20 kHz."
+        },
+        {
+          "term": "Time of flight",
+          "definition": "The travel time of a signal over a path."
+        }
+      ],
+      "quiz": {
+        "q": "Can ultrasound cross a vacuum?",
+        "opts": [
+          "Yes; it is an electromagnetic wave.",
+          "Yes; it is ionising radiation.",
+          "No; it needs a material medium."
+        ],
+        "a": 2,
+        "why": "Ultrasound is a mechanical sound wave, despite its high frequency."
+      },
+      "misconception": {
+        "q": "In this lesson on ultrasound and echo applications, Sam says: “Yes; it is an electromagnetic wave.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "No; it needs a material medium.",
+          "Ultrasound is a mechanical sound wave, despite its high frequency."
+        ]
+      }
     },
     {
       "key": "em",
@@ -2888,7 +6116,35 @@
       "unit": "y9-unit-08",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Electromagnetic wave",
+          "definition": "A wave that can transfer energy through a vacuum."
+        },
+        {
+          "term": "Ionisation",
+          "definition": "Removal or addition of electrons to form charged particles."
+        }
+      ],
+      "quiz": {
+        "q": "Which EM waves have the same speed in a vacuum?",
+        "opts": [
+          "Only waves with the same frequency.",
+          "All of them.",
+          "Only visible colours."
+        ],
+        "a": 1,
+        "why": "Their vacuum speed is the same; frequency and wavelength differ."
+      },
+      "misconception": {
+        "q": "In this lesson on electromagnetic waves, uses and ionising radiation, Sam says: “Only visible colours.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "All of them.",
+          "Their vacuum speed is the same; frequency and wavelength differ."
+        ]
+      }
     },
     {
       "key": "earth",
@@ -2910,7 +6166,39 @@
       "unit": "y9-unit-09",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Crust",
+          "definition": "The thin outer solid layer of Earth."
+        },
+        {
+          "term": "Mantle",
+          "definition": "The mostly solid rock layer beneath the crust, able to deform slowly."
+        },
+        {
+          "term": "Igneous rock",
+          "definition": "Rock formed when molten material cools and solidifies."
+        }
+      ],
+      "quiz": {
+        "q": "Which description of Earth is accurate?",
+        "opts": [
+          "The crust is Earth’s thickest layer.",
+          "The mantle is mostly solid and the outer core is liquid.",
+          "The entire mantle is a liquid magma ocean."
+        ],
+        "a": 1,
+        "why": "The mantle can flow slowly over geological time without being a global liquid ocean."
+      },
+      "misconception": {
+        "q": "In this lesson on earth’s layers and rock types, Sam says: “The entire mantle is a liquid magma ocean.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The mantle is mostly solid and the outer core is liquid.",
+          "The mantle can flow slowly over geological time without being a global liquid ocean."
+        ]
+      }
     },
     {
       "key": "sediment",
@@ -2932,7 +6220,39 @@
       "unit": "y9-unit-09",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Weathering",
+          "definition": "Breakdown of rock in place."
+        },
+        {
+          "term": "Erosion",
+          "definition": "Movement of rock material."
+        },
+        {
+          "term": "Fossil",
+          "definition": "Preserved evidence of a former organism."
+        }
+      ],
+      "quiz": {
+        "q": "How does erosion differ from weathering?",
+        "opts": [
+          "Erosion must form magma.",
+          "Weathering always moves sediment downstream.",
+          "Erosion transports material."
+        ],
+        "a": 2,
+        "why": "Weathering breaks material down where it is; erosion moves it."
+      },
+      "misconception": {
+        "q": "In this lesson on sedimentary rocks, fossils and weathering, Sam says: “Erosion must form magma.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Erosion transports material.",
+          "Weathering breaks material down where it is; erosion moves it."
+        ]
+      }
     },
     {
       "key": "rock-cycle",
@@ -2954,7 +6274,35 @@
       "unit": "y9-unit-09",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Metamorphic rock",
+          "definition": "Existing rock changed by heat and pressure without melting."
+        },
+        {
+          "term": "Rock cycle",
+          "definition": "Connected processes transforming rocks through multiple pathways."
+        }
+      ],
+      "quiz": {
+        "q": "What forms when rock melts and then solidifies?",
+        "opts": [
+          "The same rock unchanged.",
+          "Igneous rock.",
+          "Metamorphic rock without melting."
+        ],
+        "a": 1,
+        "why": "Cooling molten material forms igneous rock; metamorphism does not require melting."
+      },
+      "misconception": {
+        "q": "In this lesson on the rock cycle and timescales, Sam says: “Metamorphic rock without melting.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Igneous rock.",
+          "Cooling molten material forms igneous rock; metamorphism does not require melting."
+        ]
+      }
     },
     {
       "key": "space",
@@ -2976,7 +6324,39 @@
       "unit": "y9-unit-10",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Light-year",
+          "definition": "The distance light travels in one year."
+        },
+        {
+          "term": "Solar System",
+          "definition": "The Sun and the bodies gravitationally associated with it."
+        },
+        {
+          "term": "Galaxy",
+          "definition": "A large system of stars, gas and other matter."
+        }
+      ],
+      "quiz": {
+        "q": "What does a light-year measure?",
+        "opts": [
+          "Brightness.",
+          "Distance.",
+          "Time."
+        ],
+        "a": 1,
+        "why": "The word “year” describes the travel interval used to define a very large distance."
+      },
+      "misconception": {
+        "q": "In this lesson on night sky, solar system and scale, Sam says: “Time.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Distance.",
+          "The word “year” describes the travel interval used to define a very large distance."
+        ]
+      }
     },
     {
       "key": "orbits",
@@ -2998,7 +6378,35 @@
       "unit": "y9-unit-10",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Orbit",
+          "definition": "The path of a body moving around another under gravity."
+        },
+        {
+          "term": "Axial tilt",
+          "definition": "The angle of a body’s rotation axis relative to its orbital orientation."
+        }
+      ],
+      "quiz": {
+        "q": "What mainly causes Earth’s seasons?",
+        "opts": [
+          "A large annual change in Earth–Sun distance.",
+          "The Moon blocking sunlight every winter.",
+          "Axial tilt changing sunlight angle and day length."
+        ],
+        "a": 2,
+        "why": "The hemispheres receive different sunlight angles and day lengths as tilted Earth orbits."
+      },
+      "misconception": {
+        "q": "In this lesson on orbits, seasons and eclipses, Sam says: “A large annual change in Earth–Sun distance.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Axial tilt changing sunlight angle and day length.",
+          "The hemispheres receive different sunlight angles and day lengths as tilted Earth orbits."
+        ]
+      }
     },
     {
       "key": "moon",
@@ -3020,7 +6428,39 @@
       "unit": "y9-unit-10",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Phase",
+          "definition": "The visible fraction of the Moon’s illuminated half."
+        },
+        {
+          "term": "Lunar eclipse",
+          "definition": "The Moon passing through Earth’s shadow."
+        },
+        {
+          "term": "Solar eclipse",
+          "definition": "The Moon’s shadow falling on Earth."
+        }
+      ],
+      "quiz": {
+        "q": "What causes ordinary Moon phases?",
+        "opts": [
+          "The Moon switching its own light on and off.",
+          "Our changing view of its sunlit half.",
+          "Earth’s shadow every night."
+        ],
+        "a": 1,
+        "why": "Phases arise from viewing geometry; Earth’s shadow is involved in a lunar eclipse."
+      },
+      "misconception": {
+        "q": "In this lesson on moon phases and space exploration, Sam says: “Earth’s shadow every night.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Our changing view of its sunlit half.",
+          "Phases arise from viewing geometry; Earth’s shadow is involved in a lunar eclipse."
+        ]
+      }
     },
     {
       "key": "friction",
@@ -3042,7 +6482,39 @@
       "unit": "y9-unit-11",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Friction",
+          "definition": "A force opposing relative sliding or its tendency at a contact."
+        },
+        {
+          "term": "Drag",
+          "definition": "A force opposing motion through a fluid."
+        },
+        {
+          "term": "Plastic deformation",
+          "definition": "A permanent change of shape."
+        }
+      ],
+      "quiz": {
+        "q": "Why does a cyclist need a driving force at steady speed?",
+        "opts": [
+          "To create a forward resultant continually.",
+          "Because balanced forces mean no movement.",
+          "To balance friction and drag."
+        ],
+        "a": 2,
+        "why": "At steady velocity, driving and resistive forces balance rather than vanish."
+      },
+      "misconception": {
+        "q": "In this lesson on friction, drag and deformation, Sam says: “To create a forward resultant continually.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "To balance friction and drag.",
+          "At steady velocity, driving and resistive forces balance rather than vanish."
+        ]
+      }
     },
     {
       "key": "spring",
@@ -3064,7 +6536,35 @@
       "unit": "y9-unit-11",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Spring constant",
+          "definition": "Force divided by extension in a proportional spring region."
+        },
+        {
+          "term": "Limit of proportionality",
+          "definition": "The point beyond which force is no longer proportional to extension."
+        }
+      ],
+      "quiz": {
+        "q": "What length belongs in F=kx?",
+        "opts": [
+          "Extension, not total spring length.",
+          "The original spring length.",
+          "Any measured length of the apparatus."
+        ],
+        "a": 0,
+        "why": "Extension is stretched length minus original length, in units consistent with k."
+      },
+      "misconception": {
+        "q": "In this lesson on stretching springs and hooke’s law, Sam says: “The original spring length.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Extension, not total spring length.",
+          "Extension is stretched length minus original length, in units consistent with k."
+        ]
+      }
     },
     {
       "key": "moments",
@@ -3086,7 +6586,35 @@
       "unit": "y9-unit-11",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Moment",
+          "definition": "The turning effect of a force about a pivot."
+        },
+        {
+          "term": "Pivot",
+          "definition": "The point or axis about which turning occurs."
+        }
+      ],
+      "quiz": {
+        "q": "Which distance is used to calculate a moment?",
+        "opts": [
+          "Perpendicular distance to the force’s line of action.",
+          "Any diagonal distance to the load.",
+          "The total length of the object."
+        ],
+        "a": 0,
+        "why": "The effective lever arm is perpendicular to the line of action."
+      },
+      "misconception": {
+        "q": "In this lesson on levers, turning effects and moments, Sam says: “Any diagonal distance to the load.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Perpendicular distance to the force’s line of action.",
+          "The effective lever arm is perpendicular to the line of action."
+        ]
+      }
     },
     {
       "key": "pressure",
@@ -3108,7 +6636,35 @@
       "unit": "y9-unit-12",
       "year": 9,
       "number": 1,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Pressure",
+          "definition": "Perpendicular force per unit area."
+        },
+        {
+          "term": "Pascal",
+          "definition": "One newton per square metre."
+        }
+      ],
+      "quiz": {
+        "q": "At the same force, what does doubling contact area do?",
+        "opts": [
+          "Halves pressure.",
+          "Doubles pressure.",
+          "Leaves pressure unchanged."
+        ],
+        "a": 0,
+        "why": "Pressure = force ÷ area, so it falls when the same force is spread over more area."
+      },
+      "misconception": {
+        "q": "In this lesson on pressure, force and area, Sam says: “Doubles pressure.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Halves pressure.",
+          "Pressure = force ÷ area, so it falls when the same force is spread over more area."
+        ]
+      }
     },
     {
       "key": "gas",
@@ -3130,7 +6686,35 @@
       "unit": "y9-unit-12",
       "year": 9,
       "number": 2,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Gas pressure",
+          "definition": "Force per unit area caused by particle collisions with surfaces."
+        },
+        {
+          "term": "Compression",
+          "definition": "A reduction in volume."
+        }
+      ],
+      "quiz": {
+        "q": "Heating a sealed rigid gas container usually does what?",
+        "opts": [
+          "Increases pressure.",
+          "Decreases particle number.",
+          "Stops particle collisions."
+        ],
+        "a": 0,
+        "why": "Faster particles make more frequent and more forceful collisions with the fixed walls."
+      },
+      "misconception": {
+        "q": "In this lesson on gas pressure and particle motion, Sam says: “Decreases particle number.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "Increases pressure.",
+          "Faster particles make more frequent and more forceful collisions with the fixed walls."
+        ]
+      }
     },
     {
       "key": "liquid-pressure",
@@ -3152,7 +6736,35 @@
       "unit": "y9-unit-12",
       "year": 9,
       "number": 3,
-      "marks": 3
+      "marks": 3,
+      "cards": [
+        {
+          "term": "Hydraulic system",
+          "definition": "A system transmitting a pressure change through an enclosed fluid."
+        },
+        {
+          "term": "Liquid pressure",
+          "definition": "Force per unit area exerted by a liquid."
+        }
+      ],
+      "quiz": {
+        "q": "Why can a hydraulic output piston provide a larger force?",
+        "opts": [
+          "The larger piston always moves farther too.",
+          "The same pressure acts over a larger area.",
+          "The fluid creates extra energy."
+        ],
+        "a": 1,
+        "why": "F=pA; in the ideal system a larger force trades against a smaller movement distance."
+      },
+      "misconception": {
+        "q": "In this lesson on liquid pressure, hydraulics and gas investigations, Sam says: “The fluid creates extra energy.” Explain the mistake.",
+        "m": 2,
+        "ms": [
+          "The same pressure acts over a larger area.",
+          "F=pA; in the ideal system a larger force trades against a smaller movement distance."
+        ]
+      }
     }
   ],
   "sources": [

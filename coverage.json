@@ -1,6 +1,131 @@
 {
   "course": "KS3 Science",
-  "reviewed": "2026-10-23",
+  "reviewed": "2026-10-24",
+  "learning": {
+    "format": "Swipeable short slides, definition cards, then practice",
+    "lessons": 123,
+    "questions_per_lesson": 4,
+    "unit_checks": 40,
+    "definition_cards": 288,
+    "unique_terms": 241
+  },
+  "labs": [
+    {
+      "title": "Microscopy",
+      "subject": "Biology",
+      "extension": false
+    },
+    {
+      "title": "Osmosis in potato tissue",
+      "subject": "Biology",
+      "extension": false
+    },
+    {
+      "title": "Food tests",
+      "subject": "Biology",
+      "extension": false
+    },
+    {
+      "title": "Enzymes and pH",
+      "subject": "Biology",
+      "extension": false
+    },
+    {
+      "title": "Pondweed photosynthesis",
+      "subject": "Biology",
+      "extension": false
+    },
+    {
+      "title": "Reaction-time investigation",
+      "subject": "Biology",
+      "extension": false
+    },
+    {
+      "title": "Quadrats and field sampling",
+      "subject": "Biology",
+      "extension": false
+    },
+    {
+      "title": "Making salt crystals",
+      "subject": "Chemistry",
+      "extension": false
+    },
+    {
+      "title": "Electrolysis: extraction extension",
+      "subject": "Chemistry",
+      "extension": true
+    },
+    {
+      "title": "Temperature changes in reactions",
+      "subject": "Chemistry",
+      "extension": false
+    },
+    {
+      "title": "Reaction-rate investigation",
+      "subject": "Chemistry",
+      "extension": false
+    },
+    {
+      "title": "Paper chromatography",
+      "subject": "Chemistry",
+      "extension": false
+    },
+    {
+      "title": "Water purification and distillation",
+      "subject": "Chemistry",
+      "extension": false
+    },
+    {
+      "title": "Heating different materials",
+      "subject": "Physics",
+      "extension": true
+    },
+    {
+      "title": "Resistance in a wire",
+      "subject": "Physics",
+      "extension": false
+    },
+    {
+      "title": "Current and potential difference",
+      "subject": "Physics",
+      "extension": false
+    },
+    {
+      "title": "Measuring density",
+      "subject": "Physics",
+      "extension": false
+    },
+    {
+      "title": "Force and spring extension",
+      "subject": "Physics",
+      "extension": false
+    },
+    {
+      "title": "Trolley motion: extension investigation",
+      "subject": "Physics",
+      "extension": true
+    },
+    {
+      "title": "Wave speed, frequency and wavelength",
+      "subject": "Physics",
+      "extension": false
+    },
+    {
+      "title": "Reflection and refraction",
+      "subject": "Physics",
+      "extension": false
+    },
+    {
+      "title": "Infrared radiation",
+      "subject": "Physics",
+      "extension": false
+    },
+    {
+      "title": "Thermal insulation",
+      "subject": "Physics",
+      "extension": false
+    }
+  ],
   "years": [
     {
       "year": 7,
@@ -341,5 +466,5 @@
       ]
     }
   ],
-  "note": "Revision lessons consolidate related teaching periods from the supplied sequence. Advanced mathematics from the Year 9 plan is included as preparation for KS4."
+  "note": "Revision lessons consolidate related teaching periods from the supplied sequence. Selected GCSE apparatus includes KS3 instructions; harder calculations are optional extensions."
 }
