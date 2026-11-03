@@ -5,6 +5,7 @@ from content import K,UNITS
 from papers import P
 from revision import R
 from labs import LABS
+from extras import X,MODELS
 ROOT=Path(__file__).resolve().parents[1]
 subject='Maths' if ROOT.name=='KS3Maths' else 'Science'
 site='ks3-'+subject.lower()
@@ -19,6 +20,12 @@ for year,title,keys in UNITS:
   quiz=revision['quiz'];quiz['opts']=quiz['opts'][shift:]+quiz['opts'][:shift];quiz['a']=(-shift)%3
   l['cards']=revision['cards'];l['quiz']=quiz
   l['misconception']=dict(q=R[key]['quiz']['q']+' Sam answers: “'+R[key]['quiz']['opts'][1]+'” Explain why this is wrong.',m=2,ms=[R[key]['quiz']['opts'][0],R[key]['quiz']['why']])
+  if key in MODELS:l['model']=MODELS[key]
+  if key in X:
+   x=X[key];l['notes']=l['notes']+[x['note']];l['more']=[]
+   for i,(q,ok,w1,w2,why) in enumerate(x['quiz']):
+    s2=(shift+i+1)%3;opts=[ok,w1,w2];opts=opts[s2:]+opts[:s2];l['more'].append(dict(q=q,opts=opts,a=(-s2)%3,why=why))
+   l['ladder']=[dict(q=q,m=len(ms.split('~')),ms=ms.split('~'),step=st) for st,(q,ms) in zip(['Remember','Apply','Explain'],x['ladder'])]
   lessons.append(l)
 papers=[]
 for (year,letter),questions in P.items():
@@ -32,5 +39,5 @@ course=dict(title='KS3 '+subject,site=site,reviewed='2026-10-24',units=units,les
 (ROOT/'course.json').write_text(json.dumps(course,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'paper-bank.json').write_text(json.dumps(papers,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'course-data.js').write_text('window.KS_COURSE='+json.dumps(course,ensure_ascii=False)+';\nwindow.KS_PAPERS='+json.dumps(papers,ensure_ascii=False)+';\n',encoding='utf-8')
-(ROOT/'coverage.json').write_text(json.dumps(dict(course=course['title'],reviewed=course['reviewed'],learning=dict(format='Swipeable short slides, definition cards, then practice',lessons=len(lessons),questions_per_lesson=4,unit_checks=len(units),definition_cards=sum(len(l['cards']) for l in lessons),unique_terms=len({c['term'] for l in lessons for c in l['cards']})),labs=[dict(title=lab['title'],subject=lab['subject'],extension=lab['extension']) for lab in LABS],years=[dict(year=y,units=[dict(title=u['title'],lessons=[l['title'] for l in lessons if l['unit']==u['id']]) for u in units if u['year']==y]) for y in [7,8,9]],note='Revision lessons consolidate related teaching periods from the supplied sequence. Selected GCSE apparatus includes KS3 instructions; harder calculations are optional extensions.'),ensure_ascii=False,indent=2),encoding='utf-8')
+(ROOT/'coverage.json').write_text(json.dumps(dict(course=course['title'],reviewed=course['reviewed'],learning=dict(format='Swipeable short slides, definition cards, then practice',lessons=len(lessons),questions_per_lesson=11,interactive_models=len({l["model"] for l in lessons if l.get("model")}),unit_checks=len(units),definition_cards=sum(len(l['cards']) for l in lessons),unique_terms=len({c['term'] for l in lessons for c in l['cards']})),labs=[dict(title=lab['title'],subject=lab['subject'],extension=lab['extension']) for lab in LABS],years=[dict(year=y,units=[dict(title=u['title'],lessons=[l['title'] for l in lessons if l['unit']==u['id']]) for u in units if u['year']==y]) for y in [7,8,9]],note='Revision lessons consolidate related teaching periods from the supplied sequence. Selected GCSE apparatus includes KS3 instructions; harder calculations are optional extensions.'),ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(dict(site=site,units=len(units),lessons=len(lessons),papers=len(papers),marks=[p['marks'] for p in papers])))

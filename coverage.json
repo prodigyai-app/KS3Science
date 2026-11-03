@@ -4,7 +4,8 @@
   "learning": {
     "format": "Swipeable short slides, definition cards, then practice",
     "lessons": 123,
-    "questions_per_lesson": 4,
+    "questions_per_lesson": 11,
+    "interactive_models": 21,
     "unit_checks": 40,
     "definition_cards": 288,
     "unique_terms": 241
