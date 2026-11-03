@@ -15,7 +15,79 @@
         "burner",
         "data",
         "evaluate"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which piece of equipment should you use to measure 50 cm³ of water accurately?",
+            "opts": [
+              "Beaker.",
+              "Conical flask.",
+              "Measuring cylinder."
+            ],
+            "a": 2,
+            "why": "A measuring cylinder has a fine scale for volume."
+          },
+          {
+            "q": "A balance reads 0.3 g with nothing on it. This causes…",
+            "opts": [
+              "an anomaly.",
+              "a systematic error.",
+              "a random error."
+            ],
+            "a": 1,
+            "why": "Every reading will be 0.3 g too high."
+          },
+          {
+            "q": "Which graph should you draw for temperature against time?",
+            "opts": [
+              "A line graph.",
+              "A bar chart.",
+              "A pie chart."
+            ],
+            "a": 0,
+            "why": "Both variables are continuous."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name the independent and dependent variables when testing how the length of a pendulum affects the time for one swing.",
+            "m": 2,
+            "ms": [
+              "Independent: length of the pendulum.",
+              "Dependent: time for one swing."
+            ]
+          },
+          {
+            "q": "Times for ten swings were 14.2 s, 14.6 s and 14.4 s. Calculate the mean time for one swing.",
+            "m": 3,
+            "ms": [
+              "Mean for ten swings = (14.2 + 14.6 + 14.4) ÷ 3 = 14.4 s.",
+              "One swing = 14.4 ÷ 10…",
+              "… = 1.44 s."
+            ]
+          },
+          {
+            "q": "Explain why scientists repeat measurements and calculate a mean.",
+            "m": 3,
+            "ms": [
+              "Readings vary because of random errors.",
+              "Repeats help you spot anomalies.",
+              "A mean of repeats is closer to the true value / more reliable."
+            ]
+          },
+          {
+            "q": "A student heats water with a Bunsen burner. Describe four things she should do to work safely.",
+            "m": 4,
+            "ms": [
+              "Wear safety goggles.",
+              "Use a heatproof mat and the yellow flame when not heating.",
+              "Tie back long hair and stand up.",
+              "Use tongs or wait for equipment to cool before touching it."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-02",
@@ -27,7 +99,79 @@
         "cell",
         "specialised",
         "diffusion"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which cell part controls what enters and leaves the cell?",
+            "opts": [
+              "Cell wall.",
+              "Nucleus.",
+              "Cell membrane."
+            ],
+            "a": 2,
+            "why": "The membrane controls movement in and out."
+          },
+          {
+            "q": "An eyepiece is ×10 and the objective is ×10. The total magnification is…",
+            "opts": [
+              "×1.",
+              "×100.",
+              "×20."
+            ],
+            "a": 1,
+            "why": "10 × 10 = 100."
+          },
+          {
+            "q": "Oxygen moves into cells by…",
+            "opts": [
+              "diffusion.",
+              "filtration.",
+              "condensation."
+            ],
+            "a": 0,
+            "why": "From high to low concentration."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name two parts found in plant cells but not in animal cells.",
+            "m": 2,
+            "ms": [
+              "Cell wall / chloroplast / permanent vacuole.",
+              "Any second correct part."
+            ]
+          },
+          {
+            "q": "Describe how to prepare a slide of cheek cells to see them clearly.",
+            "m": 3,
+            "ms": [
+              "Gently scrape the inside of the cheek with a clean cotton bud and smear onto a slide.",
+              "Add a drop of stain such as methylene blue.",
+              "Lower a cover slip carefully to avoid air bubbles."
+            ]
+          },
+          {
+            "q": "Explain how a red blood cell is adapted to carry oxygen.",
+            "m": 3,
+            "ms": [
+              "It has no nucleus, so there is more room for haemoglobin.",
+              "It has a biconcave (dimpled disc) shape giving a large surface area.",
+              "It is small and flexible to squeeze through capillaries."
+            ]
+          },
+          {
+            "q": "A drop of ink is added to still water. Describe and explain what happens over time, and how the result would change in warmer water.",
+            "m": 4,
+            "ms": [
+              "The ink spreads out through the water.",
+              "Its particles move from high to low concentration (diffusion).",
+              "Particles keep moving randomly until they are evenly spread.",
+              "In warmer water particles move faster, so it spreads faster."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-03",
@@ -38,7 +182,79 @@
         "organisation",
         "muscles",
         "planning"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A group of similar cells working together is…",
+            "opts": [
+              "a tissue.",
+              "an organ.",
+              "an organ system."
+            ],
+            "a": 0,
+            "why": "Tissues are made of similar cells."
+          },
+          {
+            "q": "What joins a muscle to a bone?",
+            "opts": [
+              "A ligament.",
+              "Cartilage.",
+              "A tendon."
+            ],
+            "a": 2,
+            "why": "Tendons attach muscles to bones."
+          },
+          {
+            "q": "When you bend your arm, the biceps…",
+            "opts": [
+              "pushes the bone.",
+              "contracts.",
+              "relaxes."
+            ],
+            "a": 1,
+            "why": "The biceps pulls the forearm up."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give two functions of the skeleton.",
+            "m": 2,
+            "ms": [
+              "Support / protection of organs.",
+              "Movement / making blood cells."
+            ]
+          },
+          {
+            "q": "Describe what the biceps and triceps do when you straighten your arm.",
+            "m": 3,
+            "ms": [
+              "The triceps contracts and pulls the forearm down.",
+              "The biceps relaxes.",
+              "They work as an antagonistic pair."
+            ]
+          },
+          {
+            "q": "Explain why a joint needs cartilage and synovial fluid.",
+            "m": 3,
+            "ms": [
+              "Cartilage covers the ends of the bones.",
+              "It is smooth and absorbs shocks.",
+              "Synovial fluid lubricates the joint so bones move without rubbing."
+            ]
+          },
+          {
+            "q": "Explain why muscles must work in pairs, using the knee as an example.",
+            "m": 4,
+            "ms": [
+              "Muscles can only pull when they contract; they cannot push.",
+              "One muscle (at the front of the thigh) contracts to straighten the knee.",
+              "Another muscle (at the back of the thigh) contracts to bend it.",
+              "While one contracts, the other relaxes."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-04",
@@ -51,7 +267,79 @@
         "diffusion",
         "gas",
         "atoms"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "In which state are particles far apart and moving quickly in all directions?",
+            "opts": [
+              "Gas.",
+              "Solid.",
+              "Liquid."
+            ],
+            "a": 0,
+            "why": "Gas particles are widely spaced."
+          },
+          {
+            "q": "A liquid turning into a gas at its surface below the boiling point is…",
+            "opts": [
+              "condensation.",
+              "melting.",
+              "evaporation."
+            ],
+            "a": 2,
+            "why": "Evaporation happens at the surface."
+          },
+          {
+            "q": "Heating a sealed container of gas makes the pressure…",
+            "opts": [
+              "stay the same.",
+              "increase.",
+              "decrease."
+            ],
+            "a": 1,
+            "why": "Particles hit the walls harder and more often."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Describe the arrangement and movement of particles in a solid.",
+            "m": 2,
+            "ms": [
+              "Particles are close together in a regular pattern.",
+              "They vibrate about fixed positions."
+            ]
+          },
+          {
+            "q": "Use the particle model to explain why a gas can be compressed but a liquid cannot.",
+            "m": 3,
+            "ms": [
+              "In a gas there are large spaces between particles.",
+              "Pushing moves gas particles closer together.",
+              "In a liquid the particles are already touching, so there is no space."
+            ]
+          },
+          {
+            "q": "Explain the difference between an element, a compound and a mixture.",
+            "m": 3,
+            "ms": [
+              "An element contains only one type of atom.",
+              "A compound has two or more elements chemically joined.",
+              "A mixture has substances that are not chemically joined and can be separated physically."
+            ]
+          },
+          {
+            "q": "Ice at −10 °C is heated until it becomes steam. Describe what happens to the particles at each stage.",
+            "m": 4,
+            "ms": [
+              "The particles in the ice vibrate faster as it warms.",
+              "At 0 °C they break free of fixed positions and the ice melts.",
+              "In the liquid, particles move faster as it heats up.",
+              "At 100 °C they escape from the liquid completely as a gas (boiling)."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-05",
@@ -63,7 +351,79 @@
         "solution",
         "filter",
         "distil"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which method separates sand from water?",
+            "opts": [
+              "Chromatography.",
+              "Filtration.",
+              "Distillation."
+            ],
+            "a": 1,
+            "why": "Sand is insoluble, so filter paper traps it."
+          },
+          {
+            "q": "In salty water, salt is the…",
+            "opts": [
+              "solute.",
+              "solvent.",
+              "solution."
+            ],
+            "a": 0,
+            "why": "The solute is what dissolves."
+          },
+          {
+            "q": "Which method collects pure water from sea water?",
+            "opts": [
+              "Filtration.",
+              "Crystallisation.",
+              "Distillation."
+            ],
+            "a": 2,
+            "why": "Water evaporates and condenses; salt stays behind."
+          }
+        ],
+        "parts": [
+          {
+            "q": "10 g of sugar dissolves completely in 90 g of water. What is the mass of the solution? Give a reason.",
+            "m": 2,
+            "ms": [
+              "100 g.",
+              "Mass is conserved when a substance dissolves."
+            ]
+          },
+          {
+            "q": "Describe how to obtain salt crystals from rock salt.",
+            "m": 3,
+            "ms": [
+              "Dissolve the rock salt in warm water and stir.",
+              "Filter to remove the sand and grit.",
+              "Heat the filtrate to evaporate some water, then leave it to crystallise."
+            ]
+          },
+          {
+            "q": "A chromatogram of a brown sweet colouring shows three spots. A yellow colouring shows one spot at the same height as one of them. What can you conclude?",
+            "m": 3,
+            "ms": [
+              "The brown colouring is a mixture of at least three dyes.",
+              "The yellow colouring is a single (pure) dye.",
+              "The brown colouring probably contains the yellow dye."
+            ]
+          },
+          {
+            "q": "Explain how distillation separates water from inky water.",
+            "m": 4,
+            "ms": [
+              "The mixture is heated so the water boils/evaporates.",
+              "The ink does not evaporate and is left behind.",
+              "The water vapour passes into a condenser, where it is cooled.",
+              "It condenses back into pure liquid water, which is collected."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-06",
@@ -75,7 +435,79 @@
         "food-energy",
         "resources",
         "power"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which is a renewable energy resource?",
+            "opts": [
+              "Coal.",
+              "Natural gas.",
+              "Wind."
+            ],
+            "a": 2,
+            "why": "Wind will not run out."
+          },
+          {
+            "q": "What is 2500 W in kilowatts?",
+            "opts": [
+              "0.25 kW.",
+              "2.5 kW.",
+              "25 kW."
+            ],
+            "a": 1,
+            "why": "Divide by 1000."
+          },
+          {
+            "q": "A food sample raises water temperature more than another of the same mass. It probably…",
+            "opts": [
+              "contains more energy.",
+              "contains less energy.",
+              "has more water."
+            ],
+            "a": 0,
+            "why": "More energy was transferred to the water."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give one advantage and one disadvantage of using fossil fuels to generate electricity.",
+            "m": 2,
+            "ms": [
+              "Advantage: reliable / available whenever needed.",
+              "Disadvantage: release carbon dioxide / will run out / pollution."
+            ]
+          },
+          {
+            "q": "A 2 kW heater is used for 3 hours. Electricity costs 28p per kWh. Calculate the cost.",
+            "m": 3,
+            "ms": [
+              "Energy = 2 × 3 = 6 kWh.",
+              "Cost = 6 × 28…",
+              "… = 168p (£1.68)."
+            ]
+          },
+          {
+            "q": "In the burning-food experiment, explain why the measured energy is less than the real energy in the food.",
+            "m": 3,
+            "ms": [
+              "Some energy heats the air around the tube.",
+              "Some heats the tube and clamp, not the water.",
+              "Some food may not burn completely."
+            ]
+          },
+          {
+            "q": "Compare wind turbines and a coal power station for generating electricity.",
+            "m": 4,
+            "ms": [
+              "Wind is renewable; coal will run out.",
+              "Wind does not release carbon dioxide when running; coal does.",
+              "Coal is reliable at any time; wind depends on the weather.",
+              "Wind farms take up lots of space / can be noisy or spoil views."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-07",
@@ -85,7 +517,79 @@
       "skills": [
         "energy",
         "efficiency"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A moving car has energy in its…",
+            "opts": [
+              "kinetic store.",
+              "elastic store.",
+              "nuclear store."
+            ],
+            "a": 0,
+            "why": "Moving objects have kinetic energy."
+          },
+          {
+            "q": "A device transfers 200 J; 50 J is useful. Its efficiency is…",
+            "opts": [
+              "75%.",
+              "4%.",
+              "25%."
+            ],
+            "a": 2,
+            "why": "50 ÷ 200 × 100."
+          },
+          {
+            "q": "Energy cannot be…",
+            "opts": [
+              "stored.",
+              "created or destroyed.",
+              "transferred."
+            ],
+            "a": 1,
+            "why": "The law of conservation of energy."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Describe the energy transfer when a battery-powered fan is switched on.",
+            "m": 2,
+            "ms": [
+              "Energy is transferred from the chemical store of the battery…",
+              "… to the kinetic store of the blades (and wasted to the thermal store of the surroundings)."
+            ]
+          },
+          {
+            "q": "A kettle uses 2000 J and transfers 1800 J to the water. Calculate its efficiency as a percentage.",
+            "m": 3,
+            "ms": [
+              "1800 ÷ 2000 = 0.9.",
+              "0.9 × 100…",
+              "… = 90%."
+            ]
+          },
+          {
+            "q": "Explain why an LED bulb is better than a filament bulb.",
+            "m": 3,
+            "ms": [
+              "The LED is more efficient.",
+              "It wastes less energy by heating the surroundings.",
+              "So it uses less electricity for the same light, saving money."
+            ]
+          },
+          {
+            "q": "A ball is dropped from a height and bounces. Describe the energy changes until it comes to rest.",
+            "m": 4,
+            "ms": [
+              "As it falls, energy transfers from the gravitational store to the kinetic store.",
+              "On impact some energy is stored elastically as it squashes.",
+              "Some energy is transferred to the thermal store of the ball and floor and carried away by sound.",
+              "Each bounce is lower until all the energy has spread to the surroundings."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-08",
@@ -96,7 +600,79 @@
         "variation",
         "adaptation",
         "data"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which is an example of continuous variation?",
+            "opts": [
+              "Blood group.",
+              "Tongue rolling.",
+              "Height."
+            ],
+            "a": 2,
+            "why": "Height can take any value in a range."
+          },
+          {
+            "q": "Which variation is caused only by the environment?",
+            "opts": [
+              "Blood group.",
+              "A scar.",
+              "Natural eye colour."
+            ],
+            "a": 1,
+            "why": "Scars come from injuries."
+          },
+          {
+            "q": "Why does a cactus have spines?",
+            "opts": [
+              "To reduce water loss.",
+              "To photosynthesise faster.",
+              "To attract insects."
+            ],
+            "a": 0,
+            "why": "Spines have a small surface area."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give one example of inherited variation and one of environmental variation in humans.",
+            "m": 2,
+            "ms": [
+              "Inherited: blood group / natural eye colour.",
+              "Environmental: scars / language spoken / tattoos."
+            ]
+          },
+          {
+            "q": "Describe how to collect and display data on the hand spans of students in your class.",
+            "m": 3,
+            "ms": [
+              "Measure each hand span with a ruler in cm.",
+              "Group the data into class intervals (e.g. 16–17 cm).",
+              "Draw a histogram/bar chart of how many students are in each group."
+            ]
+          },
+          {
+            "q": "Explain two ways a polar bear is adapted to the Arctic.",
+            "m": 3,
+            "ms": [
+              "Thick fur and a layer of fat insulate it, reducing heat loss.",
+              "White fur gives camouflage on snow for hunting.",
+              "Small ears reduce heat loss / large feet spread weight on ice."
+            ]
+          },
+          {
+            "q": "Explain why some features show both inherited and environmental variation, using body mass as an example.",
+            "m": 4,
+            "ms": [
+              "Genes affect body build and how the body uses food.",
+              "The environment also affects mass, such as diet and exercise.",
+              "So identical twins (same genes) can have different masses.",
+              "Body mass therefore depends on both causes."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-09",
@@ -107,7 +683,79 @@
         "puberty",
         "cycle",
         "pregnancy"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Where are sperm cells made?",
+            "opts": [
+              "Testes.",
+              "Ovaries.",
+              "Uterus."
+            ],
+            "a": 0,
+            "why": "Sperm are made in the testes."
+          },
+          {
+            "q": "Where does fertilisation usually happen?",
+            "opts": [
+              "Uterus.",
+              "Vagina.",
+              "Oviduct."
+            ],
+            "a": 2,
+            "why": "The egg meets a sperm in the oviduct."
+          },
+          {
+            "q": "What does the placenta do?",
+            "opts": [
+              "Makes sperm.",
+              "Passes oxygen and food to the fetus and removes waste.",
+              "Makes eggs."
+            ],
+            "a": 1,
+            "why": "It is the exchange organ."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name two hormones involved in puberty and where each is made.",
+            "m": 2,
+            "ms": [
+              "Testosterone, made in the testes.",
+              "Oestrogen, made in the ovaries."
+            ]
+          },
+          {
+            "q": "Describe what happens during the menstrual cycle if an egg is not fertilised.",
+            "m": 3,
+            "ms": [
+              "The uterus lining thickens and an egg is released (ovulation).",
+              "If not fertilised, the lining breaks down.",
+              "It leaves the body through the vagina as a period."
+            ]
+          },
+          {
+            "q": "Explain how the fetus gets oxygen while in the uterus.",
+            "m": 3,
+            "ms": [
+              "Oxygen in the mother’s blood passes into the placenta.",
+              "It diffuses into the fetus’s blood.",
+              "It travels along the umbilical cord to the fetus."
+            ]
+          },
+          {
+            "q": "Explain why pregnant women are advised not to smoke or drink alcohol.",
+            "m": 4,
+            "ms": [
+              "Harmful chemicals can cross the placenta into the fetus’s blood.",
+              "Carbon monoxide from smoking reduces the oxygen the fetus receives.",
+              "This can cause low birth weight or premature birth.",
+              "Alcohol can damage the developing brain and organs."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-10",
@@ -118,7 +766,79 @@
         "flower",
         "seed",
         "germination"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which part of the flower makes pollen?",
+            "opts": [
+              "Anther.",
+              "Stigma.",
+              "Ovary."
+            ],
+            "a": 0,
+            "why": "The anther is a male part."
+          },
+          {
+            "q": "Which feature suggests a flower is wind-pollinated?",
+            "opts": [
+              "Bright petals.",
+              "Nectar.",
+              "Feathery stigmas hanging outside the flower."
+            ],
+            "a": 2,
+            "why": "Wind flowers do not need to attract insects."
+          },
+          {
+            "q": "Which condition is NOT needed for germination?",
+            "opts": [
+              "Warmth.",
+              "Light.",
+              "Water."
+            ],
+            "a": 1,
+            "why": "Seeds use stored food."
+          }
+        ],
+        "parts": [
+          {
+            "q": "What is the difference between pollination and fertilisation?",
+            "m": 2,
+            "ms": [
+              "Pollination is the transfer of pollen to a stigma.",
+              "Fertilisation is when the male and female nuclei join."
+            ]
+          },
+          {
+            "q": "Describe what happens after a pollen grain lands on a stigma until a seed forms.",
+            "m": 3,
+            "ms": [
+              "A pollen tube grows down the style to the ovule.",
+              "The male nucleus travels down the tube and joins the egg nucleus.",
+              "The fertilised ovule develops into a seed."
+            ]
+          },
+          {
+            "q": "Describe how you could show that seeds need water to germinate.",
+            "m": 3,
+            "ms": [
+              "Put seeds on damp cotton wool in one dish and dry cotton wool in another.",
+              "Keep both in the same warm place.",
+              "Compare after a few days; only the damp dish should germinate."
+            ]
+          },
+          {
+            "q": "Explain why it is useful for plants to disperse their seeds, and describe two methods.",
+            "m": 4,
+            "ms": [
+              "If seeds land near the parent, they compete for light, water and minerals.",
+              "Dispersal spreads them so more survive.",
+              "Wind: seeds with wings or parachutes, e.g. sycamore, dandelion.",
+              "Animals: fruits eaten or hooks caught on fur / explosion: pea pods."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-11",
@@ -129,7 +849,79 @@
         "reaction",
         "acid",
         "neutral"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A solution has a pH of 2. It is…",
+            "opts": [
+              "alkaline.",
+              "strongly acidic.",
+              "neutral."
+            ],
+            "a": 1,
+            "why": "pH 2 is well below 7."
+          },
+          {
+            "q": "What colour is universal indicator in a neutral solution?",
+            "opts": [
+              "Green.",
+              "Red.",
+              "Purple."
+            ],
+            "a": 0,
+            "why": "pH 7 is green."
+          },
+          {
+            "q": "Acid + alkali → ?",
+            "opts": [
+              "Hydrogen + oxygen.",
+              "Carbon dioxide only.",
+              "Salt + water."
+            ],
+            "a": 2,
+            "why": "This is neutralisation."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give two signs that a chemical reaction has taken place.",
+            "m": 2,
+            "ms": [
+              "Colour change / fizzing.",
+              "Temperature change / solid forms."
+            ]
+          },
+          {
+            "q": "Name the salt made when hydrochloric acid reacts with sodium hydroxide, the other product, and the type of reaction.",
+            "m": 3,
+            "ms": [
+              "Sodium chloride.",
+              "Water.",
+              "Neutralisation."
+            ]
+          },
+          {
+            "q": "Explain how a farmer could treat acidic soil and why.",
+            "m": 3,
+            "ms": [
+              "Add lime (a base) to the soil.",
+              "It neutralises the acid.",
+              "Most crops grow better when the soil is near neutral."
+            ]
+          },
+          {
+            "q": "Describe how to use universal indicator to find the volume of alkali needed to neutralise 25 cm³ of acid.",
+            "m": 4,
+            "ms": [
+              "Measure 25 cm³ of acid with a measuring cylinder and add universal indicator.",
+              "Add alkali a little at a time from a burette/syringe, swirling.",
+              "Stop when the indicator turns green (pH 7).",
+              "Record the volume of alkali added and repeat for reliability."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-12",
@@ -139,7 +931,79 @@
       "skills": [
         "metals",
         "metal-acid"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which is a property of most metals?",
+            "opts": [
+              "Brittle.",
+              "Low melting point.",
+              "Good electrical conductor."
+            ],
+            "a": 2,
+            "why": "Metals conduct electricity."
+          },
+          {
+            "q": "Which metal does NOT react with dilute acid?",
+            "opts": [
+              "Zinc.",
+              "Copper.",
+              "Magnesium."
+            ],
+            "a": 1,
+            "why": "Copper is low in reactivity."
+          },
+          {
+            "q": "The test for hydrogen is…",
+            "opts": [
+              "a lit splint gives a squeaky pop.",
+              "limewater turns milky.",
+              "a glowing splint relights."
+            ],
+            "a": 0,
+            "why": "Hydrogen burns rapidly."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Complete the word equation “magnesium + oxygen → …” and name this type of reaction.",
+            "m": 2,
+            "ms": [
+              "Magnesium oxide.",
+              "Oxidation (combustion/burning)."
+            ]
+          },
+          {
+            "q": "Write the word equation for zinc reacting with hydrochloric acid, and describe the test for the gas made.",
+            "m": 3,
+            "ms": [
+              "Zinc + hydrochloric acid → zinc chloride…",
+              "… + hydrogen.",
+              "A lit splint gives a squeaky pop."
+            ]
+          },
+          {
+            "q": "Explain why gold is used for electrical connections in computers even though copper is cheaper.",
+            "m": 3,
+            "ms": [
+              "Gold is very unreactive.",
+              "It does not corrode or form an oxide layer.",
+              "So it keeps a good electrical connection for a long time."
+            ]
+          },
+          {
+            "q": "Describe how you could compare the reactivity of three metals using acid.",
+            "m": 4,
+            "ms": [
+              "Use the same mass/size of each metal.",
+              "Add each to the same volume and concentration of acid at the same temperature.",
+              "Observe the rate of bubbling or measure the temperature rise.",
+              "The faster the bubbling (or bigger the temperature rise), the more reactive the metal."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-13",
@@ -149,7 +1013,79 @@
       "skills": [
         "charge",
         "current"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A rubbed balloon gains electrons. It becomes…",
+            "opts": [
+              "negatively charged.",
+              "positively charged.",
+              "neutral."
+            ],
+            "a": 0,
+            "why": "Electrons are negative."
+          },
+          {
+            "q": "Two positively charged objects will…",
+            "opts": [
+              "attract.",
+              "do nothing.",
+              "repel."
+            ],
+            "a": 2,
+            "why": "Like charges repel."
+          },
+          {
+            "q": "Current is measured with…",
+            "opts": [
+              "an ammeter connected in parallel.",
+              "an ammeter connected in series.",
+              "a voltmeter connected in series."
+            ],
+            "a": 1,
+            "why": "Ammeters go in series."
+          }
+        ],
+        "parts": [
+          {
+            "q": "What is an electric current?",
+            "m": 2,
+            "ms": [
+              "A flow of charge (electrons) around a circuit.",
+              "It is measured in amps (A)."
+            ]
+          },
+          {
+            "q": "A series circuit has a cell and two lamps. One lamp breaks. Explain what happens to the other.",
+            "m": 3,
+            "ms": [
+              "It goes out.",
+              "There is only one path, so the circuit is broken.",
+              "No current flows."
+            ]
+          },
+          {
+            "q": "Explain why you sometimes get a small shock touching a metal door handle after walking on a carpet.",
+            "m": 3,
+            "ms": [
+              "Rubbing your shoes on the carpet transfers electrons, so you become charged.",
+              "When you touch the metal handle, the charge flows quickly to it.",
+              "This flow is a spark that you feel as a shock."
+            ]
+          },
+          {
+            "q": "Compare series and parallel circuits for the lights in a house.",
+            "m": 4,
+            "ms": [
+              "In series there is one path; in parallel each light has its own branch.",
+              "In series, if one bulb breaks all go out; in parallel the others stay on.",
+              "In parallel each light can be switched on or off separately.",
+              "In parallel each light gets the full voltage so stays bright."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y7-unit-14",
@@ -159,7 +1095,79 @@
       "skills": [
         "voltage",
         "current"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Potential difference is measured in…",
+            "opts": [
+              "amps (A).",
+              "ohms (Ω).",
+              "volts (V)."
+            ],
+            "a": 2,
+            "why": "Voltage is in volts."
+          },
+          {
+            "q": "A voltmeter is connected…",
+            "opts": [
+              "anywhere in the circuit.",
+              "in parallel across a component.",
+              "in series."
+            ],
+            "a": 1,
+            "why": "It measures energy difference across a part."
+          },
+          {
+            "q": "Increasing the resistance in a circuit (same cells) makes the current…",
+            "opts": [
+              "smaller.",
+              "bigger.",
+              "stay the same."
+            ],
+            "a": 0,
+            "why": "More resistance opposes the flow more."
+          }
+        ],
+        "parts": [
+          {
+            "q": "A 9 V battery drives 3 A through a component. Calculate its resistance.",
+            "m": 2,
+            "ms": [
+              "R = V ÷ I = 9 ÷ 3.",
+              "= 3 Ω."
+            ]
+          },
+          {
+            "q": "A 12 V supply is connected to a 6 Ω resistor. Calculate the current and state the units.",
+            "m": 3,
+            "ms": [
+              "I = V ÷ R = 12 ÷ 6.",
+              "= 2…",
+              "… A (amps)."
+            ]
+          },
+          {
+            "q": "Explain why the wires in a circuit are made of copper and covered in plastic.",
+            "m": 3,
+            "ms": [
+              "Copper has low resistance, so it conducts current easily.",
+              "Plastic is an insulator.",
+              "It stops current flowing into people and prevents short circuits."
+            ]
+          },
+          {
+            "q": "Describe how to measure the resistance of a piece of wire.",
+            "m": 4,
+            "ms": [
+              "Connect the wire in series with a cell and an ammeter.",
+              "Connect a voltmeter in parallel across the wire.",
+              "Record the current and the potential difference.",
+              "Calculate resistance = voltage ÷ current (repeat at different voltages)."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-01",
@@ -169,7 +1177,79 @@
       "skills": [
         "foodweb",
         "ecosystem"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "In the food chain grass → rabbit → fox, the rabbit is a…",
+            "opts": [
+              "primary consumer.",
+              "producer.",
+              "top predator."
+            ],
+            "a": 0,
+            "why": "It eats the producer."
+          },
+          {
+            "q": "Arrows in a food chain show…",
+            "opts": [
+              "which animal is biggest.",
+              "where animals live.",
+              "the direction energy moves."
+            ],
+            "a": 2,
+            "why": "They point to the eater."
+          },
+          {
+            "q": "Placing quadrats randomly helps to…",
+            "opts": [
+              "find rare plants.",
+              "avoid bias.",
+              "count faster."
+            ],
+            "a": 1,
+            "why": "Random sampling is fair."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give two things that plants compete for.",
+            "m": 2,
+            "ms": [
+              "Light / water.",
+              "Space / minerals (nutrients)."
+            ]
+          },
+          {
+            "q": "A 40 m² lawn is sampled with five 1 m² quadrats containing 2, 4, 3, 5 and 1 daisies. Estimate the number of daisies on the lawn.",
+            "m": 3,
+            "ms": [
+              "Mean = (2 + 4 + 3 + 5 + 1) ÷ 5 = 3 per m².",
+              "3 × 40…",
+              "… = 120 daisies."
+            ]
+          },
+          {
+            "q": "Owls eat mice, and mice eat seeds. Explain what would happen to the seeds if the owls were removed.",
+            "m": 3,
+            "ms": [
+              "The mouse population would increase.",
+              "More mice would eat more seeds.",
+              "So the number of seeds would decrease."
+            ]
+          },
+          {
+            "q": "A pesticide is sprayed on a field. Explain how it could harm birds of prey even though they do not eat the plants.",
+            "m": 4,
+            "ms": [
+              "Small amounts of pesticide are taken in by insects or small animals eating the plants.",
+              "The pesticide is not broken down, so it builds up in their bodies.",
+              "Birds of prey eat many of these animals.",
+              "So the pesticide builds up to harmful levels in the top predator (bioaccumulation)."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-02",
@@ -180,7 +1260,79 @@
         "speed",
         "dt",
         "data"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A runner covers 100 m in 20 s. The average speed is…",
+            "opts": [
+              "5 m/s.",
+              "2000 m/s.",
+              "0.2 m/s."
+            ],
+            "a": 0,
+            "why": "100 ÷ 20."
+          },
+          {
+            "q": "On a distance–time graph, a horizontal line means the object is…",
+            "opts": [
+              "speeding up.",
+              "moving at a steady speed.",
+              "stationary."
+            ],
+            "a": 2,
+            "why": "Distance is not changing."
+          },
+          {
+            "q": "Which is a typical speed for walking?",
+            "opts": [
+              "150 m/s.",
+              "1.5 m/s.",
+              "15 m/s."
+            ],
+            "a": 1,
+            "why": "About 1–2 m/s."
+          }
+        ],
+        "parts": [
+          {
+            "q": "A train travels at 50 m/s for 120 s. Calculate the distance travelled.",
+            "m": 2,
+            "ms": [
+              "Distance = speed × time = 50 × 120.",
+              "= 6000 m."
+            ]
+          },
+          {
+            "q": "A cyclist travels 3 km in 10 minutes. Calculate her average speed in m/s.",
+            "m": 3,
+            "ms": [
+              "3 km = 3000 m and 10 minutes = 600 s.",
+              "Speed = 3000 ÷ 600…",
+              "… = 5 m/s."
+            ]
+          },
+          {
+            "q": "A distance–time graph shows a straight line that becomes steeper halfway. Describe and explain the motion.",
+            "m": 3,
+            "ms": [
+              "First the object moves at a steady speed.",
+              "Then it moves at a faster steady speed.",
+              "A steeper line means more distance per second."
+            ]
+          },
+          {
+            "q": "Describe how to find the average speed of a student running 100 m, and one way to make the timing more accurate.",
+            "m": 4,
+            "ms": [
+              "Measure out 100 m with a long tape measure.",
+              "Start a stopwatch as the runner starts and stop it as they cross the line.",
+              "Calculate speed = 100 ÷ time.",
+              "Use light gates or a video to remove reaction time errors."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-03",
@@ -191,7 +1343,79 @@
         "force",
         "gravity",
         "crater"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Weight is measured in…",
+            "opts": [
+              "kilograms (kg).",
+              "metres (m).",
+              "newtons (N)."
+            ],
+            "a": 2,
+            "why": "Weight is a force."
+          },
+          {
+            "q": "Forces of 30 N right and 30 N left act on a box. The box…",
+            "opts": [
+              "speeds up to the left.",
+              "does not change its motion.",
+              "speeds up to the right."
+            ],
+            "a": 1,
+            "why": "The forces are balanced."
+          },
+          {
+            "q": "On the Moon, a person’s mass…",
+            "opts": [
+              "stays the same.",
+              "gets smaller.",
+              "gets bigger."
+            ],
+            "a": 0,
+            "why": "Mass does not depend on gravity."
+          }
+        ],
+        "parts": [
+          {
+            "q": "A 4 kg bag is on Earth, where g = 10 N/kg. Calculate its weight.",
+            "m": 2,
+            "ms": [
+              "W = m × g = 4 × 10.",
+              "= 40 N."
+            ]
+          },
+          {
+            "q": "A boat has a 600 N forward force and 450 N of drag. Calculate the resultant force and describe the boat’s motion.",
+            "m": 3,
+            "ms": [
+              "600 − 450 = 150 N.",
+              "Forwards.",
+              "The boat speeds up."
+            ]
+          },
+          {
+            "q": "In a crater investigation, a ball is dropped from different heights into flour. Explain why the crater gets wider as the height increases.",
+            "m": 3,
+            "ms": [
+              "The ball falls further, so it gains more speed.",
+              "It has more kinetic energy when it lands.",
+              "More energy pushes more flour aside."
+            ]
+          },
+          {
+            "q": "Explain the difference between mass and weight, and why an astronaut weighs less on the Moon.",
+            "m": 4,
+            "ms": [
+              "Mass is the amount of matter, in kg.",
+              "Weight is the force of gravity on an object, in N.",
+              "The Moon has a weaker gravitational field strength than Earth.",
+              "So the same mass has a smaller weight there."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-04",
@@ -203,7 +1427,79 @@
         "elements",
         "metals",
         "polymer"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which is the correct symbol for magnesium?",
+            "opts": [
+              "Ma.",
+              "Mg.",
+              "MG."
+            ],
+            "a": 1,
+            "why": "First capital, then lower case."
+          },
+          {
+            "q": "How many atoms are in one molecule of H₂O?",
+            "opts": [
+              "3.",
+              "2.",
+              "1."
+            ],
+            "a": 0,
+            "why": "Two hydrogen and one oxygen."
+          },
+          {
+            "q": "Which is a synthetic polymer?",
+            "opts": [
+              "Wool.",
+              "Cotton.",
+              "Polythene."
+            ],
+            "a": 2,
+            "why": "It is made in factories."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name the elements in sodium chloride and give its formula.",
+            "m": 2,
+            "ms": [
+              "Sodium and chlorine.",
+              "NaCl."
+            ]
+          },
+          {
+            "q": "Give the number of each type of atom in Ca(OH)₂.",
+            "m": 3,
+            "ms": [
+              "1 calcium.",
+              "2 oxygen.",
+              "2 hydrogen."
+            ]
+          },
+          {
+            "q": "Explain why copper is used for wires but plastic is used to cover them.",
+            "m": 3,
+            "ms": [
+              "Copper is a good electrical conductor.",
+              "It is also ductile, so it can be drawn into wires.",
+              "Plastic is an insulator, which keeps people safe from shocks."
+            ]
+          },
+          {
+            "q": "Evaluate the use of plastic for drinks bottles.",
+            "m": 4,
+            "ms": [
+              "Plastic is light, cheap and does not break easily.",
+              "It is waterproof and can be moulded into shapes.",
+              "However, most plastics do not biodegrade and cause litter or harm wildlife.",
+              "Recycling or reusable bottles reduce this problem."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-05",
@@ -214,7 +1510,79 @@
         "periodic",
         "groups",
         "transition"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A vertical column in the periodic table is a…",
+            "opts": [
+              "period.",
+              "row.",
+              "group."
+            ],
+            "a": 2,
+            "why": "Groups have similar properties."
+          },
+          {
+            "q": "Which element is a noble gas?",
+            "opts": [
+              "Chlorine.",
+              "Neon.",
+              "Sodium."
+            ],
+            "a": 1,
+            "why": "Group 0."
+          },
+          {
+            "q": "Going down Group 1, the metals become…",
+            "opts": [
+              "more reactive.",
+              "less reactive.",
+              "gases."
+            ],
+            "a": 0,
+            "why": "Potassium reacts faster than lithium."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name the group that contains the halogens, and give one example.",
+            "m": 2,
+            "ms": [
+              "Group 7.",
+              "Fluorine / chlorine / bromine / iodine."
+            ]
+          },
+          {
+            "q": "Describe what you would see when potassium is added to water.",
+            "m": 3,
+            "ms": [
+              "It floats and moves quickly across the surface.",
+              "It fizzes and melts into a ball.",
+              "It burns with a lilac flame / may make a small bang."
+            ]
+          },
+          {
+            "q": "Rubidium is below potassium in Group 1. Predict how it reacts with water and explain your prediction.",
+            "m": 3,
+            "ms": [
+              "It reacts even more vigorously (possibly explosively).",
+              "It makes an alkaline solution and hydrogen.",
+              "Reactivity increases down Group 1."
+            ]
+          },
+          {
+            "q": "Compare the properties of Group 1 metals and transition metals.",
+            "m": 4,
+            "ms": [
+              "Group 1 metals are soft (can be cut with a knife); transition metals are hard.",
+              "Group 1 metals have low melting points; transition metals have high melting points.",
+              "Group 1 metals are very reactive; transition metals are much less reactive.",
+              "Transition metals form coloured compounds and are used as catalysts."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-06",
@@ -224,7 +1592,79 @@
       "skills": [
         "lungs",
         "drugs"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Gas exchange happens in the…",
+            "opts": [
+              "alveoli.",
+              "trachea.",
+              "diaphragm."
+            ],
+            "a": 0,
+            "why": "Tiny air sacs."
+          },
+          {
+            "q": "When you breathe in, the diaphragm…",
+            "opts": [
+              "relaxes and moves up.",
+              "stays still.",
+              "contracts and flattens."
+            ],
+            "a": 2,
+            "why": "This increases the chest volume."
+          },
+          {
+            "q": "Which substance in tobacco smoke is addictive?",
+            "opts": [
+              "Carbon dioxide.",
+              "Nicotine.",
+              "Tar."
+            ],
+            "a": 1,
+            "why": "Nicotine causes dependence."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name the gas that diffuses from the blood into the alveoli and the gas that diffuses the other way.",
+            "m": 2,
+            "ms": [
+              "Carbon dioxide into the alveoli.",
+              "Oxygen into the blood."
+            ]
+          },
+          {
+            "q": "Describe what happens to the ribs, diaphragm and chest volume when you breathe out.",
+            "m": 3,
+            "ms": [
+              "The intercostal muscles relax and the ribs move down and in.",
+              "The diaphragm relaxes and moves up.",
+              "The chest volume decreases, so air is pushed out."
+            ]
+          },
+          {
+            "q": "Explain two ways the alveoli are adapted for gas exchange.",
+            "m": 3,
+            "ms": [
+              "Large surface area from millions of alveoli.",
+              "Walls one cell thick for a short diffusion distance.",
+              "Good blood supply keeps a high concentration difference."
+            ]
+          },
+          {
+            "q": "Explain how smoking damages health.",
+            "m": 4,
+            "ms": [
+              "Tar coats the lungs and contains chemicals that cause cancer.",
+              "Smoke damages the cilia, so mucus and dirt build up, causing coughing and infections.",
+              "Carbon monoxide reduces the oxygen the blood can carry.",
+              "Nicotine raises heart rate and blood pressure, increasing the risk of heart disease."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-07",
@@ -235,7 +1675,79 @@
         "nutrition",
         "food-tests",
         "digestion"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which nutrient is needed for growth and repair?",
+            "opts": [
+              "Protein.",
+              "Fibre.",
+              "Water."
+            ],
+            "a": 0,
+            "why": "Protein builds cells."
+          },
+          {
+            "q": "Iodine solution turns blue-black with…",
+            "opts": [
+              "protein.",
+              "fat.",
+              "starch."
+            ],
+            "a": 2,
+            "why": "The starch test."
+          },
+          {
+            "q": "Where are most small food molecules absorbed into the blood?",
+            "opts": [
+              "Large intestine.",
+              "Small intestine.",
+              "Stomach."
+            ],
+            "a": 1,
+            "why": "Villi absorb food."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name the enzyme that digests fats and the products formed.",
+            "m": 2,
+            "ms": [
+              "Lipase.",
+              "Fatty acids and glycerol."
+            ]
+          },
+          {
+            "q": "Describe how to test a food sample for sugar.",
+            "m": 3,
+            "ms": [
+              "Grind the food and mix with water.",
+              "Add Benedict’s solution and heat in a water bath.",
+              "A colour change from blue to brick-red shows sugar."
+            ]
+          },
+          {
+            "q": "Explain why the small intestine is good at absorbing food.",
+            "m": 3,
+            "ms": [
+              "It is very long.",
+              "It has villi, which give a huge surface area.",
+              "The villi have thin walls and a good blood supply."
+            ]
+          },
+          {
+            "q": "Explain why a balanced diet is important, giving the role of three different nutrients.",
+            "m": 4,
+            "ms": [
+              "A balanced diet gives the right amounts of each nutrient.",
+              "Carbohydrates (and fats) provide energy.",
+              "Protein is used for growth and repair.",
+              "Vitamins and minerals keep the body healthy; fibre keeps food moving through the gut."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-08",
@@ -245,7 +1757,79 @@
       "skills": [
         "sound",
         "ear"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Sound cannot travel through…",
+            "opts": [
+              "water.",
+              "steel.",
+              "a vacuum."
+            ],
+            "a": 2,
+            "why": "There are no particles."
+          },
+          {
+            "q": "A larger amplitude makes a sound…",
+            "opts": [
+              "faster.",
+              "louder.",
+              "higher-pitched."
+            ],
+            "a": 1,
+            "why": "Amplitude affects loudness."
+          },
+          {
+            "q": "The part of the ear that changes vibrations into nerve impulses is the…",
+            "opts": [
+              "cochlea.",
+              "eardrum.",
+              "ear canal."
+            ],
+            "a": 0,
+            "why": "It contains hair cells."
+          }
+        ],
+        "parts": [
+          {
+            "q": "A sound wave has a frequency of 500 Hz. What does this mean?",
+            "m": 2,
+            "ms": [
+              "500 vibrations (waves)…",
+              "… every second."
+            ]
+          },
+          {
+            "q": "Thunder is heard 3 s after lightning is seen. Sound travels at 340 m/s. How far away is the storm?",
+            "m": 3,
+            "ms": [
+              "Distance = speed × time.",
+              "= 340 × 3…",
+              "… = 1020 m."
+            ]
+          },
+          {
+            "q": "Explain why sound travels faster in solids than in gases.",
+            "m": 3,
+            "ms": [
+              "Sound is passed on by vibrating particles.",
+              "In a solid, the particles are much closer together.",
+              "So vibrations are passed on more quickly."
+            ]
+          },
+          {
+            "q": "Describe how sound from a drum reaches and is detected by your ear.",
+            "m": 4,
+            "ms": [
+              "The drum skin vibrates and makes the air particles vibrate.",
+              "The vibrations pass through the air as a longitudinal wave.",
+              "They make the eardrum vibrate, and the ossicles pass the vibrations to the cochlea.",
+              "The cochlea sends electrical impulses along the auditory nerve to the brain."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-09",
@@ -255,7 +1839,79 @@
       "skills": [
         "light",
         "colour"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "The angle of reflection is equal to the…",
+            "opts": [
+              "angle of incidence.",
+              "angle of refraction.",
+              "normal."
+            ],
+            "a": 0,
+            "why": "The law of reflection."
+          },
+          {
+            "q": "White light is split into colours by a…",
+            "opts": [
+              "plane mirror.",
+              "red filter.",
+              "prism."
+            ],
+            "a": 2,
+            "why": "This is dispersion."
+          },
+          {
+            "q": "A red book seen in blue light looks…",
+            "opts": [
+              "blue.",
+              "black.",
+              "red."
+            ],
+            "a": 1,
+            "why": "It absorbs the blue light."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Light travels from air into glass. Describe how its speed and direction change.",
+            "m": 2,
+            "ms": [
+              "It slows down.",
+              "It bends towards the normal."
+            ]
+          },
+          {
+            "q": "A ray of light hits a mirror at 40° to the normal. State the angle of reflection and between which two lines it is measured, and name the law this shows.",
+            "m": 3,
+            "ms": [
+              "40°.",
+              "Between the normal and the reflected ray.",
+              "The law of reflection: angle of incidence = angle of reflection."
+            ]
+          },
+          {
+            "q": "Explain why a white shirt looks white in sunlight.",
+            "m": 3,
+            "ms": [
+              "Sunlight contains all the colours.",
+              "The white shirt reflects all of them.",
+              "All the colours together reach our eyes and look white."
+            ]
+          },
+          {
+            "q": "Describe an experiment to show that light travels in straight lines and reflects at equal angles.",
+            "m": 4,
+            "ms": [
+              "Shine a narrow ray of light from a ray box at a plane mirror on paper.",
+              "Draw the normal and mark the incident and reflected rays.",
+              "Measure the angles of incidence and reflection with a protractor.",
+              "Repeat for different angles; the two angles are equal each time."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-10",
@@ -266,7 +1922,79 @@
         "reaction",
         "combustion",
         "mass"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Burning a fuel in oxygen is…",
+            "opts": [
+              "neutralisation.",
+              "combustion.",
+              "thermal decomposition."
+            ],
+            "a": 1,
+            "why": "Reaction with oxygen."
+          },
+          {
+            "q": "The test for carbon dioxide is…",
+            "opts": [
+              "it turns limewater milky.",
+              "a squeaky pop.",
+              "it relights a glowing splint."
+            ],
+            "a": 0,
+            "why": "Limewater goes cloudy."
+          },
+          {
+            "q": "In a sealed flask, the total mass during a reaction…",
+            "opts": [
+              "increases.",
+              "decreases.",
+              "stays the same."
+            ],
+            "a": 2,
+            "why": "Atoms are conserved."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give two products of the complete combustion of methane.",
+            "m": 2,
+            "ms": [
+              "Carbon dioxide.",
+              "Water."
+            ]
+          },
+          {
+            "q": "Write the word equation for the thermal decomposition of calcium carbonate.",
+            "m": 3,
+            "ms": [
+              "Calcium carbonate →",
+              "calcium oxide +",
+              "carbon dioxide."
+            ]
+          },
+          {
+            "q": "A student heats magnesium in a crucible and the mass increases. Explain why.",
+            "m": 3,
+            "ms": [
+              "The magnesium reacts with oxygen from the air.",
+              "Oxygen atoms join to form magnesium oxide.",
+              "The added oxygen makes the mass increase."
+            ]
+          },
+          {
+            "q": "Explain why the mass of an open beaker of acid and marble chips decreases, and how to show that mass is really conserved.",
+            "m": 4,
+            "ms": [
+              "The reaction makes carbon dioxide gas.",
+              "The gas escapes into the air, so it is not weighed.",
+              "Do the reaction in a sealed container (e.g. a flask with a balloon over it).",
+              "The total mass then stays the same, showing atoms are conserved."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-11",
@@ -276,7 +2004,79 @@
       "skills": [
         "chemical-energy",
         "catalyst"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A reaction that makes the surroundings warmer is…",
+            "opts": [
+              "exothermic.",
+              "endothermic.",
+              "reversible only."
+            ],
+            "a": 0,
+            "why": "Energy is released."
+          },
+          {
+            "q": "A catalyst…",
+            "opts": [
+              "is used up in the reaction.",
+              "always slows reactions.",
+              "speeds up a reaction and is not used up."
+            ],
+            "a": 2,
+            "why": "It can be reused."
+          },
+          {
+            "q": "Which is endothermic?",
+            "opts": [
+              "Neutralisation.",
+              "Thermal decomposition.",
+              "Combustion."
+            ],
+            "a": 1,
+            "why": "It takes in energy."
+          }
+        ],
+        "parts": [
+          {
+            "q": "The temperature of a reaction mixture falls from 21 °C to 14 °C. Calculate the change and name the type of reaction.",
+            "m": 2,
+            "ms": [
+              "A decrease of 7 °C.",
+              "Endothermic."
+            ]
+          },
+          {
+            "q": "Give three ways to speed up the reaction between magnesium and acid.",
+            "m": 3,
+            "ms": [
+              "Increase the temperature.",
+              "Use more concentrated acid.",
+              "Use powder instead of a ribbon (larger surface area) / add a catalyst."
+            ]
+          },
+          {
+            "q": "Explain why enzymes stop working at high temperatures.",
+            "m": 3,
+            "ms": [
+              "Enzymes are proteins with a special shape.",
+              "High temperatures change their shape (denature them).",
+              "The substrate no longer fits, so the reaction is not sped up."
+            ]
+          },
+          {
+            "q": "Describe how to find out whether dissolving a salt in water is exothermic or endothermic.",
+            "m": 4,
+            "ms": [
+              "Measure the starting temperature of water in an insulated cup.",
+              "Add the salt and stir.",
+              "Record the highest or lowest temperature reached.",
+              "A rise means exothermic; a fall means endothermic."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-12",
@@ -287,7 +2087,79 @@
         "respiration",
         "anaerobic",
         "planning"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Aerobic respiration happens in the…",
+            "opts": [
+              "cell wall.",
+              "mitochondria.",
+              "nucleus."
+            ],
+            "a": 1,
+            "why": "Mitochondria release energy."
+          },
+          {
+            "q": "Which is a product of anaerobic respiration in muscles?",
+            "opts": [
+              "Lactic acid.",
+              "Oxygen.",
+              "Ethanol."
+            ],
+            "a": 0,
+            "why": "Lactic acid builds up."
+          },
+          {
+            "q": "Yeast makes bread rise because it releases…",
+            "opts": [
+              "oxygen.",
+              "lactic acid.",
+              "carbon dioxide."
+            ],
+            "a": 2,
+            "why": "Gas bubbles get trapped."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Write the word equation for aerobic respiration.",
+            "m": 2,
+            "ms": [
+              "Glucose + oxygen →",
+              "carbon dioxide + water."
+            ]
+          },
+          {
+            "q": "Give three differences between aerobic and anaerobic respiration in humans.",
+            "m": 3,
+            "ms": [
+              "Aerobic uses oxygen; anaerobic does not.",
+              "Aerobic releases more energy per glucose.",
+              "Aerobic makes carbon dioxide and water; anaerobic makes lactic acid."
+            ]
+          },
+          {
+            "q": "Explain why your breathing rate stays high for a while after a sprint.",
+            "m": 3,
+            "ms": [
+              "During the sprint muscles respired anaerobically, making lactic acid.",
+              "Extra oxygen is needed to break down the lactic acid.",
+              "This is called the oxygen debt."
+            ]
+          },
+          {
+            "q": "A student measures her pulse before and after exercise. Describe the method and explain the result she should expect.",
+            "m": 4,
+            "ms": [
+              "Measure resting pulse for 1 minute, then exercise for a set time.",
+              "Measure pulse immediately after, then every minute until it returns to normal.",
+              "The pulse rate rises during exercise.",
+              "The heart beats faster to deliver more oxygen and glucose for respiration in the muscles."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-13",
@@ -298,7 +2170,79 @@
         "photosynthesis",
         "leaf",
         "plant-practical"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Photosynthesis happens in the…",
+            "opts": [
+              "nucleus.",
+              "chloroplasts.",
+              "mitochondria."
+            ],
+            "a": 1,
+            "why": "They contain chlorophyll."
+          },
+          {
+            "q": "Which gas do plants take in for photosynthesis?",
+            "opts": [
+              "Carbon dioxide.",
+              "Oxygen.",
+              "Nitrogen."
+            ],
+            "a": 0,
+            "why": "CO₂ enters through stomata."
+          },
+          {
+            "q": "Tiny pores on leaves are called…",
+            "opts": [
+              "alveoli.",
+              "villi.",
+              "stomata."
+            ],
+            "a": 2,
+            "why": "They let gases in and out."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Write the word equation for photosynthesis.",
+            "m": 2,
+            "ms": [
+              "Carbon dioxide + water →",
+              "glucose + oxygen (using light)."
+            ]
+          },
+          {
+            "q": "Give three ways a leaf is adapted for photosynthesis.",
+            "m": 3,
+            "ms": [
+              "Broad to absorb lots of light.",
+              "Thin so gases diffuse a short distance.",
+              "Contains many chloroplasts / has stomata for gas exchange."
+            ]
+          },
+          {
+            "q": "Pondweed gives 30 bubbles per minute with a lamp 10 cm away and 8 bubbles per minute at 40 cm. Explain the result.",
+            "m": 3,
+            "ms": [
+              "Closer lamp means more light intensity.",
+              "More light gives a faster rate of photosynthesis.",
+              "So more oxygen bubbles are produced."
+            ]
+          },
+          {
+            "q": "Describe how to test a leaf for starch and explain why this shows photosynthesis has happened.",
+            "m": 4,
+            "ms": [
+              "Boil the leaf in water to kill it, then in ethanol (heated in a water bath) to remove chlorophyll.",
+              "Rinse and spread on a tile.",
+              "Add iodine: blue-black shows starch.",
+              "Glucose made by photosynthesis is stored as starch."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y8-unit-14",
@@ -313,7 +2257,79 @@
         "investigate-cupcake",
         "investigate-salt",
         "investigate-diffusion"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A test is fair when…",
+            "opts": [
+              "only one result is taken.",
+              "only the independent variable is changed.",
+              "all variables are changed."
+            ],
+            "a": 1,
+            "why": "Control variables stay the same."
+          },
+          {
+            "q": "Terminal velocity is reached when…",
+            "opts": [
+              "air resistance equals weight.",
+              "weight is zero.",
+              "air resistance is zero."
+            ],
+            "a": 0,
+            "why": "Forces balance."
+          },
+          {
+            "q": "Conduction is fastest in…",
+            "opts": [
+              "plastics.",
+              "air.",
+              "metals."
+            ],
+            "a": 2,
+            "why": "Metals have free electrons."
+          }
+        ],
+        "parts": [
+          {
+            "q": "A cord is 30 cm long and stretches to 38 cm. Calculate the extension.",
+            "m": 2,
+            "ms": [
+              "38 − 30…",
+              "… = 8 cm."
+            ]
+          },
+          {
+            "q": "In a bouncing-ball test, give three control variables.",
+            "m": 3,
+            "ms": [
+              "The same ball.",
+              "The same surface.",
+              "The same way of releasing the ball (no throwing) / same temperature."
+            ]
+          },
+          {
+            "q": "A student times how long salt takes to dissolve at different temperatures. Suggest one improvement and explain how it helps.",
+            "m": 3,
+            "ms": [
+              "Use a data logger/conductivity meter or a black background to judge the end point.",
+              "This makes the end point less subjective.",
+              "So the times are more accurate and repeatable."
+            ]
+          },
+          {
+            "q": "Plan an investigation into how the mass of a paper case affects its falling time.",
+            "m": 4,
+            "ms": [
+              "Change mass by stacking cases (1–5 cases).",
+              "Drop from the same height each time.",
+              "Time the fall with a stopwatch and repeat three times to find a mean.",
+              "Plot mass against mean time and look for a pattern."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-01",
@@ -324,7 +2340,79 @@
         "magnet",
         "electromagnet",
         "planning"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which is a magnetic material?",
+            "opts": [
+              "Copper.",
+              "Aluminium.",
+              "Nickel."
+            ],
+            "a": 2,
+            "why": "Iron, nickel and cobalt are magnetic."
+          },
+          {
+            "q": "Opposite magnetic poles…",
+            "opts": [
+              "have no effect.",
+              "attract.",
+              "repel."
+            ],
+            "a": 1,
+            "why": "N and S attract."
+          },
+          {
+            "q": "Adding an iron core to a coil makes the electromagnet…",
+            "opts": [
+              "stronger.",
+              "weaker.",
+              "stop working."
+            ],
+            "a": 0,
+            "why": "Iron concentrates the field."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give two ways to make an electromagnet stronger, other than adding an iron core.",
+            "m": 2,
+            "ms": [
+              "More turns of wire on the coil.",
+              "A bigger current."
+            ]
+          },
+          {
+            "q": "Describe how to use a plotting compass to find the shape of a bar magnet’s field.",
+            "m": 3,
+            "ms": [
+              "Place the compass near the magnet and mark where the needle points.",
+              "Move the compass to the mark and repeat, building a line.",
+              "Join the marks and repeat from different starting points."
+            ]
+          },
+          {
+            "q": "Explain why electromagnets are used in scrapyard cranes instead of permanent magnets.",
+            "m": 3,
+            "ms": [
+              "An electromagnet can be switched on to pick up iron and steel.",
+              "Switching it off releases the scrap where it is needed.",
+              "A permanent magnet cannot be switched off."
+            ]
+          },
+          {
+            "q": "Plan an investigation into how the number of coils affects the strength of an electromagnet.",
+            "m": 4,
+            "ms": [
+              "Change the number of coils (e.g. 10, 20, 30, 40, 50).",
+              "Keep the current, core and wire the same.",
+              "Measure strength by counting paperclips picked up.",
+              "Repeat each test and calculate a mean, then plot a graph."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-02",
@@ -335,7 +2423,79 @@
         "work",
         "food-energy",
         "moments"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A force of 100 N moves an object 3 m. The work done is…",
+            "opts": [
+              "33 J.",
+              "103 J.",
+              "300 J."
+            ],
+            "a": 2,
+            "why": "W = F × d."
+          },
+          {
+            "q": "The turning effect of a force is called a…",
+            "opts": [
+              "pivot.",
+              "moment.",
+              "pressure."
+            ],
+            "a": 1,
+            "why": "Moment = force × distance."
+          },
+          {
+            "q": "A long spanner makes it easier to undo a nut because…",
+            "opts": [
+              "the distance from the pivot is bigger.",
+              "it is heavier.",
+              "it reduces friction."
+            ],
+            "a": 0,
+            "why": "Bigger distance, bigger moment."
+          }
+        ],
+        "parts": [
+          {
+            "q": "A 250 N force acts 0.4 m from a pivot. Calculate the moment.",
+            "m": 2,
+            "ms": [
+              "M = 250 × 0.4.",
+              "= 100 N m."
+            ]
+          },
+          {
+            "q": "A 500 N child sits 1.2 m from a seesaw pivot. How far from the pivot must a 400 N child sit to balance it?",
+            "m": 3,
+            "ms": [
+              "500 × 1.2 = 600 N m.",
+              "600 ÷ 400…",
+              "… = 1.5 m."
+            ]
+          },
+          {
+            "q": "Explain how a ramp makes it easier to lift a heavy box into a van.",
+            "m": 3,
+            "ms": [
+              "The box is pushed along a longer distance.",
+              "So a smaller force is needed.",
+              "The work done (force × distance) is about the same."
+            ]
+          },
+          {
+            "q": "A crane lifts a 1200 N load 20 m in 40 s. Calculate the work done and explain where the energy goes.",
+            "m": 4,
+            "ms": [
+              "W = 1200 × 20 = 24 000 J.",
+              "Energy is transferred to the load’s gravitational potential store.",
+              "Some energy is wasted heating the motor and surroundings.",
+              "So the crane uses more than 24 000 J in total."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-03",
@@ -345,7 +2505,79 @@
       "skills": [
         "thermal",
         "convection"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Energy is transferred by heating from…",
+            "opts": [
+              "a hotter object to a colder one.",
+              "a colder object to a hotter one.",
+              "objects at the same temperature."
+            ],
+            "a": 0,
+            "why": "Heat flows from hot to cold."
+          },
+          {
+            "q": "Which surface emits infrared best?",
+            "opts": [
+              "Shiny silver.",
+              "White gloss.",
+              "Dull black."
+            ],
+            "a": 2,
+            "why": "Matt black is the best emitter."
+          },
+          {
+            "q": "Warm air rises because it is…",
+            "opts": [
+              "heavier.",
+              "less dense.",
+              "more dense."
+            ],
+            "a": 1,
+            "why": "This causes convection."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name the three ways energy can be transferred by heating.",
+            "m": 2,
+            "ms": [
+              "Conduction and convection.",
+              "Radiation (infrared)."
+            ]
+          },
+          {
+            "q": "Describe how a radiator heats a whole room.",
+            "m": 3,
+            "ms": [
+              "Air next to the radiator is heated and expands, becoming less dense.",
+              "The warm air rises and cooler air sinks to replace it.",
+              "This convection current carries energy around the room."
+            ]
+          },
+          {
+            "q": "Explain why a vacuum flask keeps a drink hot.",
+            "m": 3,
+            "ms": [
+              "The vacuum stops conduction and convection.",
+              "The silvered walls reflect infrared radiation back.",
+              "The stopper reduces energy loss by convection and evaporation."
+            ]
+          },
+          {
+            "q": "Explain four ways a family can reduce energy loss from their house.",
+            "m": 4,
+            "ms": [
+              "Loft insulation traps air, reducing conduction and convection through the roof.",
+              "Cavity wall insulation reduces energy loss through walls.",
+              "Double glazing has a gap that reduces conduction through windows.",
+              "Draught excluders stop warm air escaping (convection)."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-04",
@@ -355,7 +2587,79 @@
       "skills": [
         "atmosphere",
         "climate"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Most of the air is…",
+            "opts": [
+              "carbon dioxide.",
+              "nitrogen.",
+              "oxygen."
+            ],
+            "a": 1,
+            "why": "About 78%."
+          },
+          {
+            "q": "Which process removes carbon dioxide from the atmosphere?",
+            "opts": [
+              "Photosynthesis.",
+              "Combustion.",
+              "Respiration."
+            ],
+            "a": 0,
+            "why": "Plants take in CO₂."
+          },
+          {
+            "q": "Which is a greenhouse gas?",
+            "opts": [
+              "Nitrogen.",
+              "Oxygen.",
+              "Methane."
+            ],
+            "a": 2,
+            "why": "Methane traps infrared."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give two human activities that increase carbon dioxide in the atmosphere.",
+            "m": 2,
+            "ms": [
+              "Burning fossil fuels.",
+              "Cutting down/burning forests (deforestation)."
+            ]
+          },
+          {
+            "q": "Describe the greenhouse effect.",
+            "m": 3,
+            "ms": [
+              "The Sun’s radiation warms the Earth’s surface.",
+              "The Earth emits infrared radiation.",
+              "Greenhouse gases absorb some and send it back, keeping Earth warm."
+            ]
+          },
+          {
+            "q": "Explain the difference between weather and climate.",
+            "m": 3,
+            "ms": [
+              "Weather is the conditions on a particular day.",
+              "Climate is the average weather over many years.",
+              "So one cold winter does not disprove climate change."
+            ]
+          },
+          {
+            "q": "Describe two effects of climate change and two ways to reduce it.",
+            "m": 4,
+            "ms": [
+              "Rising sea levels from melting ice and warming water.",
+              "More extreme weather / changing habitats.",
+              "Use renewable energy instead of fossil fuels.",
+              "Plant trees / use public transport / insulate homes."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-05",
@@ -366,7 +2670,79 @@
         "extraction",
         "metals",
         "recycle"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A rock containing enough metal to extract is an…",
+            "opts": [
+              "alloy.",
+              "element.",
+              "ore."
+            ],
+            "a": 2,
+            "why": "Ores are mined."
+          },
+          {
+            "q": "Iron is extracted from iron oxide by heating with…",
+            "opts": [
+              "water.",
+              "carbon.",
+              "oxygen."
+            ],
+            "a": 1,
+            "why": "Carbon is more reactive."
+          },
+          {
+            "q": "Recycling aluminium saves energy because…",
+            "opts": [
+              "extracting it by electrolysis uses lots of electricity.",
+              "aluminium is rare.",
+              "it is heavy."
+            ],
+            "a": 0,
+            "why": "Recycling uses about 5% of the energy."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Complete: iron oxide + carbon → …",
+            "m": 2,
+            "ms": [
+              "Iron.",
+              "Carbon dioxide."
+            ]
+          },
+          {
+            "q": "Explain why aluminium cannot be extracted by heating its ore with carbon.",
+            "m": 3,
+            "ms": [
+              "Aluminium is more reactive than carbon.",
+              "Carbon cannot remove the oxygen from aluminium oxide.",
+              "So electrolysis must be used."
+            ]
+          },
+          {
+            "q": "Give three advantages of recycling metals.",
+            "m": 3,
+            "ms": [
+              "Saves energy.",
+              "Saves finite ores.",
+              "Less mining damage / less landfill / less carbon dioxide."
+            ]
+          },
+          {
+            "q": "Evaluate recycling steel cans compared with making new steel.",
+            "m": 4,
+            "ms": [
+              "Recycling uses less energy and fewer raw materials.",
+              "It reduces waste in landfill and damage from mining.",
+              "But cans must be collected, sorted and transported, which costs money and energy.",
+              "Overall recycling is usually better for the environment."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-06",
@@ -377,7 +2753,79 @@
         "selection",
         "evidence-evolution",
         "biodiversity"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Who developed the theory of evolution by natural selection?",
+            "opts": [
+              "Charles Darwin.",
+              "Gregor Mendel.",
+              "Isaac Newton."
+            ],
+            "a": 0,
+            "why": "Darwin published in 1859."
+          },
+          {
+            "q": "Fossils are usually found in…",
+            "opts": [
+              "igneous rock.",
+              "metamorphic rock.",
+              "sedimentary rock."
+            ],
+            "a": 2,
+            "why": "Sediment buries remains."
+          },
+          {
+            "q": "A species with no living members is…",
+            "opts": [
+              "adapted.",
+              "extinct.",
+              "endangered."
+            ],
+            "a": 1,
+            "why": "It has died out."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give two types of evidence for evolution.",
+            "m": 2,
+            "ms": [
+              "Fossils.",
+              "DNA similarities / antibiotic resistance in bacteria."
+            ]
+          },
+          {
+            "q": "Explain why the fossil record is incomplete.",
+            "m": 3,
+            "ms": [
+              "Most organisms decay before they can fossilise.",
+              "Fossils need special conditions to form.",
+              "Many fossils are destroyed or not yet found."
+            ]
+          },
+          {
+            "q": "Give three ways people can protect endangered species.",
+            "m": 3,
+            "ms": [
+              "Nature reserves / protecting habitats.",
+              "Captive breeding in zoos.",
+              "Seed banks / laws against hunting."
+            ]
+          },
+          {
+            "q": "Explain how bacteria become resistant to an antibiotic by natural selection.",
+            "m": 4,
+            "ms": [
+              "There is variation: a few bacteria have a gene for resistance.",
+              "The antibiotic kills the non-resistant bacteria.",
+              "Resistant bacteria survive and reproduce.",
+              "The resistant gene is passed on, so the population becomes resistant."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-07",
@@ -389,7 +2837,79 @@
         "dna-practical",
         "cross",
         "gm"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "A section of DNA that codes for a characteristic is a…",
+            "opts": [
+              "nucleus.",
+              "gene.",
+              "chromosome."
+            ],
+            "a": 1,
+            "why": "Genes are on chromosomes."
+          },
+          {
+            "q": "How many chromosomes are in a human egg cell?",
+            "opts": [
+              "23.",
+              "46.",
+              "92."
+            ],
+            "a": 0,
+            "why": "Sex cells have half."
+          },
+          {
+            "q": "Choosing parents with useful features to breed is…",
+            "opts": [
+              "natural selection.",
+              "fertilisation.",
+              "selective breeding."
+            ],
+            "a": 2,
+            "why": "Humans choose the parents."
+          }
+        ],
+        "parts": [
+          {
+            "q": "What is the difference between a genotype and a phenotype?",
+            "m": 2,
+            "ms": [
+              "Genotype is the alleles an organism has, e.g. Bb.",
+              "Phenotype is the feature that shows, e.g. brown eyes."
+            ]
+          },
+          {
+            "q": "In peas, tall (T) is dominant to short (t). Two Tt plants are crossed. Give the possible genotypes of the offspring and the chance of a short plant.",
+            "m": 3,
+            "ms": [
+              "TT, Tt, Tt, tt.",
+              "Short plants are tt.",
+              "Chance = 1 in 4 (25%)."
+            ]
+          },
+          {
+            "q": "Describe how to extract DNA from strawberries.",
+            "m": 3,
+            "ms": [
+              "Mash the strawberries with washing-up liquid and salt to break cells open.",
+              "Filter the mixture.",
+              "Pour ice-cold ethanol on top; DNA appears as white strands."
+            ]
+          },
+          {
+            "q": "Discuss one benefit and one concern of genetic modification of crops, and of selective breeding.",
+            "m": 4,
+            "ms": [
+              "GM benefit: pest resistance or extra vitamins, e.g. golden rice.",
+              "GM concern: possible effects on wildlife or genes spreading to wild plants.",
+              "Selective breeding benefit: higher yields / more milk.",
+              "Selective breeding concern: less variation, so disease can wipe out a whole crop or herd."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-08",
@@ -400,7 +2920,79 @@
         "waves",
         "ultrasound",
         "em"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "In a longitudinal wave, the vibrations are…",
+            "opts": [
+              "parallel to the direction of travel.",
+              "at right angles to the direction of travel.",
+              "random."
+            ],
+            "a": 0,
+            "why": "Sound is longitudinal."
+          },
+          {
+            "q": "Ultrasound has a frequency…",
+            "opts": [
+              "below 20 Hz.",
+              "between 20 and 2000 Hz.",
+              "above 20 000 Hz."
+            ],
+            "a": 2,
+            "why": "Too high to hear."
+          },
+          {
+            "q": "Which EM wave has the shortest wavelength?",
+            "opts": [
+              "Microwaves.",
+              "Gamma rays.",
+              "Radio waves."
+            ],
+            "a": 1,
+            "why": "Gamma has the highest frequency."
+          }
+        ],
+        "parts": [
+          {
+            "q": "A wave has frequency 4 Hz and wavelength 3 m. Calculate its speed.",
+            "m": 2,
+            "ms": [
+              "v = f × λ = 4 × 3.",
+              "= 12 m/s."
+            ]
+          },
+          {
+            "q": "A sonar pulse takes 0.6 s to return from the sea bed. Sound in water travels at 1500 m/s. Calculate the depth.",
+            "m": 3,
+            "ms": [
+              "Distance there and back = 1500 × 0.6 = 900 m.",
+              "Depth = 900 ÷ 2…",
+              "… = 450 m."
+            ]
+          },
+          {
+            "q": "Explain why ultrasound rather than X-rays is used to scan an unborn baby.",
+            "m": 3,
+            "ms": [
+              "X-rays have high energy and can damage cells and DNA.",
+              "Ultrasound does not harm cells.",
+              "Ultrasound reflects from tissue boundaries to build an image."
+            ]
+          },
+          {
+            "q": "Describe one use and one danger of three different parts of the EM spectrum.",
+            "m": 4,
+            "ms": [
+              "Radio waves: communication; little danger at normal levels.",
+              "Microwaves: cooking/phones; can heat body tissue.",
+              "Ultraviolet: tanning/sterilising; causes sunburn and skin cancer.",
+              "X-rays/gamma: seeing bones/treating cancer; can damage cells and cause cancer."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-09",
@@ -411,7 +3003,79 @@
         "earth",
         "sediment",
         "rock-cycle"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Which layer of the Earth is liquid?",
+            "opts": [
+              "Inner core.",
+              "Crust.",
+              "Outer core."
+            ],
+            "a": 2,
+            "why": "It is liquid metal."
+          },
+          {
+            "q": "Rock formed from cooled magma is…",
+            "opts": [
+              "metamorphic.",
+              "igneous.",
+              "sedimentary."
+            ],
+            "a": 1,
+            "why": "Granite and basalt."
+          },
+          {
+            "q": "Freeze–thaw weathering happens because water…",
+            "opts": [
+              "expands when it freezes.",
+              "contracts when it freezes.",
+              "dissolves rock."
+            ],
+            "a": 0,
+            "why": "Ice takes up more space."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Name the four main layers of the Earth from the outside in.",
+            "m": 2,
+            "ms": [
+              "Crust and mantle.",
+              "Outer core and inner core."
+            ]
+          },
+          {
+            "q": "Explain why granite has large crystals but basalt has small crystals.",
+            "m": 3,
+            "ms": [
+              "Granite cooled slowly underground.",
+              "Crystals had a long time to grow.",
+              "Basalt cooled quickly at the surface, so the crystals are small."
+            ]
+          },
+          {
+            "q": "Describe how sedimentary rock forms.",
+            "m": 3,
+            "ms": [
+              "Rocks are weathered and eroded into small pieces.",
+              "Rivers deposit the sediment in layers.",
+              "Layers are compacted and cemented together over millions of years."
+            ]
+          },
+          {
+            "q": "Describe how a piece of sedimentary rock could become igneous rock, naming the processes.",
+            "m": 4,
+            "ms": [
+              "It is buried deep underground.",
+              "Heat and pressure may change it into metamorphic rock.",
+              "Deeper still it melts to form magma.",
+              "The magma cools and solidifies to form igneous rock."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-10",
@@ -422,7 +3086,79 @@
         "space",
         "orbits",
         "moon"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "The Earth orbits the Sun once every…",
+            "opts": [
+              "day.",
+              "month.",
+              "year (about 365 days)."
+            ],
+            "a": 2,
+            "why": "One orbit is one year."
+          },
+          {
+            "q": "A light year is a unit of…",
+            "opts": [
+              "speed.",
+              "distance.",
+              "time."
+            ],
+            "a": 1,
+            "why": "The distance light travels in a year."
+          },
+          {
+            "q": "A lunar eclipse happens when…",
+            "opts": [
+              "Earth’s shadow falls on the Moon.",
+              "the Moon blocks the Sun.",
+              "the Moon is new."
+            ],
+            "a": 0,
+            "why": "Earth is between the Sun and Moon."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Put in order of size, smallest first: star, planet, galaxy, Universe.",
+            "m": 2,
+            "ms": [
+              "Planet, star.",
+              "Galaxy, Universe."
+            ]
+          },
+          {
+            "q": "Explain what causes day and night.",
+            "m": 3,
+            "ms": [
+              "The Earth spins on its axis.",
+              "One spin takes about 24 hours.",
+              "The side facing the Sun has day; the side facing away has night."
+            ]
+          },
+          {
+            "q": "Explain why the UK has longer days in summer than in winter.",
+            "m": 3,
+            "ms": [
+              "The Earth’s axis is tilted.",
+              "In summer the northern hemisphere is tilted towards the Sun.",
+              "So the UK spends more of each spin in sunlight."
+            ]
+          },
+          {
+            "q": "Explain why we see different phases of the Moon over a month.",
+            "m": 4,
+            "ms": [
+              "The Moon does not make its own light; it reflects sunlight.",
+              "The Sun always lights half of the Moon.",
+              "As the Moon orbits Earth, we see different amounts of the lit half.",
+              "This changes from new Moon to full Moon and back in about 28 days."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-11",
@@ -433,7 +3169,79 @@
         "friction",
         "spring",
         "moments"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Friction acts…",
+            "opts": [
+              "against the direction of motion.",
+              "in the direction of motion.",
+              "only upwards."
+            ],
+            "a": 0,
+            "why": "It opposes sliding."
+          },
+          {
+            "q": "A spring is 10 cm long and 16 cm when stretched. The extension is…",
+            "opts": [
+              "26 cm.",
+              "16 cm.",
+              "6 cm."
+            ],
+            "a": 2,
+            "why": "16 − 10."
+          },
+          {
+            "q": "Streamlining a car reduces…",
+            "opts": [
+              "mass.",
+              "air resistance (drag).",
+              "weight."
+            ],
+            "a": 1,
+            "why": "A smooth shape cuts drag."
+          }
+        ],
+        "parts": [
+          {
+            "q": "Give one useful and one unwanted effect of friction.",
+            "m": 2,
+            "ms": [
+              "Useful: grip / brakes / walking.",
+              "Unwanted: wear / wasted energy as heat."
+            ]
+          },
+          {
+            "q": "A spring extends 2 cm for every 1 N. Calculate the extension for 4.5 N and state Hooke’s law.",
+            "m": 3,
+            "ms": [
+              "4.5 × 2 = 9 cm.",
+              "Extension is proportional to force…",
+              "… up to the limit of proportionality."
+            ]
+          },
+          {
+            "q": "Explain why a cyclist crouches low when riding fast.",
+            "m": 3,
+            "ms": [
+              "Crouching reduces the area facing the air.",
+              "This reduces air resistance (drag).",
+              "So less energy is wasted and the cyclist can go faster."
+            ]
+          },
+          {
+            "q": "Describe how to investigate the relationship between force and extension for a spring.",
+            "m": 4,
+            "ms": [
+              "Hang the spring from a clamp next to a vertical ruler and record its original length.",
+              "Add 1 N weights one at a time, recording the new length each time.",
+              "Calculate extension = new length − original length.",
+              "Plot force against extension; a straight line through the origin shows Hooke’s law."
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "y9-unit-12",
@@ -444,7 +3252,79 @@
         "pressure",
         "gas",
         "liquid-pressure"
-      ]
+      ],
+      "test": {
+        "mcq": [
+          {
+            "q": "Pressure is calculated by…",
+            "opts": [
+              "force ÷ area.",
+              "force × area.",
+              "area ÷ force."
+            ],
+            "a": 0,
+            "why": "P = F ÷ A."
+          },
+          {
+            "q": "Water pressure increases with…",
+            "opts": [
+              "height above the water.",
+              "the width of the container.",
+              "depth."
+            ],
+            "a": 2,
+            "why": "More water above presses down."
+          },
+          {
+            "q": "Heating a gas in a sealed container makes its pressure…",
+            "opts": [
+              "stay the same.",
+              "increase.",
+              "decrease."
+            ],
+            "a": 1,
+            "why": "Particles hit the walls harder."
+          }
+        ],
+        "parts": [
+          {
+            "q": "A 900 N force acts on an area of 3 m². Calculate the pressure and give the unit.",
+            "m": 2,
+            "ms": [
+              "900 ÷ 3 = 300.",
+              "Pascals (Pa) / N/m²."
+            ]
+          },
+          {
+            "q": "A 600 N person stands on snow. Calculate the pressure with shoes of total area 0.04 m² and with skis of area 0.3 m².",
+            "m": 3,
+            "ms": [
+              "Shoes: 600 ÷ 0.04 = 15 000 Pa.",
+              "Skis: 600 ÷ 0.3 = 2000 Pa.",
+              "The skis give a smaller pressure, so they sink less."
+            ]
+          },
+          {
+            "q": "Explain why a dam is built thicker at the bottom than at the top.",
+            "m": 3,
+            "ms": [
+              "Water pressure increases with depth.",
+              "The force on the bottom of the dam is greatest.",
+              "A thicker base is needed to withstand it."
+            ]
+          },
+          {
+            "q": "Use the particle model to explain why a football gets harder when you pump in more air.",
+            "m": 4,
+            "ms": [
+              "Air pressure is caused by particles hitting the inside walls.",
+              "Pumping adds more particles in the same volume.",
+              "The particles collide with the walls more often.",
+              "So the pressure inside increases and the ball feels harder."
+            ]
+          }
+        ]
+      }
     }
   ],
   "lessons": [

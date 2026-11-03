@@ -6,6 +6,7 @@ from papers import P
 from revision import R
 from labs import LABS
 from extras import X,MODELS
+from unit_tests import TESTS
 ROOT=Path(__file__).resolve().parents[1]
 subject='Maths' if ROOT.name=='KS3Maths' else 'Science'
 site='ks3-'+subject.lower()
@@ -13,6 +14,10 @@ units=[];lessons=[];numbers={7:0,8:0,9:0}
 for year,title,keys in UNITS:
  numbers[year]+=1;uid=f'y{year}-unit-{numbers[year]:02}'
  units.append(dict(id=uid,year=year,number=numbers[year],title=title,skills=keys.split()))
+ t=TESTS[title];h=int(hashlib.sha256(uid.encode()).hexdigest()[:8],16);mcq=[]
+ for i,(q,ok,w1,w2,why) in enumerate(t['mcq']):
+  s2=(h+i)%3;opts=[ok,w1,w2];opts=opts[s2:]+opts[:s2];mcq.append(dict(q=q,opts=opts,a=(-s2)%3,why=why))
+ units[-1]['test']=dict(mcq=mcq,parts=[dict(q=q,m=len(ms.split('~')),ms=ms.split('~')) for q,ms in t['parts']])
  for n,key in enumerate(keys.split(),1):
   l=copy.deepcopy(K[key]);l.update(id=uid+'-'+key,unit=uid,year=year,number=n)
   l['marks']=len(l['scheme'])
