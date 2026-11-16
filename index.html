@@ -108,6 +108,33 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 /* lower area */
 .lower{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
 @media (max-width:960px){.lower{grid-template-columns:minmax(0,1fr)}}
+/* Light theme: light lab bench, stage and readout bar (November 2026) */
+:root[data-theme="light"] .stage{background:#e8edf1}
+:root[data-theme="light"] .stage-bar{background:#dde4ea;color:#3b4852}
+:root[data-theme="light"] .stage-bar b{color:#14202b}
+:root[data-theme="light"] #g-bench stop:nth-child(1){stop-color:#e4e8eb}
+:root[data-theme="light"] #g-bench stop:nth-child(2){stop-color:#d7dce0}
+:root[data-theme="light"] #g-bench stop:nth-child(3){stop-color:#c6ccd1}
+:root[data-theme="light"] .stage rect[fill="#555c60"]{fill:#a9b1b7}
+:root[data-theme="light"] .stage rect[fill="#111416"]{fill:#9aa3aa}
+:root[data-theme="light"] .stage rect[fill="#4c5357"]{fill:#c3cad0}
+:root[data-theme="light"] #benchTop stop:nth-child(1){stop-color:#e4e8eb}
+:root[data-theme="light"] #benchTop stop:nth-child(2){stop-color:#d7dce0}
+:root[data-theme="light"] #benchTop stop:nth-child(3){stop-color:#c6ccd1}
+/* Leads: a halo separates crossing wires; point at (or tap) a lead to pick out its route (November 2026) */
+.stage .lead-halo{stroke:#fff;stroke-opacity:.9}
+:root[data-theme="dark"] .stage .lead-halo{stroke:#15191b;stroke-opacity:.95}
+.stage .lead{transition:opacity .15s}
+.stage svg:has(.lead:hover) .lead:not(:hover){opacity:.25}
+.stage .lead:hover .lead-halo{stroke:#ffcf3f;stroke-opacity:1}
+/* Lab results tables: larger, clearer type for projecting (November 2026) */
+.lower table{font-size:1.02rem}
+.lower th{font-family:var(--f-body);font-size:.92rem;font-weight:700;letter-spacing:0;color:var(--ink);background:var(--sunk);border-bottom:2px solid var(--line);padding:9px 12px;vertical-align:bottom;line-height:1.25}
+.lower td{font-size:1.02rem;color:var(--ink);padding:8px 12px}
+.lower tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--sunk) 50%,transparent)}
+.lower td.empty{font-family:var(--f-body);color:var(--muted)}
+.lower.lab-stacked{grid-template-columns:minmax(0,1fr)}
+.lower.lab-stacked>:not(:has(table)){width:100%;max-width:900px;justify-self:center}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
 .card-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
 .tbl-wrap{overflow-x:auto}
@@ -546,7 +573,7 @@ section.lab.pexam:not(.help-on) .xp:has(.xms:not([hidden])) :is(.wst,.wsum){visi
 :root[data-theme="dark"] .readout span.ht{color:#0f1e3d}
 :root[data-theme="light"] .readout span.ht{color:#fff}
 </style>
-<script>(function(){var t;try{t=localStorage.getItem("site-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark");})();</script>
+<script>(function(){var t;try{t=localStorage.getItem("site-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t==="dark"?"dark":"light");})();</script>
 
 
 <div class="wrap">
@@ -746,7 +773,7 @@ function setPsu(id,v,max,on){ const k=document.getElementById(id+"-knob"); if(k)
 
 /* insulated 4 mm lead */
 const LEADCOL={red:["#c62828","#6e0e0e"],black:["#2a2a2a","#000"],blue:["#1e5fae","#0b2c57"],yellow:["#e3b51c","#7a5c00"],green:["#2e8b3e","#0f4418"]};
-C.lead=(d,col="red",id="")=>{ const [c1,c2]=LEADCOL[col]; return `<g ${id?`id="${id}"`:""}><path d="${d}" fill="none" stroke="${c2}" stroke-width="5.4" stroke-linecap="round"/><path d="${d}" fill="none" stroke="${c1}" stroke-width="3.8" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#fff" stroke-opacity=".32" stroke-width="1.1" stroke-linecap="round" transform="translate(-.6 -.9)"/></g>`; };
+C.lead=(d,col="red",id="")=>{ const [c1,c2]=LEADCOL[col]; return `<g class="lead" ${id?`id="${id}"`:""}><path class="lead-halo" d="${d}" fill="none" stroke-width="10" stroke-linecap="round"/><path d="${d}" fill="none" stroke="${c2}" stroke-width="6.4" stroke-linecap="round"/><path d="${d}" fill="none" stroke="${c1}" stroke-width="4.6" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#fff" stroke-opacity=".32" stroke-width="1.1" stroke-linecap="round" transform="translate(-.6 -.9)"/></g>`; };
 C.plug=(x,y,col="red")=>{ const [c1,c2]=LEADCOL[col]; return `<circle cx="${x}" cy="${y}" r="6.5" fill="${c2}"/><circle cx="${x}" cy="${y}" r="5.2" fill="${c1}"/><circle cx="${x-1.6}" cy="${y-1.8}" r="1.8" fill="#fff" opacity=".35"/>`; };
 /* crocodile clip pointing at angle a (deg, 0 = right) with jaws at (x,y) */
 C.croc=(x,y,col="red",a=-90)=>{ const [c1,c2]=LEADCOL[col]; return `<g transform="translate(${x} ${y}) rotate(${a})">
@@ -1893,9 +1920,53 @@ window.ALP_ACCOUNTS={sb,merge,stats,get user(){ return user; },get profile(){ re
 <link rel="stylesheet" href="flow-diagrams.css?v=20261031-diagrams">
 <link rel="stylesheet" href="lesson-practicals.css?v=20261031-inline">
 <script src="lesson-practical-map.js?v=20261031-inline"></script>
-<script src="lesson-practicals.js?v=20261031-inline"></script>
+<script src="lesson-practicals.js?v=20261116-defs"></script>
 <script src="simple-layout.js?v=20261024-all"></script>
 <link rel="stylesheet" href="desktop-units.css?v=20261031-fill">
 <script src="desktop-units.js?v=20261031-fill"></script>
 <script src="diagram-fit.js?v=20261025-diagrams"></script>
+<script>
+/* Lab results tables: when a table no longer fits beside its graph, give it the full width. */
+(function(){
+  function check(l){ if(l.classList.contains('lab-stacked')) return;
+    if([].some.call(l.querySelectorAll('.tbl-wrap'),function(w){return w.offsetParent&&w.scrollWidth>w.clientWidth+2;})){ l.classList.add('lab-stacked'); window.dispatchEvent(new Event('resize')); } }
+  function all(){ document.querySelectorAll('section.lab:not([hidden]) .lower').forEach(check); }
+  document.querySelectorAll('.lower').forEach(function(l){ var q=false; new MutationObserver(function(){ if(q||l.classList.contains('lab-stacked')) return; q=true; setTimeout(function(){ q=false; check(l); },250); }).observe(l,{childList:true,subtree:true}); });
+  addEventListener('resize',all); addEventListener('hashchange',function(){ setTimeout(all,150); }); setTimeout(all,600);
+})();
+</script>
+<script id="lab-light-labels">
+/* Light theme: labels drawn in pale grey for the old dark bench would vanish on the light bench.
+   Any pale label that now sits on a light background is drawn in dark ink instead (and restored in the dark theme). */
+(function(){
+  function lum(c){ var m=(c||'').match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?/); if(!m) return null; if(m[4]!==undefined&&+m[4]<.2) return null; return (0.2126*m[1]+0.7152*m[2]+0.0722*m[3])/255; }
+  function stopLum(id){ var g=document.getElementById(id); if(!g) return null; var s=g.querySelectorAll('stop'); if(!s.length) return null; var t=0,n=0; s.forEach(function(x){ var c=getComputedStyle(x); if(+c.stopOpacity<.5) return; var l=lum(c.stopColor); if(l!=null){t+=l;n++;} }); return n?t/n:null; }
+  function bgLum(el){ var cs=getComputedStyle(el), f=cs.fill, m=f.match(/url\("?#([^")]+)"?\)/); if(m) return (+cs.fillOpacity)*(+cs.opacity)<.6?null:stopLum(m[1]); if((+cs.fillOpacity)*(+cs.opacity)<.6) return null; return lum(f); }
+  function light(){ return document.documentElement.getAttribute('data-theme')!=='dark'; }
+  function fix(stage){
+    if(!stage||!stage.offsetParent) return;
+    stage.querySelectorAll('svg text').forEach(function(t){
+      if(!light()){ if(t.dataset.ltInk){ t.style.fill=''; delete t.dataset.ltInk; } return; }
+      if(t.dataset.ltInk||t.dataset.ltKeep) return;
+      var l=lum(getComputedStyle(t).fill); if(l==null||l<.62) return;
+      var r=t.getBoundingClientRect(); if(!r.width||r.bottom<0||r.top>innerHeight||r.right<0||r.left>innerWidth) return;
+      // sample what lies behind the label at its left, middle and right; ink it only if most of it is on a light surface
+      var y=r.top+r.height/2, lightN=0;
+      [r.left+Math.min(3,r.width/4), r.left+r.width/2, r.right-Math.min(3,r.width/4)].forEach(function(x){
+        var els=document.elementsFromPoint(x,y), b=null;
+        for(var i=0;i<els.length;i++){ var e=els[i]; if(e===t||e.closest('text')) continue;
+          if(!(e instanceof SVGElement)) break;
+          if(/^(svg|g|line|polyline|text|tspan|defs|use)$/i.test(e.tagName)) continue;
+          var l2=bgLum(e); if(l2!=null){ b=l2; break; } }
+        if(b==null||b>.55) lightN++;
+      });
+      if(lightN>=2){ t.dataset.ltInk='1'; t.style.fill='#3b4852'; } else t.dataset.ltKeep='1';
+    });
+  }
+  var q=false; function all(){ if(q) return; q=true; setTimeout(function(){ q=false; document.querySelectorAll('section.lab:not([hidden]) .stage').forEach(fix); },200); }
+  function watch(){ document.querySelectorAll('.stage').forEach(function(s){ new MutationObserver(function(){ all(); }).observe(s,{childList:true,subtree:true}); var sc=s.closest('.stage-scroll')||s; sc.addEventListener('scroll',all,{passive:true}); }); }
+  watch(); addEventListener('scroll',all,{passive:true}); addEventListener('resize',all); addEventListener('hashchange',all); setTimeout(all,500);
+  new MutationObserver(function(){ document.querySelectorAll('.stage svg text[data-lt-keep]').forEach(function(t){ delete t.dataset.ltKeep; }); all(); }).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+})();
+</script>
 </body></html>

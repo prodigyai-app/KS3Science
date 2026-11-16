@@ -26,8 +26,13 @@ for lab in LABS:
  code=code.replace('"pl-shc-runs"','"learn-ks3-science-shc-runs"').replace('"pl-ins-runs"','"learn-ks3-science-insulation-runs"')
  if lab['id']=='insulation':
   static=re.search(r'<section\b[^>]*id="lab-insulation"[\s\S]*?</section>',physics)
-  assert static,'Static insulation apparatus not found'
-  code='LAB.prepareStatic("insulation",'+json.dumps(static[0],ensure_ascii=False)+');\n'+code
+  if static:
+   code='LAB.prepareStatic("insulation",'+json.dumps(static[0],ensure_ascii=False)+');\n'+code
+  else:
+   # Since November 2026 the insulation lab is built by the shared builder from two <template>s on the page.
+   tpls=re.findall(r'<template id="ins-(?:stage|panel)-tpl">[\s\S]*?</template>',physics)
+   assert len(tpls)==2,'Insulation templates not found'
+   code='if(!document.getElementById("ins-stage-tpl"))document.body.insertAdjacentHTML("beforeend",'+json.dumps(''.join(tpls),ensure_ascii=False)+');\n'+code
  out.append(json.dumps(lab['id'])+':function(LAB){\n'+code+'\n},')
  origin=origins[lab['id']];ref=subprocess.run(['git','rev-parse','HEAD'],cwd=REVIEWS/origin['repo'],capture_output=True,text=True,check=True).stdout.strip()
  provenance.append(dict(id=lab['id'],title=lab['title'],source=origin,ref=ref,sha256=hashlib.sha256(original.encode()).hexdigest(),adaptation='KS3 instructions, topic links, course-scoped saved readings and review questions; original apparatus model retained. GCSE calculation detail is optional.'))
