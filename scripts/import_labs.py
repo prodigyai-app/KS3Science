@@ -16,6 +16,9 @@ physics=(REVIEWS/'GCSEPhysics'/'index.html').read_text(encoding='utf-8')
 for code in re.findall(r'<script[^>]*>([\s\S]*?)</script>',physics):
  for id in ['lt','insulation']:
   if re.search(r'register\(\{id:"'+id+'"',code):blocks[id]=code;origins[id]=dict(repo='GCSEPhysics',file='index.html')
+# The GCSE refraction lab carries a class in-joke at 42° in water; KS3 pupils would not get it, so leave it out.
+if 'lt' in blocks:
+ blocks['lt']=re.sub(r'\n  const joke=\$\("#lt-joke"\)[^\n]*\n  joke\.hidden[^\n]*','',blocks['lt']).replace('\n<p class="note" id="lt-joke" hidden></p>','')
 clock="""/* The extracted chemistry apparatus only needs the visible-lab animation clock. */
 window.CH={loop(id,step){let last=null;function tick(now){const sec=document.getElementById('lab-'+id);if(sec&&!sec.hidden&&!document.hidden){if(last!==null)step(Math.min(.05,(now-last)/1000));last=now;}else last=null;requestAnimationFrame(tick);}requestAnimationFrame(tick);}};
 """
