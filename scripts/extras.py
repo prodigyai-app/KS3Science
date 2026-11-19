@@ -6,7 +6,7 @@ def ex(key,note,quiz,ladder):
  for (q,ms),m in zip(ladder,(1,2,3)):assert len(ms.split('~'))==m,(key,q)
  X[key]=dict(note=note,quiz=quiz,ladder=ladder)
 
-MODELS={'speed':'race','dt':'race','pressure':'shoes','foodweb':'populations','ecosystem':'populations','catalyst':'rate','chemical-energy':'rate','acid':'ph','neutral':'ph','orbits':'seasons','electromagnet':'electromagnet','magnet':'electromagnet','rock-cycle':'rockcycle','sediment':'rockcycle','lungs':'breathing','power':'bill','efficiency':'bill'}
+MODELS={'speed':'race','dt':'race','pressure':'shoes','foodweb':'populations','ecosystem':'populations','catalyst':'rate','chemical-energy':'rate','acid':'ph','neutral':'ph','orbits':'seasons','electromagnet':'electromagnet','magnet':'electromagnet','rock-cycle':'rockcycle','sediment':'rockcycle','lungs':'breathing','power':'bill','efficiency':'bill','investigate-conduction':'conduction','thermal':'conduction','convection':['convection','radiation']}
 
 from extras_a import *  # noqa: E402,F401,F403  (each module calls ex())
 from extras_b import *  # noqa

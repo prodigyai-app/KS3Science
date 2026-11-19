@@ -13716,7 +13716,7 @@
         "These controls stop size or heating differences from causing the result."
       ],
       "mistake": "A thicker or shorter rod could change the result even if the metal stayed the same.",
-      "model": null,
+      "model": "conduction",
       "id": "y8-unit-14-investigate-conduction",
       "unit": "y8-unit-14",
       "year": 8,
@@ -14936,7 +14936,7 @@
         "A bath has much more water, so a cooler bath can have a larger store."
       ],
       "mistake": "Temperature and the amount of stored energy are not the same quantity.",
-      "model": null,
+      "model": "conduction",
       "id": "y9-unit-03-thermal",
       "unit": "y9-unit-03",
       "year": 9,
@@ -15058,7 +15058,10 @@
         "A shiny surface reduces energy transfer by infrared radiation."
       ],
       "mistake": "Heat is not a substance that rises. Warm fluids rise during convection.",
-      "model": null,
+      "model": [
+        "convection",
+        "radiation"
+      ],
       "id": "y9-unit-03-convection",
       "unit": "y9-unit-03",
       "year": 9,
